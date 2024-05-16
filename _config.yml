@@ -71,7 +71,6 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      comments: true
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
       sidebar: home_sidebar
@@ -91,7 +90,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
       sidebar: home_sidebar
@@ -106,12 +104,12 @@ sidebars:
 - product2_sidebar
 - other
 
-description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
+description: "Blog dokumentasi dari Yusuf Tutorial Channel di Youtube."
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: https://yusuftutorial.xyz
-baseurl: /documentation
+# url: https://yusuftutorial.xyz
+# baseurl: /documentation
 
 
 github: [metadata]
