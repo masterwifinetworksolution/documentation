@@ -99,6 +99,14 @@
 <!-- /#main -->
     </div>
 
+<!-- visit counter -->
+<script>
+function cb(response) {
+    document.getElementById('count').innerText = response.value;
+}
+</script>
+<script async src="https://api.countapi.xyz/hit/yusuftutorial.xyz/visits?callback=cb"></script>
+
 </body>
 {% if site.google_analytics %}
 {% include google_analytics.html %}
