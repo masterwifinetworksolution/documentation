@@ -1,10 +1,11 @@
 ---
-title: "Content types pages"
-tagName: content_types
+title: "Modem"
+tagName: modem
 search: exclude
-permalink: tag_content_types.html
+permalink: tag_modem.html
 sidebar: mydoc_sidebar
 folder: tags
+comments: false
 ---
 {% include taglogic.html %}
 

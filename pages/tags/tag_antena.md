@@ -1,12 +1,12 @@
 ---
-title: "Special layout pages"
-tagName: special_layouts
+title: "Antena"
+tagName: antena
 search: exclude
-permalink: tag_special_layouts.html
+permalink: tag_antena.html
 sidebar: mydoc_sidebar
 folder: tags
+comments: false
 ---
-
 {% include taglogic.html %}
 
 {% include links.html %}

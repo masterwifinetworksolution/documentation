@@ -1,10 +1,11 @@
 ---
-title: "Publishing pages"
-tagName: publishing
+title: "Mikrotik"
 search: exclude
-permalink: tag_publishing.html
+tagName: mikrotik
+permalink: tag_mikrotik.html
 sidebar: mydoc_sidebar
 folder: tags
+comments: false
 ---
 {% include taglogic.html %}
 

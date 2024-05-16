@@ -1,10 +1,11 @@
 ---
-title: "Single sourcing pages"
-tagName: single_sourcing
+title: "Aplikasi"
+tagName: aplikasi
 search: exclude
-permalink: tag_single_sourcing.html
+permalink: tag_aplikasi.html
 sidebar: mydoc_sidebar
 folder: tags
+comments: false
 ---
 {% include taglogic.html %}
 

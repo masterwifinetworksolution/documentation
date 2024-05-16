@@ -42,7 +42,7 @@ Disini saya membuka pelayanan dak juga jasa untuk pemasangan perangkat internet 
 - Flash Modem Huawei dan ZTE
 - Pasang point to point untuk area jangkauan yang sulit melalui perangkat radio.
 
-Untuk menggunakan layanan dan jasa saya bisa melalui halaman <a href='/contact.html'><b>Contact</b></a>.
+Untuk menggunakan layanan dan jasa saya bisa melalui halaman <a href='/contact.html'><b>Contact</b></a>
 
 ## Online Shop
 
@@ -59,6 +59,6 @@ Toko online ini beragam jenis yang sudah saya siapkan untuk anda, mulai dari:
 - Assesoris
 - Dan lainnya
 
-Semua nya bisa anda temui <a href='/online_shop.html'><b>Disini</b></a>.
+Semua nya bisa anda temui <a href='/online_shop.html'><b>Disini</b></a>
 
 {% include links.html %}
