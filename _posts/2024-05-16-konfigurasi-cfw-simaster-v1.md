@@ -4,6 +4,7 @@ categories: jekyll update
 permalink: konfigurasi-cfw-simaster-v1.html
 tags: [clash]
 summary: Mengatur dan mengelola konfigurasi dari simaster cfw
+toc: true
 ---
 
 **Untuk install clash windows**

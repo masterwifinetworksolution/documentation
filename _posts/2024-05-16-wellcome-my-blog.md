@@ -5,6 +5,7 @@ permalink: wellcome-my-blog.html
 summary: "Ini adalah post pertama saya."
 tags: [beranda]
 summary: Selamat datang di blog Yusuf Tutorial Channel
+toc: false
 ---
 
 **Selamat datang di blog resmi channel youtube dari Yusuf Tutorial ex channel Master Wifi Network Solution**

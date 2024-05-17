@@ -4,6 +4,7 @@ published: true
 permalink: konfigurasi-clash-android-simaster-v1.html
 tags: [clash]
 summary: Mengatur dan mengelola konfigurasi dari simaster cfa
+toc: true
 ---
 
 **Metode clash android sangat respondsive dan mudah untuk pengaturan di bandingkan clash versi yang lain nya.**

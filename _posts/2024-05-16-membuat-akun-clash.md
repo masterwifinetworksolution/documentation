@@ -4,6 +4,7 @@ categories: Account
 permalink: membuat-akun-clash.html
 tags: [clash]
 summary: Cara membuat dan menambahkan akun di dalam clash
+toc: true
 ---
 
 **Cara agar koneksi anda bisa berjalan dengan normal, maka diperlukan sebuah akun untuk memproses semua kinerja pada proxy provider hingga ke ruleset Antara Proxy Group dan Rule atau Script.**

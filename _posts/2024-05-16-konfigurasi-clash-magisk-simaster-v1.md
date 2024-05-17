@@ -4,6 +4,7 @@ published: true
 permalink: konfigurasi-clash-magisk-simaster-v1.html
 tags: [clash]
 summary: Mengatur dan mengelola konfigurasi dari simaster cfm
+toc: false
 ---
 
 **Konfigurasi ini khusus untuk mode script dengan tproxy tanpa mode tun di karenakan tun platform masih hanya untuk arm64 v8.**
