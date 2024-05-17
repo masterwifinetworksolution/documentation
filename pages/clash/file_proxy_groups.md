@@ -26,7 +26,7 @@ toc: false
       <div class="panel-body">
         <h4>Select</h4>
         <p>Mode manual pilih account.</p>
-        <a href="#" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/select" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -42,7 +42,7 @@ toc: false
       <div class="panel-body">
         <h4>Best Ping</h4>
         <p>Mode Auto pindah account ke ping tercepat.</p>
-        <a href="#" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/url-test" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -58,7 +58,7 @@ toc: false
       <div class="panel-body">
         <h4>Fallback</h4>
         <p>Mode auto memindah account ke koneksi paling stabil.</p>
-        <a href="#" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/fallback" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -74,7 +74,7 @@ toc: false
       <div class="panel-body">
         <h4>Loadbalance</h4>
         <p>Mode menggabungkan semua account dalam satu jaringan.</p>
-        <a href="#" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/loadbalance" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -90,7 +90,7 @@ toc: false
       <div class="panel-body">
         <h4>Relay</h4>
         <p>Mode bridge koneksi antar account.</p>
-        <a href="#" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/relay" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
