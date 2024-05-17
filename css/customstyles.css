@@ -1201,3 +1201,181 @@ h4.panel-title {
         display:block !important;
     }
 }
+
+/*
+- Widget Donasi ala Igniel
+- Source code: https://www.igniel.com/2023/04/widget-donasi-blog.html
+*/
+.ignielDonasi {
+    --background: #f9f9f9;
+    --backgroundHover: #f0f0f0;
+    --color: #2f2f2f;
+    --colorHover: #2f2f2f;
+    --icon: #5c5c5c;
+    --col: 2;
+    margin-top: 2rem;
+  }
+  .ignielDonasi path {
+    fill: none;
+    stroke: var(--icon);
+    stroke-width: 1.5px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+  }
+  .ignielDonasi svg:first-child {
+    height: 2rem;
+    width: 35px;
+  }
+  .ignielDonasi svg:last-child {
+    height: 1rem;
+    width: 1rem;
+  }
+  .ignielDonasi-judul {
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .ignielDonasi img {
+    width: 35px;
+  }
+  .ignielDonasi-ikon {
+    margin-right: 1rem;
+  }
+  .ignielDonasi-isi {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(var(--col), 1fr);
+  }
+  .ignielDonasi-isi a {
+    align-items: center;
+    background-color: var(--background);
+    border-radius: 7px;
+    color: var(--color);
+    display: flex;
+    gap: 1rem;
+    padding: .75rem 1.25rem;
+    text-decoration: none;
+    transition: all .3s;
+  }
+  .ignielDonasi-isi a:hover {
+    background-color: var(--backgroundHover);
+    color: var(--colorHover);
+    text-decoration: none;
+  }
+  .ignielDonasi-isi .wallet {
+    flex-direction: column;
+  }
+  .ignielDonasi-isi .wallet i {
+    display: block;
+    font-size: 11px;
+    font-style: normal;
+    line-height: 13px;
+  }
+  .ignielDonasi-isi a, .ignielDonasi-isi a span {
+    flex-grow: 1;
+  }
+  @media screen and (max-width: 768px) {
+    .ignielDonasi-isi {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media screen and (max-width: 568px) {
+    .ignielDonasi-isi {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .utterances {
+    max-width: 100%;
+  }
+  
+  .giscus, .giscus-frame {
+    width: 100%;
+  }
+  
+  .giscus-frame {
+    border: none;
+  }
+
+#header-gh-btns {
+  margin-bottom: 0.9375rem;
+}
+@media (max-width: 500px) {
+  #header-gh-btns > iframe {
+    display: block;
+    margin-bottom: 0.3125rem;
+  }
+}
+
+/* share */
+
+#share-button{
+  margin:10px 0;
+  padding:5px;
+  border: 1px solid #bdc3c7;
+  overflow:hidden;
+  border-radius:2px 30px;
+}
+
+#share-button p{
+  font-weight:bold;
+  float:left;
+  display:block;
+  padding:10px 5px 8px 8px!important;
+  margin:0 3px 3px 0;
+}
+
+#share-button a{
+  position:relative;
+  float:left;
+  box-shadow:1px 1px 5px rgba(1,1,1,.1);
+  display:block;
+  border-radius:1px 1px;
+  color:#fafafa;
+  padding:5px 8px;
+  margin:0 5px 3px;
+  border-radius:50%;
+  box-shadow:4px 4px 0px #2e9206;
+  width:24px;
+  height:24px
+}
+
+#share-button a:hover{
+  top:2px;
+  left:2px;
+  box-shadow:1px 1px 0px #500f0f
+}
+
+/* cookies */
+
+.cookiesWrap{position:fixed;justify-content:center;align-items:center;right:0;bottom:-600px;left:0;width:100%;background:#fffeff;padding:20px;font-family:"Noto Sans",sans-serif;text-align:center;border-radius:30px 30px 0 0;box-shadow:0 -10px 25px -5px rgba(0,0,0,.1);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);animation:cokiesUp 2.5s forwards;animation-delay:1s;-webkit-animation:cokiesUp 2.5s forwards;-webkit-animation-delay:1s;z-index:50}
+.cookiesWrap.acptd{animation:cookiesDown 2.5s backwards;animation-delay:.3s;-webkit-animation:cookiesDown 2.5s backwards;-webkit-animation-delay:.3s}
+.cookiesWrap.hidden{display:none}
+.cookiesWrap .cookiesNtfc svg{width:50px;height:50px;fill:#333;stroke:#333;stroke-width:.8}
+.cookiesNtfc h2{color:#08102b;margin:0;font-family:inherit;font-size:1.5rem;font-weight:700}
+.cookiesNtfc p{color:#08102b;margin:10px 0;font-size:0.9rem;font-weight:400;line-height:1.7em}
+.cookiesWrap .cookiesButton{display:inline-flex;align-items:center;max-width:100%;background:#009ee0;color:#fffeff;margin:0;padding:10px 15px;font-family:inherit;font-size:13px;line-height:20px;text-decoration:none;border:0;border-radius:25px;outline:0;cursor:pointer;white-space:nowrap;overflow:hidden;transition:all 0.3s ease}
+.cookiesWrap .cookiesButton:hover{opacity:.8;transform:scale(0.97)}
+.cookiesWrap .cookiesButton.outl{background:#eee;color:#08102b;margin-left:8px}
+@media screen and (min-width:768px){.cookiesWrap{max-width:450px;right:30px;bottom:-500px;left:auto;border-radius:10px;box-shadow:0 5px 35px rgba(0,0,0,.1);animation:cookiesDescUp 2.5s forwards;-webkit-animation:cookiesDescUp 2.5s forwards;animation-delay:1s;-webkit-animation-delay:1s}.cookiesWrap.acptd{animation:cookiesDescDown 2.5s backwards;-webkit-animation:cookiesDescDown 2.5s backwards;animation-delay:.3s;-webkit-animation-delay:0.3s}}
+@keyframes cokiesUp{100%{bottom:0}}
+@-webkit-keyframes cokiesUp{100%{bottom:0}}
+@keyframes cookiesDescUp{100%{bottom:30px}}
+@-webkit-keyframes cookiesDescUp{100%{bottom:30px}}
+@keyframes cookiesDown{0%{bottom:0}100%{bottom:-600px}}
+@-webkit-keyframes cookiesDown{0%{bottom:0}100%{bottom:-600px}}
+@keyframes cookiesDescDown{0%{bottom:30px}100%{bottom:-600px}}
+@-webkit-keyframes cookiesDescDown{0%{bottom:30px}100%{bottom:-600px}}
+
+.drK .cookiesWrap{background:rgba(50,50,50,.8)}
+.drK .cookiesWrap .cookiesNtfc svg{fill:#fffeff;stroke:#fffeff}
+.drK .cookiesWrap .outl{background:#252526;color:#989b9f}
+.drK .cookiesNtfc h2,.drK .cookiesNtfc p{color:#fffeff}
+
+/* post image */
+
+.responsive-images{
+  width: 320px;
+  height: 240px;
+  align-items: center;
+}
