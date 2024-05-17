@@ -5,20 +5,52 @@ entries:
   levels: one
   folders:
 
-  - title: Products
+  - title: Menu Blog
     output: web
     folderitems:
-    - title: News
-      url: /news.html
+    - title: Beranda
+      url: /index.html
       output: web
-    - title: Theme instructions
-      url: /mydoc_introduction.html
+    
+    - title: Semua Blog
+      url: /blog.html
       output: web
-    - title: Product 1
-      url: /p1_landing_page.html
+    
+    - title: Arsip Blog
+      url: /arsip_blog.html
       output: web
-    - title: Product 2
-      url: /p2_landing_page.html
-      output: web
+
+      subfolders:
+      - title: Category Blog
+        output: web
+        subfolderitems:
+
+        - title: Clash
+          url: /tag_clash.html
+          output: web
+
+        - title: OpenWRT
+          url: /tag_openwrt.html
+          output: web
+
+        - title: Mikrotik
+          url: /tag_mikrotik.html
+          output: web
+
+        - title: Router
+          url: /tag_router.html
+          output: web
+
+        - title: Modem
+          url: /tag_modem.html
+          output: web
+
+        - title: Antena
+          url: /tag_antena.html
+          output: web
+
+        - title: Aplikasi
+          url: /tag_aplikasi.html
+          output: web
 
 # Copyright 2021 Google LLC
