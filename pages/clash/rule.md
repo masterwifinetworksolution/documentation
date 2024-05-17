@@ -14,22 +14,6 @@ toc: false
   <div class="col-lg-12">
     <h2 class="page-header">Clash Rule Files</h2>
   </div>
-
-  <div class="col-md-3 col-sm-6">
-    <div class="panel panel-default text-center">
-      <div class="panel-heading">
-        <span class="fa-stack fa-5x">
-          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-          <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
-        </span>
-      </div>
-      <div class="panel-body">
-        <h4>Browsing</h4>
-        <p>Rule khusus browsing</p>
-        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/select" class="btn btn-primary">Lihat file</a>
-      </div>
-    </div>
-  </div>
   
   <div class="col-md-3 col-sm-6">
     <div class="panel panel-default text-center">
@@ -42,7 +26,7 @@ toc: false
       <div class="panel-body">
         <h4>Chat</h4>
         <p>Rule khusus chat</p>
-        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/select" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/rule/chat.yaml" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -58,7 +42,7 @@ toc: false
       <div class="panel-body">
         <h4>Bank</h4>
         <p>Rule khusus bank</p>
-        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/select" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/rule/bank.yaml" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -74,7 +58,7 @@ toc: false
       <div class="panel-body">
         <h4>Olshop</h4>
         <p>Rule khusus online shop</p>
-        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/select" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/rule/olshop.yaml" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -90,7 +74,7 @@ toc: false
       <div class="panel-body">
         <h4>Sosmed</h4>
         <p>Rule khusus sosmed</p>
-        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/select" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/rule/sosmed.yaml" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -106,7 +90,7 @@ toc: false
       <div class="panel-body">
         <h4>Stream</h4>
         <p>Rule khusus stream</p>
-        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/select" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/rule/stream.yaml" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -122,7 +106,7 @@ toc: false
       <div class="panel-body">
         <h4>Game</h4>
         <p>Rule khusus game</p>
-        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/select" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/rule/game" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -138,7 +122,7 @@ toc: false
       <div class="panel-body">
         <h4>Porn</h4>
         <p>Rule khusus bloker porn</p>
-        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/select" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/rule/porn.yaml" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -152,9 +136,41 @@ toc: false
         </span>
       </div>
       <div class="panel-body">
-        <h4>Iklan</h4>
+        <h4>Iklan 1</h4>
         <p>Rule khusus bloker Iklan</p>
-        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/select" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/rule/iklan1.yaml" class="btn btn-primary">Lihat file</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 col-sm-6">
+    <div class="panel panel-default text-center">
+      <div class="panel-heading">
+        <span class="fa-stack fa-5x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
+        </span>
+      </div>
+      <div class="panel-body">
+        <h4>Iklan 2</h4>
+        <p>Rule khusus bloker Iklan</p>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/rule/iklan2.yaml" class="btn btn-primary">Lihat file</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 col-sm-6">
+    <div class="panel panel-default text-center">
+      <div class="panel-heading">
+        <span class="fa-stack fa-5x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
+        </span>
+      </div>
+      <div class="panel-body">
+        <h4>Iklan 3</h4>
+        <p>Rule khusus bloker Iklan</p>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/rule/iklan3.yaml" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
