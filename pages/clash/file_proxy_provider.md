@@ -26,7 +26,7 @@ toc: false
       <div class="panel-body">
         <h4>Versi Online</h4>
         <p>Menggunakan type http.</p>
-        <a href="#" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_provider/online.yaml" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -42,7 +42,7 @@ toc: false
       <div class="panel-body">
         <h4>Versi Offline</h4>
         <p>Menggunakan type file.</p>
-        <a href="#" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_provider/offline.yaml" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>

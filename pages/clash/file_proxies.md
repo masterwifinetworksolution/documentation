@@ -26,7 +26,7 @@ toc: false
       <div class="panel-body">
         <h4>Trojan</h4>
         <p>Semua file trojan.</p>
-        <a href="#" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxies/trojan.yaml" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -42,7 +42,7 @@ toc: false
       <div class="panel-body">
         <h4>Vmess</h4>
         <p>Semua file vmess.</p>
-        <a href="#" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxies/vmess.yaml" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -58,7 +58,7 @@ toc: false
       <div class="panel-body">
         <h4>Shadowsocks</h4>
         <p>Semua file shadowsocks.</p>
-        <a href="#" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxies/shadowsocks.yaml" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -74,7 +74,7 @@ toc: false
       <div class="panel-body">
         <h4>Vless</h4>
         <p>Semua file Vless.</p>
-        <a href="#" class="btn btn-primary">Lihat file</a>
+        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxies/vless.yaml" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
