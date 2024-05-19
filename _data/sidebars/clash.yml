@@ -1,0 +1,166 @@
+entries:
+- title: Clash
+  product: Clash Education
+  version: Version 1
+  folders:
+  
+  - title: Clash
+    output: web
+    folderitems:
+  
+    - title: Beranda
+      url: /index.html
+      output: web
+
+    - title: Configuration
+      url: file_configuration.html
+      output: web
+  
+  - title: Proxies
+    output: web, pdf
+    folderitems:
+    
+    - title: Semua Proxies
+      url: /tag_proxies.html
+      output: web
+    
+      subfolders:
+      - title: Trojan
+        output: web
+        subfolderitems:
+      
+        - title: Trojan GFW
+          url: /trojan_gfw.html
+          output: web
+        
+        - title: Trojan WS
+          url: /trojan_ws.html
+          output: web
+        
+        - title: Trojan XTLS
+          url: /trojan_xtls.html
+          output: web
+        
+        - title: Trojan GRPC
+          url: /trojan_grpc.html
+          output: web
+    
+      - title: Vmess
+        output: web
+        subfolderitems:
+      
+        - title: Vmess WS TLS
+          url: /vmess_ws_tls.html
+          output: web
+        
+        - title: Vmess Non TLS
+          url: /vmess_ws_nontls.html
+          output: web
+        
+        - title: Vmess GRPC
+          url: /vmess_grpc.html
+          output: web
+
+      - title: Vless
+        output: web
+        subfolderitems:
+      
+        - title: Vless WS
+          url: /vless_ws_tls.html
+          output: web
+        
+        - title: Vless Non TLS
+          url: /vless_ws_nontls.html
+          output: web
+        
+        - title: Vless XTLS
+          url: /vless_xtls.html
+          output: web
+        
+        - title: Vless GRPC
+          url: /vless_grpc.html
+          output: web
+        
+      - title: Shadowsocks
+        output: web
+        subfolderitems:
+      
+        - title: Shadowsocks No Plugin
+          url: /shadowsocks_no_plugin.html
+          output: web
+        
+        - title: Shadowsocks Plugin OBFS
+          url: /shadowsocks_plugin_obfs.html
+          output: web
+        
+        - title: ShadowsocksR
+          url: /shadowsocksr.html
+          output: web
+
+  - title: Proxy Provider
+    output: web, pdf
+    folderitems:
+    
+    - title: Online
+      url: /proxy_provider_online.html
+      output: web
+    
+    - title: Offline
+      url: /proxy_provider_offline.html
+      output: web
+  
+  - title: Proxy Groups
+    output: web, pdf
+    folderitems:
+    
+    - title: Select
+      url: /proxy_groups_select.html
+      output: web
+    
+    - title: Best Ping
+      url: /proxy_groups_urltest.html
+      output: web
+    
+    - title: Failover
+      url: /proxy_groups_fallback.html
+      output: web
+    
+    - title: Loadbalance
+      url: /proxy_groups_loadbalance.html
+      output: web
+    
+    - title: Bridge
+      url: /proxy_groups_relay.html
+      output: web
+  
+  - title: Rule
+    output: web, pdf
+    folderitems:
+    
+    - title: Sosmed
+      url: /sosmed.html
+      output: web
+  
+  - title: Rule Provider
+    output: web, pdf
+    folderitems:
+    
+    - title: Online
+      url: /rule_provider_online.html
+      output: web
+  
+  - title: Script
+    output: web, pdf
+    folderitems:
+    
+    - title: Script
+      url: /script_clash.html
+      output: web
+  
+  - title: Ruleset
+    output: web, pdf
+    folderitems:
+    
+    - title: Ruleset
+      url: /ruleset.html
+      output: web

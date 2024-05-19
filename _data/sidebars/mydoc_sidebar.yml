@@ -97,86 +97,33 @@ entries:
     output: web, pdf
     folderitems:
     
-    - title: Semua File
-      url: /all_files.html
+    - title: Clah
+      url: file_configuration.html
       output: web
       
-      subfolders:
-      - title: File Clash
-        output: web
-        subfolderitems:
-        
-        - title: Configuration
-          url: /file_configuration.html
-          output: web
-        
-        - title: Proxies
-          url: /file_proxies.html
-          output: web
-        
-        - title: Proxy Provider
-          url: /file_proxy_provider.html
-          output: web
-        
-        - title: Proxy Groups
-          url: /file_proxy_groups.html
-          output: web
-        
-        - title: Rule
-          url: /file_rule.html
-          output: web
-        
-        - title: Rule Provider
-          url: /file_rule_provider.html
-          output: web
-        
-        - title: Script
-          url: /file_script.html
-          output: web
-        
-        - title: Ruleset
-          url: /file_ruleset.html
-          output: web
-        
-        - title: Template
-          url: /file_clash_templat.html
-          output: web
-
-      - title: File Passwall
-        output: web
-        subfolderitems:
-        
-        - title: Passwall 1
-          url: /file_passwall1.html
-          output: web
-        
-        - title: Passwall 2
-          url: /file_passwall2.html
-          output: web
-      
-      - title: File OpenWRT
-        output: web
-        subfolderitems:
-        
-        - title: OpenWRT 1
-          url: /file_openwrt1.html
-          output: web
-        
-        - title: OpenWRT 2
-          url: /file_openwrt2.html
-          output: web
-      
-      - title: File Mikrotik
-        output: web
-        subfolderitems:
-        
-        - title: Mikrotik 1
-          url: /file_mikrotik1.html
-          output: web
-        
-        - title: Mikrotik 2
-          url: /file_mikrotik2.html
-          output: web
+    - title: Passwall
+      url: /file_passwall.html
+      output: web
+    
+    - title: OpenWRT
+      url: /file_openwrt.html
+      output: web
+    
+    - title: Mikrotik
+      url: /file_mikrotik.html
+      output: web
+    
+    - title: Router
+      url: /file_router.html
+      output: web
+    
+    - title: Modem
+      url: /file_modem.html
+      output: web
+    
+    - title: Aplikasi
+      url: /file_aplikasi.html
+      output: web
 
   - title: Online Shop
     output: web, pdf

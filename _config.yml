@@ -103,6 +103,7 @@ sidebars:
 - product1_sidebar
 - product2_sidebar
 - other
+- clash
 
 description: "Blog dokumentasi dari Yusuf Tutorial Channel di Youtube."
 # the description is used in the feed.xml file

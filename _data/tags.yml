@@ -13,5 +13,7 @@ allowed-tags:
   - blog
   - firmware
   - beranda
+  - proxies
+  - proxy_groups
 
 # Copyright 2021 Google LLC

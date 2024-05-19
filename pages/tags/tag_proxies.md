@@ -1,8 +1,8 @@
 ---
-title: "Clash"
-tagName: clash
+title: "Proxies"
+tagName: proxies
 search: exclude
-permalink: tag_clash.html
+permalink: tag_proxies.html
 sidebar: clash
 folder: tags
 comments: false

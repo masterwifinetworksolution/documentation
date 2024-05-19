@@ -1,10 +1,10 @@
 ---
-title: File Proxy Groups
+title: File Configuration
 tags: [clash]
-keywords: proxy groups, clash
-summary: "Kumpulan semua proxy groups clash."
-sidebar: mydoc_sidebar
-permalink: file_proxy_groups.html
+keywords: configuration, clash
+summary: "Kumpulan semua config clash."
+sidebar: clash
+permalink: file_configuration.html
 folder: clash
 comments: false
 toc: false
@@ -12,7 +12,7 @@ toc: false
 
 <div class="row">
   <div class="col-lg-12">
-    <h2 class="page-header">Clash Proxy Groups Files</h2>
+    <h2 class="page-header">Clash Configuration Files</h2>
   </div>
 
   <div class="col-md-3 col-sm-6">
@@ -24,9 +24,9 @@ toc: false
         </span>
       </div>
       <div class="panel-body">
-        <h4>Select</h4>
-        <p>Mode manual pilih account.</p>
-        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/select" class="btn btn-primary">Lihat file</a>
+        <h4>Config Default (single modem)</h4>
+        <p>File config standart.</p>
+        <a href="#" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -40,9 +40,9 @@ toc: false
         </span>
       </div>
       <div class="panel-body">
-        <h4>Best Ping</h4>
-        <p>Mode Auto pindah account ke ping tercepat.</p>
-        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/url-test" class="btn btn-primary">Lihat file</a>
+        <h4>Config Default (2 modem)</h4>
+        <p>File config standart untuk loadbalance.</p>
+        <a href="#" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -56,9 +56,9 @@ toc: false
         </span>
       </div>
       <div class="panel-body">
-        <h4>Fallback</h4>
-        <p>Mode auto memindah account ke koneksi paling stabil.</p>
-        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/fallback" class="btn btn-primary">Lihat file</a>
+        <h4>Config Rule (single modem)</h4>
+        <p>Config mode rule.</p>
+        <a href="#" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -72,9 +72,9 @@ toc: false
         </span>
       </div>
       <div class="panel-body">
-        <h4>Loadbalance</h4>
-        <p>Mode menggabungkan semua account dalam satu jaringan.</p>
-        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/loadbalance" class="btn btn-primary">Lihat file</a>
+        <h4>Config Rule (2 modem)</h4>
+        <p>Config mode rule untuk loadbalance.</p>
+        <a href="#" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
@@ -88,18 +88,35 @@ toc: false
         </span>
       </div>
       <div class="panel-body">
-        <h4>Relay</h4>
-        <p>Mode bridge koneksi antar account.</p>
-        <a href="https://raw.githubusercontent.com/yusuftutorial/clash/master/proxy_groups/relay" class="btn btn-primary">Lihat file</a>
+        <h4>Config Script (single modem)</h4>
+        <p>Config mode script.</p>
+        <a href="#" class="btn btn-primary">Lihat file</a>
       </div>
     </div>
   </div>
+
+  <div class="col-md-3 col-sm-6">
+    <div class="panel panel-default text-center">
+      <div class="panel-heading">
+        <span class="fa-stack fa-5x">
+          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-paper-plane fa-stack-1x fa-inverse"></i>
+        </span>
+      </div>
+      <div class="panel-body">
+        <h4>Config Script (2 modem)</h4>
+        <p>Config mode script untuk loadbalance.</p>
+        <a href="#" class="btn btn-primary">Lihat file</a>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <!-- Service Tabs -->
 <div class="row">
   <div class="col-lg-12">
-    <h2 class="page-header">Faq</h2>
+    <h2 class="page-header">Faq Configuration</h2>
   </div>
     <div class="col-lg-12">
       <ul id="myTab" class="nav nav-tabs nav-justified">

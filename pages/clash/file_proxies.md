@@ -1,9 +1,9 @@
 ---
 title: File Proxies
-tags: [clash]
+tags: [proxies]
 keywords: account, proxies, clash
 summary: "Kumpulan semua akun clash."
-sidebar: mydoc_sidebar
+sidebar: clash
 permalink: file_proxies.html
 folder: clash
 comments: false
