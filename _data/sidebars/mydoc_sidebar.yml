@@ -97,7 +97,7 @@ entries:
     output: web, pdf
     folderitems:
     
-    - title: Clah
+    - title: Clash
       url: file_configuration.html
       output: web
       
