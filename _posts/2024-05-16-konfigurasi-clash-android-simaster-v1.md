@@ -14,14 +14,14 @@ Mode ini khusus untuk mode **script** dan jika ingin mode **rule** maka anda waj
  
 File yang perlu anda siapkan sudah kami sediakan. Jadi anda bisa menggunakan nya:
 
-- File [Clash For Android APK](https://sfile.mobi/bHayAC6NvG7)
-- File [Konfigurasi Simaster Android V1](https://sfile.mobi/6OivSHGO6Qu)
+- File [Clash For Android APK](/apk-cfa)
+- File [Konfigurasi Simaster Android V1](/simaster-android-v1)
 
 Jika sudah memiliki kedua file di atas mari kita lanjutkan tutorial ini.
 
 1. Silahkan untuk untuk **ekstrak** kedua file tersebut.
 1. Install aplikasi **Clash For Android Premium Universal**.
-1. Edit akun kalian terlebih dahulu di folder **Proxy Provider**, Jika belum mengerti bisa anda lihat [Disini](https://yusuftutorial.xyz/post/membuat-akun-clash/) kemudian simpan.
+1. Edit akun kalian terlebih dahulu di folder **Proxy Provider**, Jika belum mengerti bisa anda lihat [Disini](https://yusuftutorial.xyz/file/) kemudian simpan.
 1. Kemudian masuk ke aplikasi.
 1. Buka menu **Profile**.
 1. Tekan tanda **+** Lalu pilih **File**.
@@ -35,4 +35,4 @@ Jika sudah memiliki kedua file di atas mari kita lanjutkan tutorial ini.
 
 Sekarang anda sudah bisa berinternet dari config cfa simaster versi 1.
 
-Untuk versi config magisk, anda bisa melihat [Disini](Konfigurasi clash magisk simaster v1).
+Untuk versi config magisk, anda bisa melihat [Disini](/konfigurasi-clash-magisk-simaster-v1).

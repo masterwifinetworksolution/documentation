@@ -3,36 +3,44 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="icon" href="{{ site.baseurl }}/{{site.favicon}}">
+<link rel="icon" href="/assets/images/favicon.ico">
 
-<title>{{ page.title }} | {{site.title}}</title>
+<title>Trojan Go | YTC</title>
 
-{% seo %}
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Trojan Go | YTC</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Trojan Go" />
+<meta name="author" content="yusuf" />
+<meta property="og:locale" content="en_us" />
+<link rel="canonical" href="http://localhost:4000/trojan-go/" />
+<meta property="og:url" content="http://localhost:4000/trojan-go/" />
+<meta property="og:site_name" content="YTC" />
+<meta property="og:image" content="http://localhost:4000/assets/images/file.jpg" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/file.jpg" />
+<meta property="twitter:title" content="Trojan Go" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"yusuf"},"headline":"Trojan Go","image":"http://localhost:4000/assets/images/file.jpg","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"yusuf"},"url":"http://localhost:4000/trojan-go/"}</script>
+<!-- End Jekyll SEO tag -->
 
-<link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
+
+<link href="/assets/css/theme.css" rel="stylesheet">
 
 <!-- custom CSS - Remove this if you don't use it or choose to customize the stylesheet with sass-->
-<link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet">
+<link href="/assets/css/custom.css" rel="stylesheet">
 <!-- custom CSS end-->
     
-{% if jekyll.environment == "production" %}       
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{site.ganalytics}}"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', '{{site.ganalytics}}');
-</script>
-{% endif %}
+
  
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1794381705838564"
      crossorigin="anonymous"></script>  
 
 </head>   
     
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-<body onload="generate()" class="{{ layout }}">
+
+<body onload="generate()" class="layout-page">
     
 <!-- Menu Navigation
 ================================================== -->
@@ -40,12 +48,10 @@ gtag('config', '{{site.ganalytics}}');
     <nav class="navbar navbar-expand-lg">
         <div class="container">
 
-          <a class="navbar-brand text-dark font-weight-bold big d-flex align-items-center" href="{{site.baseurl}}/">
-          {% if site.logo %}
-          <img class="mr-2" src="{{site.baseurl}}/{{site.logo}}" alt="logo" width="40px height="40px"> 
-          {% else %}
-          <span class="d-none d-md-inline-block">{{ site.title }}</span>
-          {% endif %}
+          <a class="navbar-brand text-dark font-weight-bold big d-flex align-items-center" href="/">
+          
+          <img class="mr-2" src="/assets/images/logo.png" alt="logo" width="40px height="40px"> 
+          
           </a> | 
           
 
@@ -53,19 +59,19 @@ gtag('config', '{{site.ganalytics}}');
             
             <span class="ml-3 text-muted small">Subscribe</span>
 
-            <a class="d-inline-block social-icon" target="_blank" href="{{site.social.youtube}}">
+            <a class="d-inline-block social-icon" target="_blank" href="https://www.youtube.com/channel/UClbAMHpHxjdBJMLSDqr93xw">
               <svg xmlns="http://www.w3.org/2000/svg" width="35" height="50" fill="currentColor" class="bi bi-twitter" viewBox="0 0 40 55">
               <path d="M21.582,6.186c-0.23-0.86-0.908-1.538-1.768-1.768C18.254,4,12,4,12,4S5.746,4,4.186,4.418 c-0.86,0.23-1.538,0.908-1.768,1.768C2,7.746,2,12,2,12s0,4.254,0.418,5.814c0.23,0.86,0.908,1.538,1.768,1.768 C5.746,20,12,20,12,20s6.254,0,7.814-0.418c0.861-0.23,1.538-0.908,1.768-1.768C22,16.254,22,12,22,12S22,7.746,21.582,6.186z M10,14.598V9.402c0-0.385,0.417-0.625,0.75-0.433l4.5,2.598c0.333,0.192,0.333,0.674,0,0.866l-4.5,2.598 C10.417,15.224,10,14.983,10,14.598z"/>
             </svg> 
             </a>
 
-            <a class="d-inline-block social-icon" target="_blank" href="{{site.social.facebook}}">
+            <a class="d-inline-block social-icon" target="_blank" href="https://www.facebook.com/profile.php?id=61559143289111">
               <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
               <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
             </svg>
             </a>
 
-            <a class="d-inline-block social-icon" target="_blank" href="{{site.social.telegram}}">
+            <a class="d-inline-block social-icon" target="_blank" href="https://www.instagram.com/bootstrapstarter/">
               <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-instagram" viewBox="0 0 51 50">
               <path d="M25,2c12.703,0,23,10.297,23,23S37.703,48,25,48S2,37.703,2,25S12.297,2,25,2z M32.934,34.375	c0.423-1.298,2.405-14.234,2.65-16.783c0.074-0.772-0.17-1.285-0.648-1.514c-0.578-0.278-1.434-0.139-2.427,0.219	c-1.362,0.491-18.774,7.884-19.78,8.312c-0.954,0.405-1.856,0.847-1.856,1.487c0,0.45,0.267,0.703,1.003,0.966	c0.766,0.273,2.695,0.858,3.834,1.172c1.097,0.303,2.346,0.04,3.046-0.395c0.742-0.461,9.305-6.191,9.92-6.693	c0.614-0.502,1.104,0.141,0.602,0.644c-0.502,0.502-6.38,6.207-7.155,6.997c-0.941,0.959-0.273,1.953,0.358,2.351	c0.721,0.454,5.906,3.932,6.687,4.49c0.781,0.558,1.573,0.811,2.298,0.811C32.191,36.439,32.573,35.484,32.934,34.375z"/>
             </svg>
@@ -81,11 +87,27 @@ gtag('config', '{{site.ganalytics}}');
           
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto font-weight-bold d-flex align-items-center">
-              {% for item in site.data.menus.topmenu %}
+              
               <li class="nav-item">
-                <a class="nav-link px-3 {% if item.class %}{{item.class}}{% endif %}" href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
+                <a class="nav-link px-3 " href="/" alt="Home">Home</a>
               </li>
-              {% endfor %}
+              
+              <li class="nav-item">
+                <a class="nav-link px-3 " href="/about/" alt="About">About</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link px-3 " href="/contact/" alt="Contact">Contact</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link px-3 " href="/file" alt="File">File</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link px-3 ml-2 btn btn-dark text-white px-3" href="https://mycollection.shop/tokobeberkah" alt="My Shop">My Shop</a>
+              </li>
+              
             </ul>
           </div>
 
@@ -97,7 +119,58 @@ gtag('config', '{{site.ganalytics}}');
 <!-- Container
 ================================================== -->    
 <main class="container">   
-      {{ content }}  
+      <!-- Post Featured Image -->
+
+<div class="text-center mx-auto mb-5">
+  <img class="featured-image text-center mx-auto rounded" src="/assets/images/file.jpg" alt="Trojan Go">
+</div>
+
+<!-- End Featured Image -->
+
+<div class="col-lg-8 mx-auto">
+
+  <div class="mainheading">
+    <h1 class="posttitle">Trojan Go</h1>
+  </div>
+
+  <div class="article-post serif-font">
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>proxies:
+- name: Trojan WS (SNI)
+  server: SERVER.COM
+  port: 443
+  type: trojan
+  password: PASSWORD
+  skip-cert-verify: true
+  sni: BUGSNI.COM
+  network: ws
+  ws-opts:
+    path: /PATH
+    headers:
+      Host: BUGSNI.COM
+  udp: true
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>proxies:
+- name: Trojan GO/WS (CDN)
+  server: IPCDN/BUGCDN.COM
+  port: 443
+  type: trojan
+  password: PASSWORD
+  network: ws
+  sni: SERVER.COM
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /PATH
+    headers:
+        Host: SERVER.COM
+</code></pre></div></div>
+
+  </div>
+
+  
+
+</div>  
 </main>
 
 <!-- Footer
@@ -108,28 +181,40 @@ gtag('config', '{{site.ganalytics}}');
   <!-- If you want to support my work, please donate to remove the credits. This helps me keep it up and running: https://www.wowthemes.net/donate/ -->
   <div class="credits mx-auto text-center mb-3">
     <a class="hover-opacity font-weight-bold" href="https://mycollection.shop/tokobeberkah">
-      <img src="{{site.baseurl}}/assets/images/myshop.jpg" alt="iklan">
+      <img src="/assets/images/myshop.jpg" alt="iklan">
     </a>
   </div>
   <!-- CREDITS END -->
 
   <ul class="p-0 mb-1 small">
-    {% for item in site.data.menus.footermenu %}
+    
     <li>
-      <a href="{% unless item.external %}{{site.baseurl}}/{% endunless %}{{item.url}}" alt="{{item.title}}">{{item.title}}</a>
+      <a href="/" alt="Home">Home</a>
     </li>
-    {% endfor %}
+    
+    <li>
+      <a href="/privacy-policy/" alt="Privacy Policy">Privacy Policy</a>
+    </li>
+    
+    <li>
+      <a href="/contact/" alt="Contact">Contact</a>
+    </li>
+    
+    <li>
+      <a href="file/" alt="File">File</a>
+    </li>
+    
     </ul>
     <div class="copyright small">
-       Copyright <script>document.write(new Date().getFullYear())</script> © {{site.title}}. All rights reserved.
+       Copyright <script>document.write(new Date().getFullYear())</script> © YTC. All rights reserved.
     </div>
 </footer>
 
 <!-- JavaScript
 ================================================== -->    
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>   
-<script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>   
-<script src="{{ site.baseurl }}/assets/js/theme.js"></script>    
+<script src="/assets/js/jquery.min.js"></script>   
+<script src="/assets/js/bootstrap.min.js"></script>   
+<script src="/assets/js/theme.js"></script>    
 
 
 <div class='copyCode' id='cpCode'/>

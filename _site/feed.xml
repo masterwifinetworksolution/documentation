@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2024-05-22T17:40:40+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">YTC</title><author><name>yusuf</name></author><entry><title type="html">Konfigurasi openclash 1 dan 2 modem</title><link href="http://localhost:4000/konfigurasi-openclash-1dan2-modem/" rel="alternate" type="text/html" title="Konfigurasi openclash 1 dan 2 modem" /><published>2024-05-21T00:00:00+00:00</published><updated>2024-05-21T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-openclash-1dan2-modem</id><content type="html" xml:base="http://localhost:4000/konfigurasi-openclash-1dan2-modem/"><![CDATA[<blockquote>
+  <p>Konfigurasi ini bisa untuk mode <code class="language-plaintext highlighter-rouge">script</code> dan juga mode <code class="language-plaintext highlighter-rouge">meta</code>. Sehingga konfigurasi ini multo fungsi.</p>
+</blockquote>
+
+<p>Mari kita lihat isi dalam file yang akan saya bagikan khusus untuk anda:</p>
+
+<h3 id="struktur-single">Struktur Single</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openclash
+|
+|___ backup
+|      |___ simaster.yaml
+|
+|___ config
+|      |___ simaster.yaml
+|
+|___ core
+|      |___ clash
+|      |___ clash_meta
+|      |___ clash_tun
+|
+|___ custom
+|
+|___ game_rules
+|
+|___ history
+|      |___ simaster.db
+|
+|___ proxy_provider
+|      |___ modem1.yaml
+|
+|___ rule_provider
+|      |___ Bank.yaml
+|      |___ Chat.yaml
+|      |___ Game.yaml
+|      |___ Iklan1.yaml
+|      |___ Iklan2.yaml
+|      |___ Iklam3.yaml
+|      |___ Olshop.yaml
+|      |___ Porn.yaml
+|      |___ Sosmed.yaml
+|      |___ Stream.yaml
+|
+|___ Country.mmdb
+|
+|___ GeoIP.dat
+|
+|___ GeoSite.dat
+|
+|___ accelerated-domains.china.conf
+|
+|___ cache.db
+|
+|___ china_ip6_route.ipset
+|
+|___ china_ip_route.ipset
+|
+|___ clash
+|
+|___ openclash
+|
+|___ simaster.yaml
+</code></pre></div></div>
+
+<p>Untuk mendapatkan file ini, anda bisa melalui <a href="https://github.com/yusuftutorial/openclash/raw/master/Simaster-Backup-20Mei2024.tar.gz">Disini</a>.</p>
+
+<h3 id="struktur-loadbalance">Struktur Loadbalance</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>openclash
+|
+|___ backup
+|      |___ simaster.yaml
+|
+|___ config
+|      |___ simaster.yaml
+|
+|___ core
+|      |___ clash
+|      |___ clash_meta
+|      |___ clash_tun
+|
+|___ custom
+|
+|___ game_rules
+|
+|___ history
+|      |___ simaster.db
+|
+|___ proxy_provider
+|      |___ modem1.yaml
+|      |___ modem2.yaml
+|
+|___ rule_provider
+|      |___ Bank.yaml
+|      |___ Chat.yaml
+|      |___ Game.yaml
+|      |___ Iklan1.yaml
+|      |___ Iklan2.yaml
+|      |___ Iklam3.yaml
+|      |___ Olshop.yaml
+|      |___ Porn.yaml
+|      |___ Sosmed.yaml
+|      |___ Stream.yaml
+|
+|___ Country.mmdb
+|
+|___ GeoIP.dat
+|
+|___ GeoSite.dat
+|
+|___ accelerated-domains.china.conf
+|
+|___ cache.db
+|
+|___ china_ip6_route.ipset
+|
+|___ china_ip_route.ipset
+|
+|___ clash
+|
+|___ openclash
+|
+|___ simaster.yaml
+</code></pre></div></div>
+
+<p>Untuk mendapatkan file ini, anda bisa melalui <a href="https://github.com/yusuftutorial/openclash/raw/master/Simaster-Loadbalance-20Mei2024.tar.gz">Disini</a>.</p>
+
+<h3 id="cara-pemasangan">Cara pemasangan</h3>
+
+<ol>
+  <li>Ekstrak File (Pilih salah satu file dari 2 yang saya sediakan).</li>
+  <li>copy folder <code class="language-plaintext highlighter-rouge">openclash</code> dan tempelkan ke <code class="language-plaintext highlighter-rouge">/etc</code> di dalam file manager openwrt.</li>
+  <li>Atur <code class="language-plaintext highlighter-rouge">akun</code> di folder <code class="language-plaintext highlighter-rouge">proxy_provider</code> untuk file <code class="language-plaintext highlighter-rouge">modem1.yaml</code> dan <code class="language-plaintext highlighter-rouge">modem2.yaml</code>.</li>
+  <li>Pastikan <code class="language-plaintext highlighter-rouge">akun</code> kalian sudah terhubung dengan interface modem kalian di <code class="language-plaintext highlighter-rouge">interface-name:</code>.</li>
+  <li>Masuk ke <code class="language-plaintext highlighter-rouge">openclash</code> dan jalankan dengan menekan <code class="language-plaintext highlighter-rouge">Switch Config</code>.</li>
+</ol>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Konfigurasi ini bisa untuk mode script dan juga mode meta. Sehingga konfigurasi ini multo fungsi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-open-clash-1dan2-modem.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-open-clash-1dan2-modem.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">konfigurasi cfw simaster v1</title><link href="http://localhost:4000/konfigurasi-cfw-simaster-v1/" rel="alternate" type="text/html" title="konfigurasi cfw simaster v1" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-cfw-simaster-v1</id><content type="html" xml:base="http://localhost:4000/konfigurasi-cfw-simaster-v1/"><![CDATA[<p><strong>Untuk install clash windows</strong></p>
+
+<p>ada beberapa syarat yang perlu anda ketahui terlebih dahulu:</p>
+
+<ol>
+  <li>Operasional sistem 32 bit atau 64 bit</li>
+  <li>Bisa menggunakan windows 7, 8, 10</li>
+  <li>Minimal RAM 2Gb untuk menghindari jalanya RAM mencapai penuh</li>
+  <li>Minimal Hard Disk sebesar 320Gb</li>
+  <li>Partisi drive C harus minimal 100Gb dan system 80Gb untuk menhindari CPU naik 100% persen.</li>
+</ol>
+
+<h2 id="download-aplikasi-cfw">Download aplikasi CFW</h2>
+
+<p>Jika anda sudah mengetahui persyaratan nya, sekarang anda sudah bisa melewati langkah selanjutnya dengan menekan download <strong>CFW</strong> di bawah ini.</p>
+
+<p><a href="https://www.mediafire.com/file/jr4hxgrxj2v5pne/simastercfw.zip/file">Download Disini</a></p>
+
+<h3 id="download-config-cfw">Download config CFW</h3>
+
+<p>Untuk mendapatkan config dari <strong>Yusuf Tutorial Channel</strong>, anda hanya perlu menekan download di bawah ini.</p>
+
+<p><a href="https://sfile.mobi/aJZH6yG3oOp">Dowload Disini</a></p>
+
+<p>Jika sudah anda download, silahkan anda untuk melakukan <strong>ekstrak file</strong> formt <strong>zip</strong> ini</p>
+
+<h3 id="cara-pemasangan-config-di-cfw">Cara pemasangan config di CFW</h3>
+
+<p>Untuk memasang config ini cara nya cukup mudah, anda hanya tinggal ikuti step dari saya:</p>
+
+<ul>
+  <li>Silahkan anda copy kan semua file ini lalu paste kan ke <strong>C</strong> ke <strong>Users</strong> ke <strong>NAMA PENGGUNA ANDA</strong> ke <strong>.config</strong> ke <strong>clash</strong> ke <strong>profiles</strong>.</li>
+  <li>Setelah selesai anda copy paste, lalu file tadi anda masukkan juga ke <strong>CFW</strong> pada bagian <strong>Profile</strong>.</li>
+  <li>Import <strong>simaster.yaml</strong> ke dalam <strong>profile CFW</strong> nanti tinggal tekan tombol samping nama profil.</li>
+</ul>
+
+<h3 id="akun-yang-di-support-cfw">Akun yang di support CFW</h3>
+
+<p><strong>Shadowsocks</strong>, <strong>Vmess TCP</strong>, <strong>Vmess WS</strong>, <strong>Socks5</strong>, <strong>Http</strong>, <strong>Trojan</strong>.</p>
+
+<h3 id="jalur-outbonds">Jalur outbonds</h3>
+
+<p>Untuk jalur masuk internet agar <strong>CFW</strong> dapat bekerja bisa melalui <strong>LAN</strong>, <strong>Modem usb</strong>, atau bisa melewati <strong>Wifi pada modem</strong>.</p>
+
+<h3 id="jalur-inbonds">Jalur Inbonds</h3>
+
+<p>Agar internet yang di hasilkan oleh <strong>CFW</strong> bisa di bagikan ke device yang lain.</p>
+
+<p>Bagi anda pengguna <strong>windows10</strong> khusus nya, anda bisa membagikan nya kembali melalui jalur <strong>hotspot</strong> bawaan dari <strong>windows10</strong>.</p>
+
+<p>Kini sekarang anda bisa mengggunakan script <strong>config CFW</strong> dari <strong>Yusuf Tutorial Channel</strong>.</p>
+
+<p>Jika Tutorial ini bermanfaat, anda bisa share ke sebanyak orang agar bisa bermanfaat sebagai mana mestinya.</p>
+
+<p>Dan jangan lupa bagi yang belum subscribe silahkan di subcribe ya channel <strong>Yusuf Tutorial Channel</strong> ex youtube <strong>Master Wifi Network Solution</strong>.</p>
+
+<p>Sampai jumpa di tutorial selanjutnya</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Untuk install clash windows]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-cfw-simaster-v1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-cfw-simaster-v1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">konfigurasi clash android simaster v1</title><link href="http://localhost:4000/konfigurasi-clash-android-simaster-v1/" rel="alternate" type="text/html" title="konfigurasi clash android simaster v1" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-clash-android-simaster-v1</id><content type="html" xml:base="http://localhost:4000/konfigurasi-clash-android-simaster-v1/"><![CDATA[<blockquote>
+  <p>Metode clash android sangat respondsive dan mudah untuk pengaturan di bandingkan clash versi yang lain nya.</p>
+</blockquote>
+
+<p>Pembahasan kali ini kita akan mengatur dan menjalankan <strong>konfigurasi clash</strong> pada <strong>android</strong> dari <strong>konfigurasi simaster</strong>.</p>
+
+<p>Mode ini khusus untuk mode <strong>script</strong> dan jika ingin mode <strong>rule</strong> maka anda wajib edit konfigurasi pada bagian <strong>mode</strong> terlebih dahulu.</p>
+
+<p>File yang perlu anda siapkan sudah kami sediakan. Jadi anda bisa menggunakan nya:</p>
+
+<ul>
+  <li>File <a href="/apk-cfa">Clash For Android APK</a></li>
+  <li>File <a href="/simaster-android-v1">Konfigurasi Simaster Android V1</a></li>
+</ul>
+
+<p>Jika sudah memiliki kedua file di atas mari kita lanjutkan tutorial ini.</p>
+
+<ol>
+  <li>Silahkan untuk untuk <strong>ekstrak</strong> kedua file tersebut.</li>
+  <li>Install aplikasi <strong>Clash For Android Premium Universal</strong>.</li>
+  <li>Edit akun kalian terlebih dahulu di folder <strong>Proxy Provider</strong>, Jika belum mengerti bisa anda lihat <a href="https://yusuftutorial.xyz/file/">Disini</a> kemudian simpan.</li>
+  <li>Kemudian masuk ke aplikasi.</li>
+  <li>Buka menu <strong>Profile</strong>.</li>
+  <li>Tekan tanda <strong>+</strong> Lalu pilih <strong>File</strong>.</li>
+  <li>Buat nama sendiri kemudian pilih <strong>Browser File</strong></li>
+  <li>pada <strong>Configuration</strong> klik icon <strong>titik tiga</strong> pada kanan nya lalu pilih <strong>Import</strong>.</li>
+  <li>Pilih folder <strong>configuration</strong> kemudian pilih file <strong>simaster android.yaml</strong></li>
+  <li>Pilih <strong>Provider Files</strong> lalu tekan lagi icon <strong>+</strong> dan masukkan semua file dalam folder <strong>proxy provider</strong> dan folder <strong>rule provider</strong> satu per satu.</li>
+  <li>Jika sudah sudah semua terisi kita langsung tekan tombol kembali 2x kemudian tekan icon <strong>disk</strong> atau tombol save pojok kanan atas untuk simpan settingan.</li>
+  <li>Jika udah beres kita tekan icon di samping nama profile yang udah kita buat lalu kembali.</li>
+  <li>Dan terakhir kita tekan saja langsung ** Tap to start** untuk memulai clash for android.</li>
+</ol>
+
+<p>Sekarang anda sudah bisa berinternet dari config cfa simaster versi 1.</p>
+
+<p>Untuk versi config magisk, anda bisa melihat <a href="/konfigurasi-clash-magisk-simaster-v1">Disini</a>.</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Metode clash android sangat respondsive dan mudah untuk pengaturan di bandingkan clash versi yang lain nya.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-cfa-simaster-v1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-cfa-simaster-v1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Membuat akun clash</title><link href="http://localhost:4000/membuat-akun-clash/" rel="alternate" type="text/html" title="Membuat akun clash" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/membuat-akun-clash</id><content type="html" xml:base="http://localhost:4000/membuat-akun-clash/"><![CDATA[<blockquote>
+  <p>Cara agar koneksi anda bisa berjalan dengan normal, maka diperlukan sebuah akun untuk memproses semua kinerja pada proxy provider hingga ke ruleset Antara Proxy Group dan Rule atau Script.</p>
+</blockquote>
+
+<p>Dan berikut ini akan kami rangkumkan semua akun agar bisa anda gunakan dalam sehari-hari.</p>
+
+<h2 id="trojan-gfw-sni">Trojan GFW SNI</h2>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">proxies</span><span class="pi">:</span>
+<span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Trojan GFW (SNI)</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">trojan</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+  <span class="na">password</span><span class="pi">:</span> <span class="s">PASSWORD</span>
+  <span class="na">udp</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">sni</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+  <span class="na">skip-cert-verify</span><span class="pi">:</span> <span class="kc">true</span>
+</code></pre></div></div>
+
+<h3 id="trojan-ws-sni">Trojan WS SNI</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">proxies</span><span class="pi">:</span>
+<span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Trojan WS (SNI)</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">trojan</span>
+  <span class="na">password</span><span class="pi">:</span> <span class="s">PASSWORD</span>
+  <span class="na">skip-cert-verify</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">sni</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+  <span class="na">network</span><span class="pi">:</span> <span class="s">ws</span>
+  <span class="na">ws-opts</span><span class="pi">:</span>
+    <span class="na">path</span><span class="pi">:</span> <span class="s">/PATH</span>
+    <span class="na">headers</span><span class="pi">:</span>
+      <span class="na">Host</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+  <span class="na">udp</span><span class="pi">:</span> <span class="kc">true</span>
+</code></pre></div></div>
+
+<h3 id="trojan-go-cdn">Trojan Go CDN</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">proxies</span><span class="pi">:</span>
+<span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Trojan GO/WS (CDN)</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">IPCDN/BUGCDN.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">trojan</span>
+  <span class="na">password</span><span class="pi">:</span> <span class="s">PASSWORD</span>
+  <span class="na">network</span><span class="pi">:</span> <span class="s">ws</span>
+  <span class="na">sni</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">skip-cert-verify</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">udp</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">ws-opts</span><span class="pi">:</span>
+    <span class="na">path</span><span class="pi">:</span> <span class="s">/PATH</span>
+    <span class="na">headers</span><span class="pi">:</span>
+        <span class="na">Host</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+</code></pre></div></div>
+
+<h3 id="trojan-xtls">Trojan XTLS</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Trojan XTLS SNI</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">trojan</span>
+  <span class="na">password</span><span class="pi">:</span> <span class="s">PASSWORD</span>
+  <span class="na">flow</span><span class="pi">:</span> <span class="s">xtls-rprx-direct</span>
+  <span class="na">skip-cert-verify</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">sni</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+  <span class="na">udp</span><span class="pi">:</span> <span class="kc">true</span>
+</code></pre></div></div>
+
+<h3 id="trojan-grpc-sni">Trojan GRPC SNI</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Trojan gRPC (SNI)</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">trojan</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+  <span class="na">password</span><span class="pi">:</span> <span class="s">PASSWORD</span>
+  <span class="na">udp</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">sni</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+  <span class="na">skip-cert-verify</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">network</span><span class="pi">:</span> <span class="s">grpc</span>
+  <span class="na">grpc-opts</span><span class="pi">:</span>
+    <span class="na">grpc-service-name</span><span class="pi">:</span> <span class="s">NAMAGRPC</span>
+</code></pre></div></div>
+
+<h3 id="vmess-ws-sni">Vmess WS SNI</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Vmess WS (SNI)</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">vmess</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+  <span class="na">uuid</span><span class="pi">:</span> <span class="s">UUID</span>
+  <span class="na">alterId</span><span class="pi">:</span> <span class="m">0</span>
+  <span class="na">cipher</span><span class="pi">:</span> <span class="s">auto</span>
+  <span class="na">udp</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">tls</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">skip-cert-verify</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">servername</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+  <span class="na">network</span><span class="pi">:</span> <span class="s">ws</span>
+  <span class="na">ws-opts</span><span class="pi">:</span>
+    <span class="na">path</span><span class="pi">:</span> <span class="s">/PATH</span>
+    <span class="na">headers</span><span class="pi">:</span>
+      <span class="na">Host</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+</code></pre></div></div>
+
+<h3 id="vmess-ws-cdn">Vmess WS CDN</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Vmess WS (CDN)</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">vmess</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">IPCDN/BUGCDN.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+  <span class="na">uuid</span><span class="pi">:</span> <span class="s">UUID</span>
+  <span class="na">alterId</span><span class="pi">:</span> <span class="m">0</span>
+  <span class="na">cipher</span><span class="pi">:</span> <span class="s">auto</span>
+  <span class="na">udp</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">tls</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">skip-cert-verify</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">servername</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">network</span><span class="pi">:</span> <span class="s">ws</span>
+  <span class="na">ws-opts</span><span class="pi">:</span>
+    <span class="na">path</span><span class="pi">:</span> <span class="s">/PATH</span>
+    <span class="na">headers</span><span class="pi">:</span>
+      <span class="na">Host</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+</code></pre></div></div>
+
+<h3 id="vmess-ws-cdn-tanpa-tls">Vmess WS CDN Tanpa TLS</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Vmess WS (CDN) Non TLS</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">vmess</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">IPCDN/BUGCDN.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
+  <span class="na">uuid</span><span class="pi">:</span> <span class="s">UUID</span>
+  <span class="na">alterId</span><span class="pi">:</span> <span class="m">0</span>
+  <span class="na">cipher</span><span class="pi">:</span> <span class="s">auto</span>
+  <span class="na">udp</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">tls</span><span class="pi">:</span> <span class="kc">false</span>
+  <span class="na">skip-cert-verify</span><span class="pi">:</span> <span class="kc">false</span>
+  <span class="na">servername</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">network</span><span class="pi">:</span> <span class="s">ws</span>
+  <span class="na">ws-opts</span><span class="pi">:</span>
+    <span class="na">path</span><span class="pi">:</span> <span class="s">/PATH</span>
+    <span class="na">headers</span><span class="pi">:</span>
+      <span class="na">Host</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+</code></pre></div></div>
+
+<h3 id="vmess-grpc-sni">Vmess GRPC SNI</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Vmess gRPC (SNI)</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">vmess</span>
+  <span class="na">uuid</span><span class="pi">:</span> <span class="s">UUID</span>
+  <span class="na">alterId</span><span class="pi">:</span> <span class="m">0</span>
+  <span class="na">cipher</span><span class="pi">:</span> <span class="s">auto</span>
+  <span class="na">network</span><span class="pi">:</span> <span class="s">grpc</span>
+  <span class="na">tls</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">servername</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+  <span class="na">skip-cert-verify</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">grpc-opts</span><span class="pi">:</span>
+    <span class="na">grpc-service-name</span><span class="pi">:</span> <span class="s">NAMAGRPC</span>
+</code></pre></div></div>
+
+<h3 id="vless-ws-sni">Vless WS SNI</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Vless WS (SNI)</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">vless</span>
+  <span class="na">uuid</span><span class="pi">:</span> <span class="s">UUID</span>
+  <span class="na">cipher</span><span class="pi">:</span> <span class="s">auto</span>
+  <span class="na">tls</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">skip-cert-verify</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">servername</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+  <span class="na">network</span><span class="pi">:</span> <span class="s">ws</span>
+  <span class="na">ws-opts</span><span class="pi">:</span>
+    <span class="na">path</span><span class="pi">:</span> <span class="s">/PATH</span>
+    <span class="na">headers</span><span class="pi">:</span>
+      <span class="na">Host</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+</code></pre></div></div>
+
+<h3 id="vless-ws-cdn">Vless WS CDN</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Vless WS (CDN)</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">IPCDN/BUGCDN.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">vless</span>
+  <span class="na">uuid</span><span class="pi">:</span> <span class="s">UUID</span>
+  <span class="na">cipher</span><span class="pi">:</span> <span class="s">auto</span>
+  <span class="na">tls</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">skip-cert-verify</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">servername</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">network</span><span class="pi">:</span> <span class="s">ws</span>
+  <span class="na">ws-opts</span><span class="pi">:</span>
+    <span class="na">path</span><span class="pi">:</span> <span class="s">/PATH</span>
+    <span class="na">headers</span><span class="pi">:</span>
+      <span class="na">Host</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+</code></pre></div></div>
+
+<h3 id="vless-ws-cdn-tanpa-tls">Vless WS CDN Tanpa TLS</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Vless WS (CDN) Non TLS</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">IPCDN/BUGCDN.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">80</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">vless</span>
+  <span class="na">uuid</span><span class="pi">:</span> <span class="s">81f1f510-3ca7-4734-8956-0f4fce670af5</span>
+  <span class="na">cipher</span><span class="pi">:</span> <span class="s">auto</span>
+  <span class="na">tls</span><span class="pi">:</span> <span class="kc">false</span>
+  <span class="na">skip-cert-verify</span><span class="pi">:</span> <span class="kc">false</span>
+  <span class="na">servername</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">network</span><span class="pi">:</span> <span class="s">ws</span>
+  <span class="na">ws-opts</span><span class="pi">:</span>
+    <span class="na">path</span><span class="pi">:</span> <span class="s">/PATH</span>
+    <span class="na">headers</span><span class="pi">:</span>
+      <span class="na">Host</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">udp</span><span class="pi">:</span> <span class="kc">true</span>
+</code></pre></div></div>
+
+<h3 id="vless-xtls-sni">Vless XTLS SNI</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Vless XTLS (SNI)</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">vless</span>
+  <span class="na">uuid</span><span class="pi">:</span> <span class="s">UUID</span>
+  <span class="na">cipher</span><span class="pi">:</span> <span class="s">auto</span>
+  <span class="na">tls</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">flow</span><span class="pi">:</span> <span class="s">xtls-rprx-direct</span>
+  <span class="na">skip-cert-verify</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">servername</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+</code></pre></div></div>
+
+<h3 id="vless-grpc-sni">Vless GRPC SNI</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Vless gRPC (SNI)</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">vless</span>
+  <span class="na">uuid</span><span class="pi">:</span> <span class="s">UUID</span>
+  <span class="na">cipher</span><span class="pi">:</span> <span class="s">auto</span>
+  <span class="na">tls</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">skip-cert-verify</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">servername</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+  <span class="na">network</span><span class="pi">:</span> <span class="s">grpc</span>
+  <span class="na">grpc-opts</span><span class="pi">:</span>
+  <span class="na">grpc-mode</span><span class="pi">:</span> <span class="s">gun</span>
+  <span class="na">grpc-service-name</span><span class="pi">:</span> <span class="s">NAMAGRPC</span>
+  <span class="na">udp</span><span class="pi">:</span> <span class="kc">true</span>
+</code></pre></div></div>
+
+<h3 id="socks5-sni">Socks5 SNI</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Socks5 (SNI)</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">socks5</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">443</span>
+  <span class="na">username</span><span class="pi">:</span> <span class="s">USERNAME</span>
+  <span class="na">password</span><span class="pi">:</span> <span class="s">PASSWORD</span>
+  <span class="na">tls</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">skip-cert-verify</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">udp</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">sni</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+</code></pre></div></div>
+
+<h3 id="shadowsocks-tanpa-plugin">Shadowsocks Tanpa Plugin</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Shadowsocks Tanpa Plugin</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">ss</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">34963</span>
+  <span class="na">cipher</span><span class="pi">:</span> <span class="s">chacha20-ietf-poly1305</span>
+  <span class="na">password</span><span class="pi">:</span> <span class="s">PASSWORD</span>
+  <span class="na">udp</span><span class="pi">:</span> <span class="kc">true</span>
+</code></pre></div></div>
+
+<h3 id="shadowsocks-plugin-obfs">Shadowsocks Plugin OBFS</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Shadowsocks Plugin Obfs</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">ss</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">32033</span>
+  <span class="na">cipher</span><span class="pi">:</span> <span class="s">chacha20-ietf-poly1305</span>
+  <span class="na">password</span><span class="pi">:</span> <span class="s">PASSWORD</span>
+  <span class="na">plugin</span><span class="pi">:</span> <span class="s">obfs</span>
+  <span class="na">plugin-opts</span><span class="pi">:</span>
+    <span class="na">mode</span><span class="pi">:</span> <span class="s">tls</span>
+    <span class="na">host</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+</code></pre></div></div>
+
+<h3 id="shadowsocksr-sni">ShadowsocksR SNI</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">ShadowsocksR (SNI)</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">1235</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">ssr</span>
+  <span class="na">cipher</span><span class="pi">:</span> <span class="s">AES-256-CTR</span>
+  <span class="na">password</span><span class="pi">:</span> <span class="s">PASSWORD</span>
+  <span class="na">protocol</span><span class="pi">:</span> <span class="s">origin</span>
+  <span class="na">obfs</span><span class="pi">:</span> <span class="s">tls1.2_ticket_auth</span>
+  <span class="na">protocol-param</span><span class="pi">:</span> <span class="s2">"</span><span class="s">#"</span>
+  <span class="na">obfs-param</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+  <span class="na">udp</span><span class="pi">:</span> <span class="kc">true</span>
+</code></pre></div></div>
+
+<h3 id="snell-support-udp">Snell Support UDP</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Snell V3</span>
+  <span class="na">type</span><span class="pi">:</span> <span class="s">snell</span>
+  <span class="na">server</span><span class="pi">:</span> <span class="s">SERVER.COM</span>
+  <span class="na">port</span><span class="pi">:</span> <span class="m">33223</span>
+  <span class="na">psk</span><span class="pi">:</span> <span class="s">PASSWORD</span>
+  <span class="na">version</span><span class="pi">:</span> <span class="m">3</span>
+  <span class="na">udp</span><span class="pi">:</span> <span class="kc">true</span>
+  <span class="na">obfs-opts</span><span class="pi">:</span>
+    <span class="na">mode</span><span class="pi">:</span> <span class="s">tls</span>
+    <span class="na">host</span><span class="pi">:</span> <span class="s">BUGSNI.COM</span>
+</code></pre></div></div>
+
+<p>Semua akun ini bisa diterapkan pada:</p>
+
+<ul>
+  <li><a href="openclash">Openclash</a></li>
+  <li><a href="/android">Clash For Android</a></li>
+  <li><a href="/magisk">Clash For Magisk</a></li>
+  <li><a href="/bfm">Box For Magisk</a></li>
+  <li><a href="/linux">Clash For Linux</a></li>
+  <li><a href="/windows">Clash For Windows</a></li>
+</ul>
+
+<p>Dan masih banyak yang lain nya untuk type Clash.</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Cara agar koneksi anda bisa berjalan dengan normal, maka diperlukan sebuah akun untuk memproses semua kinerja pada proxy provider hingga ke ruleset Antara Proxy Group dan Rule atau Script.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/membuat-akun-clash.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/membuat-akun-clash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">konfigurasi clash magisk simaster v1</title><link href="http://localhost:4000/konfigurasi-clash-magisk-simaster-v1/" rel="alternate" type="text/html" title="konfigurasi clash magisk simaster v1" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-clash-magisk-simaster-v1</id><content type="html" xml:base="http://localhost:4000/konfigurasi-clash-magisk-simaster-v1/"><![CDATA[<blockquote>
+  <p>Konfigurasi ini khusus untuk mode script dengan tproxy tanpa mode tun di karenakan tun platform masih hanya untuk arm64 v8.</p>
+</blockquote>
+
+<p>Selamat datang di blog Yusuf Tutorial Channel, blog yang di resmikan dari channel youtube Yusuf Tutorial Channel.</p>
+
+<p>Dan kali ini kita akan membahas tentang konfigurasi cfm simaster versi pertama karenakan yang terdahulu sudah saya hilangkan dan kini baru saya mulai kembali setelah berarkhir nya channel youtube Master Wifi Network Solution.</p>
+
+<p>Bahan-bahan yang akan kita perlukan tentu nya sebuah <code class="language-plaintext highlighter-rouge">handphone android</code> yang sudah <code class="language-plaintext highlighter-rouge">root magisk</code> beserta aplikasi <code class="language-plaintext highlighter-rouge">manager magisk</code> versi terbaru dan saat ini sudah berada di versi 27.</p>
+
+<p>Juga di perlukan <code class="language-plaintext highlighter-rouge">module clash for magisk versi 3</code> yang terakhir sebelum release nya <code class="language-plaintext highlighter-rouge">box for magisk</code> ya bro beserta aplikasi <code class="language-plaintext highlighter-rouge">clash for magisk versi 1.6.4</code> nya juga ya bro.</p>
+
+<p>Untuk bahan saya siapkan di bawah ini:</p>
+
+<ul>
+  <li>Module Clash Magisk Versi 3 : <a href="https://sfile.mobi/6zwvA9YYLeZ">Download disini</a></li>
+  <li>Aplikasi Manager Clash Magisk V 1.6.4: <a href="https://sfile.mobi/51uuJuNdnyZ">Download disini</a></li>
+  <li>Konfig Clash Magisk Simaster Versi 1: <a href="https://sfile.mobi/58SuOhiO1GG">Download disini</a></li>
+</ul>
+
+<p>Jika kalian sudah memiliki 3 file di atas maka kita sudah bisa melanjutkan ke tutorial selanjutnya.</p>
+
+<p>Namun jika kalian masih belum mempunyai salah satu nya kami harapkan untuk mengumpulkan semua file nya terlebih dahulu.</p>
+
+<p>Bagi yang sudah mari kita lanjutkan tutorial ini.</p>
+
+<p>Hal pertama yang perlu kalian lakukan adalah pergi ke aplikasi <code class="language-plaintext highlighter-rouge">magisk manager</code> kemudian masuk ke tab <code class="language-plaintext highlighter-rouge">module</code> kemudian tekan tombol <code class="language-plaintext highlighter-rouge">pasang dan penyimpanan</code>.</p>
+
+<p>Setelah itu pilih file ‘module clash magisk versi 3` lalu pasang.</p>
+
+<p>Kemudian kembali lalu masuk ke <code class="language-plaintext highlighter-rouge">file manager</code> root yang sudah kalian miliki masing-masing dan disini saya menggunakan <code class="language-plaintext highlighter-rouge">MT Manager</code> sebagai apalikasi file manager untuk mengatur ke dalam folder system.</p>
+
+<p>Masuk lah ke folder <code class="language-plaintext highlighter-rouge">data</code> lalu masuk dan timpa folder <code class="language-plaintext highlighter-rouge">clash</code> yang ada dengan file <code class="language-plaintext highlighter-rouge">Konfig Clash Magisk Simaster Versi 1</code> yang baru saja anda download.</p>
+
+<p>Kemudian masuk lah ke folder <code class="language-plaintext highlighter-rouge">clash</code> dan edit lah akun kalian di folder <code class="language-plaintext highlighter-rouge">assets</code>.</p>
+
+<p>Jika ingin edit akun, anda bisa lihat format akun terlebih dahulu <a href="https://yusuftutorial.xyz/post/membuat-akun-clash/">Disini</a>.</p>
+
+<p>Lalu cek terlebih dahulu file <code class="language-plaintext highlighter-rouge">clash.config</code> di barisan 74 untuk memastikan costum config berada di <code class="language-plaintext highlighter-rouge">true</code>.</p>
+
+<p>Jika sudah semua mari kita install aplikasi <code class="language-plaintext highlighter-rouge">Clash manager versi 1.6.4</code> yang sudah kalian download.</p>
+
+<p>Dan sebagai langkah akhir, mari kita masuk ke aplikasi <code class="language-plaintext highlighter-rouge">Magisk manager</code> lalu tekan tanda ikon melingkar ke kiri kemudian pilih mulai ulang.</p>
+
+<p>Tunggu beberapa saat hp kalian reboot dan kini konfigurasi simaster magisk versi 1 sudah bisa kalian nikmati untuk akses internet.</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Konfigurasi ini khusus untuk mode script dengan tproxy tanpa mode tun di karenakan tun platform masih hanya untuk arm64 v8.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-cfm-simaster-v1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-cfm-simaster-v1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Huawei manager versi 9 indonesia</title><link href="http://localhost:4000/huawei-manager-v9-indonesia/" rel="alternate" type="text/html" title="Huawei manager versi 9 indonesia" /><published>2024-01-30T00:00:00+00:00</published><updated>2024-01-30T00:00:00+00:00</updated><id>http://localhost:4000/huawei-manager-v9-indonesia</id><content type="html" xml:base="http://localhost:4000/huawei-manager-v9-indonesia/"><![CDATA[<h2 id="pengenalan-aplikasi">Pengenalan aplikasi</h2>
+
+<p>Sebelum anda menggunakan aplikasi yang saya buat khusus untuk modem huawei. Sebaiknya anda terlebih dahulu mengetahui kelebihan dan kekurangan pada aplikasi ini.</p>
+
+<p>Pada video di bawah pastinya anda sudah melihatnya bukan ?</p>
+
+<iframe width="100%" height="280" src="https://www.youtube.com/embed/g47CzhqcZoM?controls=0"></iframe>
+
+<p>Ya seperti itulah bentuk rupa dari aplikasi yang saya buatkan untuk anda. Namun ya seperti anda tau, untuk mendapatkan aplikasi ini. Anda harus menyimak video dalam channel youtube saya terlebih dahulu agar dapat menngetahui password dari aplikasi tersebut dan semua gabung jadi tanpa menggunakan spasi.</p>
+
+<h2 id="fitur">Fitur</h2>
+
+<p>Fitur yang bisa anda dapatkan dalam aplikasi ini:</p>
+
+<ol>
+  <li>Mode SMS</li>
+  <li>Mode dial</li>
+  <li>Mode lock Cell ID (Tergantung type modem)</li>
+  <li>Mode Lock Band (agar mengunci frekuensi pada modem)</li>
+  <li>Tampilan Respondsive</li>
+  <li>Bisa buat modem Hilink dan Orbit (huawei)</li>
+</ol>
+
+<h2 id="pemasangan-aplikasi">Pemasangan aplikasi</h2>
+
+<p>Untuk bisa mendapatkan aplikasi ini, anda hanya bisa melalui <a href="https://github.com/yusuftutorial/file/raw/main/HM-V9-Id.zip"><button class="btn btn-success">DISINI</button></a></p>
+
+<blockquote>
+  <p>Jadi anda sangat bergantung pada type perangkat android kalian karena disaat ini bagi pengguna android 14 masih belum bisa menggunakan nya karena kan anda kejanggalan pada sistem OS tersebut. Sehingga aplikasi ini tidak bisa untuk anda pasangkan.</p>
+</blockquote>
+
+<p>Sekian dulu dari saya, semoga bermanfaat bagi anda semua. dan jangan lupa untuk selalu mengikuti blog dan channel youtube saya agar anda tidak ketinggalan informasi update dari saya.</p>]]></content><author><name>yusuf</name></author><category term="aplikasi" /><summary type="html"><![CDATA[Pengenalan aplikasi]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/huawei-manager-v9.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/huawei-manager-v9.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Huawei Manager V8 Indonesia</title><link href="http://localhost:4000/huawei-manager-v8/" rel="alternate" type="text/html" title="Huawei Manager V8 Indonesia" /><published>2023-08-19T00:00:00+00:00</published><updated>2023-08-19T00:00:00+00:00</updated><id>http://localhost:4000/huawei-manager-v8</id><content type="html" xml:base="http://localhost:4000/huawei-manager-v8/"><![CDATA[<p>Aplikasi ini saya khususkan untuk modem gsm bukan untuk modem router untuk versi <code class="language-plaintext highlighter-rouge">hg8245h</code> atau sejenisnya.</p>
+
+<p>Akan tetapi untuk modem:</p>
+
+<ul>
+  <li>Hilink</li>
+  <li>Huawei Lte</li>
+  <li>Orbit</li>
+</ul>
+
+<h2 id="pemasangan">Pemasangan</h2>
+
+<p>Untuk mendapatkan aplikasi ini, anda wajib memenuhi syarat terlebih dahulu.</p>
+
+<p>Yaitu mengumpulkan semua kata yang ada dalam video di channel youtube saya di bawah ini.</p>
+
+<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/R80Ce6dBurg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe></p>
+
+<p>Atau langsung ke video channel youtube saya <a href="https://www.youtube.com/R80Ce6dBurg">Disini</a>.</p>
+
+<p>Lalu download file <a href="https://sfile.mobi/2SnbRsdPZmg">Disini</a>.</p>
+
+<h2 id="penggunaan">Penggunaan</h2>
+
+<p>Pastikan anda berada dalam jaringan wifi modem <code class="language-plaintext highlighter-rouge">huawei</code> atau modem <code class="language-plaintext highlighter-rouge">hilink</code> atau modem <code class="language-plaintext highlighter-rouge">orbit</code>.</p>
+
+<p>Kemudian anda masuk ke aplikasi dan lakukan pencocokan alamt <code class="language-plaintext highlighter-rouge">IP</code> dan juga <code class="language-plaintext highlighter-rouge">user</code> sama <code class="language-plaintext highlighter-rouge">password</code> di modem kalian di huawei manager.</p>
+
+<p>Untuk user <code class="language-plaintext highlighter-rouge">orbit</code> yaitu <code class="language-plaintext highlighter-rouge">Admin</code> dan password harus isikan dengan <code class="language-plaintext highlighter-rouge">password</code> yang modem kalian miliki.</p>]]></content><author><name>yusuf</name></author><category term="aplikasi" /><summary type="html"><![CDATA[Aplikasi ini saya khususkan untuk modem gsm bukan untuk modem router untuk versi hg8245h atau sejenisnya.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/huawei-manager-v8.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/huawei-manager-v8.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mengatasi mac clone router tenda</title><link href="http://localhost:4000/mengatasi-mac-clone-tenda/" rel="alternate" type="text/html" title="Mengatasi mac clone router tenda" /><published>2021-05-28T00:00:00+00:00</published><updated>2021-05-28T00:00:00+00:00</updated><id>http://localhost:4000/mengatasi-mac-clone-tenda</id><content type="html" xml:base="http://localhost:4000/mengatasi-mac-clone-tenda/"><![CDATA[<p>Untuk bisa menghilangkan pemberitahuan <code class="language-plaintext highlighter-rouge">Clone Mac Address</code> pada router <code class="language-plaintext highlighter-rouge">Tenda</code>, maka anda wajib melakukan hal di bawah ini:</p>
+
+<ol>
+  <li>Masuk ke router <code class="language-plaintext highlighter-rouge">Tenda</code>.</li>
+  <li>Lakukan login.</li>
+  <li>Pergi pengaturan <code class="language-plaintext highlighter-rouge">Administration</code>.</li>
+  <li>Ubah Mac ke <code class="language-plaintext highlighter-rouge">Manual</code>.</li>
+  <li>Salin <code class="language-plaintext highlighter-rouge">Mac Address</code> yang ada di router utama ke tempelkan ke Mac Address Tenda.</li>
+  <li>Tekan <code class="language-plaintext highlighter-rouge">Save</code>.</li>
+</ol>
+
+<p>Jika masih muncul kembali <code class="language-plaintext highlighter-rouge">Clone Mac Address</code>, maka lakukan hal di bawah ini lagi.</p>
+
+<ul>
+  <li>Tetap berada di router <code class="language-plaintext highlighter-rouge">Tenda</code>.</li>
+  <li>Pergi ke pengaturan <code class="language-plaintext highlighter-rouge">Internet Setting</code></li>
+  <li>Ubah <code class="language-plaintext highlighter-rouge">DHCP</code> menjadi <code class="language-plaintext highlighter-rouge">Static IP</code></li>
+</ul>
+
+<pre><code class="language-txt">Address: xxx.xxx.xxx.xxx # isikan ip untuk tenda
+Subnet Mask: 255.255.255.0 # sesuaikan dengan subnet modem utama
+Gateway: xxx.xxx.xxx.x # sesuaikan dengan alamat ip router utama dan sama dengan address juga
+dns primary: xxx.xxx.xxx.x # samakan saja dengan alamat gateway
+</code></pre>
+
+<ul>
+  <li>Jika sudah semua beres, tinggal lakukan <code class="language-plaintext highlighter-rouge">save</code>.</li>
+</ul>]]></content><author><name>yusuf</name></author><category term="router" /><summary type="html"><![CDATA[Untuk bisa menghilangkan pemberitahuan Clone Mac Address pada router Tenda, maka anda wajib melakukan hal di bawah ini:]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/atasi-mac-clone-tenda.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/atasi-mac-clone-tenda.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Wellcome to my blog</title><link href="http://localhost:4000/wellcome-my-blog/" rel="alternate" type="text/html" title="Wellcome to my blog" /><published>2018-07-16T00:00:00+00:00</published><updated>2018-07-16T00:00:00+00:00</updated><id>http://localhost:4000/wellcome-my-blog</id><content type="html" xml:base="http://localhost:4000/wellcome-my-blog/"><![CDATA[<p><strong>Selamat datang di blog resmi channel youtube dari Yusuf Tutorial ex channel Master Wifi Network Solution</strong></p>
+
+<p>Di blog ini saya akan memberikan banyak ilmu pengetahuan serta cara penanganan yang cepat dalam mengatasi suatu permasalaham di dunia jaringan internet.</p>
+
+<p>Bagi anda yang selalu mengikuti channel kami pasti akan tau tentang apa saja yang selalu kami sediakan di setiap konten yang kami berikan khusus untuk anda para subscriber.</p>
+
+<p>Dan bagi anda yang subscribe silahkan untuk <a href="https://youtube.com/@yusuftutorialchannel">SUBSCRIBE My Channel</a>. Dan kami akan menghargai anda.</p>
+
+<p>Untuk Halaman selanjutnya, anda akan menemukan banyak hal di semua konten yang saya buatkan exclusive untuk anda.</p>
+
+<p>Jadi tetaplah selalu bersama kami agar tidak ketinggalan informasi paling update.</p>]]></content><author><name>yusuf</name></author><category term="Informasi" /><summary type="html"><![CDATA[Selamat datang di blog resmi channel youtube dari Yusuf Tutorial ex channel Master Wifi Network Solution]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/wellcome-to-my-blog.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/wellcome-to-my-blog.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
