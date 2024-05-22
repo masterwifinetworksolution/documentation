@@ -1,0 +1,140 @@
+// Inline and block code styles
+code,
+kbd,
+pre,
+samp {
+  font-family: $font-family-monospace;
+}
+
+// Copy Code
+.copyCode span {
+  position: fixed;
+  left: 24px;
+  bottom: -70px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  z-index: 99981;
+  background: black;
+  color: green;
+  font-size: 18px;
+  font-family: inherit;
+  border-radius: 3px;
+  padding: 13px 24px;
+  box-shadow: 0 5px 35px rgba(149,157,165,.3);
+  opacity: 0;
+  transition: all .1s ease;
+  animation: slideinwards 2s ease forwards;
+  -webkit-animation: slideinwards 2s ease forwards
+}
+
+@media screen and (max-width:500px) {
+  .copyCode span {
+    margin-bottom:20px;
+    left:20px;
+    right:20px;
+    font-size:13px
+  }
+}
+
+@keyframes slideinwards {
+  0% {
+    opacity:0
+  }
+  20% {
+    opacity:1;
+    bottom:0
+  }
+  50% {
+    opacity:1;
+    bottom:0
+  }
+  80% {
+    opacity:1;
+    bottom:0
+    }
+  100% {
+    opacity:0;
+    bottom:-70px;
+    visibility:hidden
+  }
+}
+
+@-webkit-keyframes slideinwards {
+  0% {
+    opacity:0
+  }
+  20% {
+    opacity:1;
+    bottom:0
+  }
+  50% {
+    opacity:1;
+    bottom:0
+  }
+  80% {
+    opacity:1;
+    bottom:0
+  }
+  100% {
+    opacity:0;
+    bottom:-70px;
+    visibility:hidden
+  }
+}
+
+.darkMode .copyCode span {
+  box-shadow:0 10px 40px rgba(0,0,0,.2)
+}
+
+// Inline code
+code {
+  font-size: $code-font-size;
+  color: $code-color;
+  word-break: break-word;
+
+  // Streamline the style when inside anchors to avoid broken underline and more
+  a > & {
+    color: inherit;
+  }
+}
+
+// User input typically entered via keyboard
+kbd {
+  padding: $kbd-padding-y $kbd-padding-x;
+  font-size: $kbd-font-size;
+  color: $kbd-color;
+  background-color: $kbd-bg;
+  @include border-radius($border-radius-sm);
+  @include box-shadow($kbd-box-shadow);
+
+  kbd {
+    padding: 0;
+    font-size: 100%;
+    font-weight: $nested-kbd-font-weight;
+    @include box-shadow(none);
+  }
+}
+
+// Blocks of code
+pre {
+  display: block;
+  font-size: $code-font-size;
+  color: $pre-color;
+  background-color: $bg-pre-color;
+
+  // Account for some code outputs that place code tags in pre tags
+  code {
+    font-size: inherit;
+    color: inherit;
+    word-break: normal;
+  }
+}
+
+// Enable scrollable blocks of code
+.pre-scrollable {
+  max-height: $pre-scrollable-max-height;
+  overflow-y: scroll;
+}
