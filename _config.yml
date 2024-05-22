@@ -1,7 +1,7 @@
 title: "YTC"
 email: myarachma92@gmail.com
 timezone: UTC
-baseurl: "https://yusuftutorial.xyz"
+baseurl: "/"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
