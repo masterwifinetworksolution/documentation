@@ -1,13 +1,12 @@
 ---
+layout: post
 title:  "konfigurasi clash magisk simaster v1"
-published: true
-permalink: konfigurasi-clash-magisk-simaster-v1.html
-tags: [clash]
-summary: Mengatur dan mengelola konfigurasi dari simaster cfm
-toc: false
+author: yusuf
+categories: [ clash ]
+image: assets/images/post/konfigurasi-cfm-simaster-v1.jpg
 ---
 
-**Konfigurasi ini khusus untuk mode script dengan tproxy tanpa mode tun di karenakan tun platform masih hanya untuk arm64 v8.**
+> Konfigurasi ini khusus untuk mode script dengan tproxy tanpa mode tun di karenakan tun platform masih hanya untuk arm64 v8.
 
 Selamat datang di blog Yusuf Tutorial Channel, blog yang di resmikan dari channel youtube Yusuf Tutorial Channel.
 

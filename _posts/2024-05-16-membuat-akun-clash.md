@@ -1,13 +1,12 @@
 ---
+layout: post
 title:  "Membuat akun clash"
-categories: Account
-permalink: membuat-akun-clash.html
-tags: [clash]
-summary: Cara membuat dan menambahkan akun di dalam clash
-toc: true
+author: yusuf
+categories: [ clash ]
+image: assets/images/post/membuat-akun-clash.jpg
 ---
 
-**Cara agar koneksi anda bisa berjalan dengan normal, maka diperlukan sebuah akun untuk memproses semua kinerja pada proxy provider hingga ke ruleset Antara Proxy Group dan Rule atau Script.**
+> Cara agar koneksi anda bisa berjalan dengan normal, maka diperlukan sebuah akun untuk memproses semua kinerja pada proxy provider hingga ke ruleset Antara Proxy Group dan Rule atau Script.
 
 Dan berikut ini akan kami rangkumkan semua akun agar bisa anda gunakan dalam sehari-hari.
 
@@ -349,5 +348,3 @@ Semua akun ini bisa diterapkan pada:
 - [Clash For Windows](/windows)
 
 Dan masih banyak yang lain nya untuk type Clash.
-
-{% include links.html %}

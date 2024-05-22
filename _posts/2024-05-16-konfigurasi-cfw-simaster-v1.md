@@ -1,10 +1,9 @@
 ---
+layout: post
 title:  "konfigurasi cfw simaster v1"
-categories: jekyll update
-permalink: konfigurasi-cfw-simaster-v1.html
-tags: [clash]
-summary: Mengatur dan mengelola konfigurasi dari simaster cfw
-toc: true
+author: yusuf
+categories: [ clash ]
+image: assets/images/post/konfigurasi-cfw-simaster-v1.jpg
 ---
 
 **Untuk install clash windows**
@@ -60,5 +59,3 @@ Jika Tutorial ini bermanfaat, anda bisa share ke sebanyak orang agar bisa berman
 Dan jangan lupa bagi yang belum subscribe silahkan di subcribe ya channel **Yusuf Tutorial Channel** ex youtube **Master Wifi Network Solution**.
 
 Sampai jumpa di tutorial selanjutnya
-
-{% include links.html %}

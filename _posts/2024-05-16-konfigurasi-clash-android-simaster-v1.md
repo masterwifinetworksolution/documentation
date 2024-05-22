@@ -1,13 +1,12 @@
 ---
+layout: post
 title:  "konfigurasi clash android simaster v1"
-published: true
-permalink: konfigurasi-clash-android-simaster-v1.html
-tags: [clash]
-summary: Mengatur dan mengelola konfigurasi dari simaster cfa
-toc: true
+author: yusuf
+categories: [ clash ]
+image: assets/images/post/konfigurasi-cfa-simaster-v1.jpg
 ---
 
-**Metode clash android sangat respondsive dan mudah untuk pengaturan di bandingkan clash versi yang lain nya.**
+> Metode clash android sangat respondsive dan mudah untuk pengaturan di bandingkan clash versi yang lain nya.
 
 Pembahasan kali ini kita akan mengatur dan menjalankan **konfigurasi clash** pada **android** dari **konfigurasi simaster**.
 
