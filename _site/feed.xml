@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2024-05-23T05:52:15+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">YTC</title><author><name>yusuf</name></author><entry><title type="html">Panduan Lengkap Membuat Firmware OpenWRT untuk ARM64 V8</title><link href="http://localhost:4000/membuat-firmware-openwrt-arm64-v8/" rel="alternate" type="text/html" title="Panduan Lengkap Membuat Firmware OpenWRT untuk ARM64 V8" /><published>2024-05-22T00:00:00+00:00</published><updated>2024-05-22T00:00:00+00:00</updated><id>http://localhost:4000/membuat-firmware-openwrt-arm64-v8</id><content type="html" xml:base="http://localhost:4000/membuat-firmware-openwrt-arm64-v8/"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2024-05-23T06:52:03+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">YTC</title><author><name>yusuf</name></author><entry><title type="html">Panduan Lengkap Membuat Firmware OpenWRT untuk ARM64 V8</title><link href="http://localhost:4000/membuat-firmware-openwrt-arm64-v8/" rel="alternate" type="text/html" title="Panduan Lengkap Membuat Firmware OpenWRT untuk ARM64 V8" /><published>2024-05-22T00:00:00+00:00</published><updated>2024-05-22T00:00:00+00:00</updated><id>http://localhost:4000/membuat-firmware-openwrt-arm64-v8</id><content type="html" xml:base="http://localhost:4000/membuat-firmware-openwrt-arm64-v8/"><![CDATA[<blockquote>
   <p>Pelajari langkah-langkah lengkap untuk membuat firmware OpenWRT kustom untuk perangkat ARM64 V8 Anda. Mulai dari konfigurasi awal hingga pemeliharaan dan pembaruan, panduan ini akan membantu Anda mengoptimalkan perangkat jaringan Anda dengan firmware yang disesuaikan.</p>
 </blockquote>
 
@@ -32,7 +32,41 @@
 
 <h3 id="pemeliharaan-dan-pembaruan">Pemeliharaan dan Pembaruan</h3>
 
-<p>Terakhir, pastikan untuk melakukan pemeliharaan dan pembaruan secara berkala terhadap firmware OpenWRT yang Anda buat. Hal ini penting untuk menjaga keamanan dan kinerja perangkat Anda, serta memastikan bahwa firmware Anda tetap kompatibel dengan perangkat target yang digunakan.</p>]]></content><author><name>yusuf</name></author><category term="openwrt" /><summary type="html"><![CDATA[Pelajari langkah-langkah lengkap untuk membuat firmware OpenWRT kustom untuk perangkat ARM64 V8 Anda. Mulai dari konfigurasi awal hingga pemeliharaan dan pembaruan, panduan ini akan membantu Anda mengoptimalkan perangkat jaringan Anda dengan firmware yang disesuaikan.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/membuat-firmware-openwrt-arm64-v8.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/membuat-firmware-openwrt-arm64-v8.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Konfigurasi openclash 1 dan 2 modem</title><link href="http://localhost:4000/konfigurasi-openclash-1dan2-modem/" rel="alternate" type="text/html" title="Konfigurasi openclash 1 dan 2 modem" /><published>2024-05-21T00:00:00+00:00</published><updated>2024-05-21T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-openclash-1dan2-modem</id><content type="html" xml:base="http://localhost:4000/konfigurasi-openclash-1dan2-modem/"><![CDATA[<blockquote>
+<p>Terakhir, pastikan untuk melakukan pemeliharaan dan pembaruan secara berkala terhadap firmware OpenWRT yang Anda buat. Hal ini penting untuk menjaga keamanan dan kinerja perangkat Anda, serta memastikan bahwa firmware Anda tetap kompatibel dengan perangkat target yang digunakan.</p>]]></content><author><name>yusuf</name></author><category term="openwrt" /><summary type="html"><![CDATA[Pelajari langkah-langkah lengkap untuk membuat firmware OpenWRT kustom untuk perangkat ARM64 V8 Anda. Mulai dari konfigurasi awal hingga pemeliharaan dan pembaruan, panduan ini akan membantu Anda mengoptimalkan perangkat jaringan Anda dengan firmware yang disesuaikan.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/membuat-firmware-openwrt-arm64-v8.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/membuat-firmware-openwrt-arm64-v8.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Maksimalkan Koneksi Internet dengan Load Balancing di OpenWRT</title><link href="http://localhost:4000/cara-loadbalance-di-openwrt/" rel="alternate" type="text/html" title="Maksimalkan Koneksi Internet dengan Load Balancing di OpenWRT" /><published>2024-05-21T00:00:00+00:00</published><updated>2024-05-21T00:00:00+00:00</updated><id>http://localhost:4000/cara-loadbalance-di-openwrt</id><content type="html" xml:base="http://localhost:4000/cara-loadbalance-di-openwrt/"><![CDATA[<blockquote>
+  <p>Pelajari cara mengaktifkan dan mengoptimalkan load balancing di OpenWRT untuk meningkatkan kecepatan dan keandalan koneksi internet Anda. Temukan langkah-langkah, pengaturan, dan tips untuk memaksimalkan penggunaan bandwidth dengan efisien.</p>
+</blockquote>
+
+<h2 id="pengenalan-load-balancing-di-openwrt">Pengenalan Load Balancing di OpenWRT</h2>
+
+<p>Load balancing adalah teknik yang digunakan untuk mendistribusikan lalu lintas jaringan secara merata ke beberapa jalur koneksi internet. Dengan menggunakan OpenWRT, Anda dapat mengoptimalkan koneksi internet Anda dengan membagi beban lalu lintas ke beberapa jalur secara efisien.</p>
+
+<h3 id="langkah-langkah-mengaktifkan-load-balancing-di-openwrt">Langkah-langkah Mengaktifkan Load Balancing di OpenWRT</h3>
+
+<p>Pertama, pastikan Anda telah menginstal OpenWRT pada router Anda dan memiliki akses ke antarmuka web LuCI. Selanjutnya, buka antarmuka LuCI dan masuk ke bagian Network &gt; Load Balancing. Di sini, Anda dapat mengatur pengaturan load balancing sesuai dengan preferensi Anda, seperti memilih jalur koneksi yang akan digunakan dan mengatur bobot lalu lintas untuk setiap jalur.</p>
+
+<h3 id="mengatur-pengaturan-load-balancing">Mengatur Pengaturan Load Balancing</h3>
+
+<p>Setelah mengaktifkan load balancing, pastikan untuk mengatur pengaturan yang sesuai dengan kebutuhan Anda. Anda dapat mengatur prioritas koneksi internet, mengatur batas bandwidth untuk setiap jalur, dan memantau kinerja load balancing melalui antarmuka LuCI.</p>
+
+<h3 id="mengoptimalkan-koneksi-internet-dengan-load-balancing">Mengoptimalkan Koneksi Internet dengan Load Balancing</h3>
+
+<p>Dengan menggunakan load balancing di OpenWRT, Anda dapat mengoptimalkan koneksi internet Anda dengan memaksimalkan penggunaan jalur koneksi yang tersedia. Dengan membagi beban lalu lintas ke beberapa jalur, Anda dapat menghindari kemacetan jaringan dan meningkatkan kecepatan koneksi internet Anda secara signifikan.</p>
+
+<h3 id="memantau-kinerja-load-balancing">Memantau Kinerja Load Balancing</h3>
+
+<p>Penting untuk terus memantau kinerja load balancing di OpenWRT untuk memastikan bahwa pengaturan yang Anda lakukan berjalan dengan baik. Anda dapat melihat statistik lalu lintas, memeriksa penggunaan bandwidth, dan mengidentifikasi masalah potensial melalui antarmuka LuCI.</p>
+
+<h3 id="mengatasi-masalah-load-balancing">Mengatasi Masalah Load Balancing</h3>
+
+<p>Jika Anda mengalami masalah dengan load balancing di OpenWRT, pastikan untuk memeriksa pengaturan yang telah Anda lakukan dan melakukan troubleshooting yang diperlukan. Anda juga dapat mencari bantuan dari komunitas OpenWRT atau forum online untuk mendapatkan solusi yang tepat.</p>
+
+<h3 id="keuntungan-menggunakan-load-balancing-di-openwrt">Keuntungan Menggunakan Load Balancing di OpenWRT</h3>
+
+<p>Dengan menggunakan load balancing di OpenWRT, Anda dapat mengoptimalkan koneksi internet Anda, meningkatkan kecepatan dan keandalan koneksi, serta menghindari kemacetan jaringan. Dengan membagi beban lalu lintas ke beberapa jalur, Anda dapat memaksimalkan penggunaan bandwidth yang tersedia dan meningkatkan pengalaman internet Anda secara keseluruhan.</p>
+
+<h3 id="kesimpulan">Kesimpulan</h3>
+
+<p>Load balancing adalah teknik yang efektif untuk mengoptimalkan koneksi internet Anda dengan membagi beban lalu lintas ke beberapa jalur koneksi. Dengan menggunakan OpenWRT, Anda dapat mengaktifkan load balancing dengan mudah dan mengatur pengaturan sesuai dengan kebutuhan Anda. Dengan memantau kinerja load balancing secara teratur, Anda dapat memastikan bahwa koneksi internet Anda berjalan lancar dan efisien.</p>]]></content><author><name>yusuf</name></author><category term="openwrt" /><summary type="html"><![CDATA[Pelajari cara mengaktifkan dan mengoptimalkan load balancing di OpenWRT untuk meningkatkan kecepatan dan keandalan koneksi internet Anda. Temukan langkah-langkah, pengaturan, dan tips untuk memaksimalkan penggunaan bandwidth dengan efisien.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/cara-loadbalance-di-openwrt.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/cara-loadbalance-di-openwrt.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Konfigurasi openclash 1 dan 2 modem</title><link href="http://localhost:4000/konfigurasi-openclash-1dan2-modem/" rel="alternate" type="text/html" title="Konfigurasi openclash 1 dan 2 modem" /><published>2024-05-21T00:00:00+00:00</published><updated>2024-05-21T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-openclash-1dan2-modem</id><content type="html" xml:base="http://localhost:4000/konfigurasi-openclash-1dan2-modem/"><![CDATA[<blockquote>
   <p>Konfigurasi ini bisa untuk mode <code class="language-plaintext highlighter-rouge">script</code> dan juga mode <code class="language-plaintext highlighter-rouge">meta</code>. Sehingga konfigurasi ini multo fungsi.</p>
 </blockquote>
 
@@ -167,41 +201,7 @@
   <li>Atur <code class="language-plaintext highlighter-rouge">akun</code> di folder <code class="language-plaintext highlighter-rouge">proxy_provider</code> untuk file <code class="language-plaintext highlighter-rouge">modem1.yaml</code> dan <code class="language-plaintext highlighter-rouge">modem2.yaml</code>.</li>
   <li>Pastikan <code class="language-plaintext highlighter-rouge">akun</code> kalian sudah terhubung dengan interface modem kalian di <code class="language-plaintext highlighter-rouge">interface-name:</code>.</li>
   <li>Masuk ke <code class="language-plaintext highlighter-rouge">openclash</code> dan jalankan dengan menekan <code class="language-plaintext highlighter-rouge">Switch Config</code>.</li>
-</ol>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Konfigurasi ini bisa untuk mode script dan juga mode meta. Sehingga konfigurasi ini multo fungsi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-open-clash-1dan2-modem.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-open-clash-1dan2-modem.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Maksimalkan Koneksi Internet dengan Load Balancing di OpenWRT</title><link href="http://localhost:4000/cara-loadbalance-di-openwrt/" rel="alternate" type="text/html" title="Maksimalkan Koneksi Internet dengan Load Balancing di OpenWRT" /><published>2024-05-21T00:00:00+00:00</published><updated>2024-05-21T00:00:00+00:00</updated><id>http://localhost:4000/cara-loadbalance-di-openwrt</id><content type="html" xml:base="http://localhost:4000/cara-loadbalance-di-openwrt/"><![CDATA[<blockquote>
-  <p>Pelajari cara mengaktifkan dan mengoptimalkan load balancing di OpenWRT untuk meningkatkan kecepatan dan keandalan koneksi internet Anda. Temukan langkah-langkah, pengaturan, dan tips untuk memaksimalkan penggunaan bandwidth dengan efisien.</p>
-</blockquote>
-
-<h2 id="pengenalan-load-balancing-di-openwrt">Pengenalan Load Balancing di OpenWRT</h2>
-
-<p>Load balancing adalah teknik yang digunakan untuk mendistribusikan lalu lintas jaringan secara merata ke beberapa jalur koneksi internet. Dengan menggunakan OpenWRT, Anda dapat mengoptimalkan koneksi internet Anda dengan membagi beban lalu lintas ke beberapa jalur secara efisien.</p>
-
-<h3 id="langkah-langkah-mengaktifkan-load-balancing-di-openwrt">Langkah-langkah Mengaktifkan Load Balancing di OpenWRT</h3>
-
-<p>Pertama, pastikan Anda telah menginstal OpenWRT pada router Anda dan memiliki akses ke antarmuka web LuCI. Selanjutnya, buka antarmuka LuCI dan masuk ke bagian Network &gt; Load Balancing. Di sini, Anda dapat mengatur pengaturan load balancing sesuai dengan preferensi Anda, seperti memilih jalur koneksi yang akan digunakan dan mengatur bobot lalu lintas untuk setiap jalur.</p>
-
-<h3 id="mengatur-pengaturan-load-balancing">Mengatur Pengaturan Load Balancing</h3>
-
-<p>Setelah mengaktifkan load balancing, pastikan untuk mengatur pengaturan yang sesuai dengan kebutuhan Anda. Anda dapat mengatur prioritas koneksi internet, mengatur batas bandwidth untuk setiap jalur, dan memantau kinerja load balancing melalui antarmuka LuCI.</p>
-
-<h3 id="mengoptimalkan-koneksi-internet-dengan-load-balancing">Mengoptimalkan Koneksi Internet dengan Load Balancing</h3>
-
-<p>Dengan menggunakan load balancing di OpenWRT, Anda dapat mengoptimalkan koneksi internet Anda dengan memaksimalkan penggunaan jalur koneksi yang tersedia. Dengan membagi beban lalu lintas ke beberapa jalur, Anda dapat menghindari kemacetan jaringan dan meningkatkan kecepatan koneksi internet Anda secara signifikan.</p>
-
-<h3 id="memantau-kinerja-load-balancing">Memantau Kinerja Load Balancing</h3>
-
-<p>Penting untuk terus memantau kinerja load balancing di OpenWRT untuk memastikan bahwa pengaturan yang Anda lakukan berjalan dengan baik. Anda dapat melihat statistik lalu lintas, memeriksa penggunaan bandwidth, dan mengidentifikasi masalah potensial melalui antarmuka LuCI.</p>
-
-<h3 id="mengatasi-masalah-load-balancing">Mengatasi Masalah Load Balancing</h3>
-
-<p>Jika Anda mengalami masalah dengan load balancing di OpenWRT, pastikan untuk memeriksa pengaturan yang telah Anda lakukan dan melakukan troubleshooting yang diperlukan. Anda juga dapat mencari bantuan dari komunitas OpenWRT atau forum online untuk mendapatkan solusi yang tepat.</p>
-
-<h3 id="keuntungan-menggunakan-load-balancing-di-openwrt">Keuntungan Menggunakan Load Balancing di OpenWRT</h3>
-
-<p>Dengan menggunakan load balancing di OpenWRT, Anda dapat mengoptimalkan koneksi internet Anda, meningkatkan kecepatan dan keandalan koneksi, serta menghindari kemacetan jaringan. Dengan membagi beban lalu lintas ke beberapa jalur, Anda dapat memaksimalkan penggunaan bandwidth yang tersedia dan meningkatkan pengalaman internet Anda secara keseluruhan.</p>
-
-<h3 id="kesimpulan">Kesimpulan</h3>
-
-<p>Load balancing adalah teknik yang efektif untuk mengoptimalkan koneksi internet Anda dengan membagi beban lalu lintas ke beberapa jalur koneksi. Dengan menggunakan OpenWRT, Anda dapat mengaktifkan load balancing dengan mudah dan mengatur pengaturan sesuai dengan kebutuhan Anda. Dengan memantau kinerja load balancing secara teratur, Anda dapat memastikan bahwa koneksi internet Anda berjalan lancar dan efisien.</p>]]></content><author><name>yusuf</name></author><category term="openwrt" /><summary type="html"><![CDATA[Pelajari cara mengaktifkan dan mengoptimalkan load balancing di OpenWRT untuk meningkatkan kecepatan dan keandalan koneksi internet Anda. Temukan langkah-langkah, pengaturan, dan tips untuk memaksimalkan penggunaan bandwidth dengan efisien.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/cara-loadbalance-di-openwrt.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/cara-loadbalance-di-openwrt.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mengatur Kouta Interface di Scheduled Tasks OpenWRT</title><link href="http://localhost:4000/mengatur-kouta-interface-di-scheduled-tasks-openwrt/" rel="alternate" type="text/html" title="Mengatur Kouta Interface di Scheduled Tasks OpenWRT" /><published>2024-05-20T00:00:00+00:00</published><updated>2024-05-20T00:00:00+00:00</updated><id>http://localhost:4000/mengatur-kouta-interface-di-scheduled-tasks-openwrt</id><content type="html" xml:base="http://localhost:4000/mengatur-kouta-interface-di-scheduled-tasks-openwrt/"><![CDATA[<blockquote>
+</ol>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Konfigurasi ini bisa untuk mode script dan juga mode meta. Sehingga konfigurasi ini multo fungsi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-open-clash-1dan2-modem.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-open-clash-1dan2-modem.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mengatur Kouta Interface di Scheduled Tasks OpenWRT</title><link href="http://localhost:4000/mengatur-kouta-interface-di-scheduled-tasks-openwrt/" rel="alternate" type="text/html" title="Mengatur Kouta Interface di Scheduled Tasks OpenWRT" /><published>2024-05-20T00:00:00+00:00</published><updated>2024-05-20T00:00:00+00:00</updated><id>http://localhost:4000/mengatur-kouta-interface-di-scheduled-tasks-openwrt</id><content type="html" xml:base="http://localhost:4000/mengatur-kouta-interface-di-scheduled-tasks-openwrt/"><![CDATA[<blockquote>
   <p>Pelajari cara mengatur kouta interface di Scheduled Tasks OpenWRT untuk mengelola penggunaan kouta dengan lebih efisien. Ikuti langkah-langkah di artikel ini untuk mengoptimalkan kinerja jaringan Anda.</p>
 </blockquote>
 
@@ -243,98 +243,105 @@
 
 <h2 id="kesimpulan">Kesimpulan</h2>
 
-<p>Mengatur kouta interface di Scheduled Tasks OpenWRT adalah langkah yang penting untuk mengelola penggunaan kouta dengan lebih efisien. Dengan mengikuti langkah-langkah di atas, Anda dapat dengan mudah mengatur kouta untuk interface yang Anda miliki dan memantau penggunaannya secara teratur. Dengan demikian, Anda dapat menghindari kelebihan penggunaan kouta dan mengoptimalkan kinerja jaringan Anda.</p>]]></content><author><name>yusuf</name></author><category term="openwrt" /><summary type="html"><![CDATA[Pelajari cara mengatur kouta interface di Scheduled Tasks OpenWRT untuk mengelola penggunaan kouta dengan lebih efisien. Ikuti langkah-langkah di artikel ini untuk mengoptimalkan kinerja jaringan Anda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/mengatur-kouta-interface-di-scheduled-tasks-openwrt.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/mengatur-kouta-interface-di-scheduled-tasks-openwrt.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">konfigurasi clash android simaster v1</title><link href="http://localhost:4000/konfigurasi-clash-android-simaster-v1/" rel="alternate" type="text/html" title="konfigurasi clash android simaster v1" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-clash-android-simaster-v1</id><content type="html" xml:base="http://localhost:4000/konfigurasi-clash-android-simaster-v1/"><![CDATA[<blockquote>
-  <p>Metode clash android sangat respondsive dan mudah untuk pengaturan di bandingkan clash versi yang lain nya.</p>
-</blockquote>
+<p>Mengatur kouta interface di Scheduled Tasks OpenWRT adalah langkah yang penting untuk mengelola penggunaan kouta dengan lebih efisien. Dengan mengikuti langkah-langkah di atas, Anda dapat dengan mudah mengatur kouta untuk interface yang Anda miliki dan memantau penggunaannya secara teratur. Dengan demikian, Anda dapat menghindari kelebihan penggunaan kouta dan mengoptimalkan kinerja jaringan Anda.</p>]]></content><author><name>yusuf</name></author><category term="openwrt" /><summary type="html"><![CDATA[Pelajari cara mengatur kouta interface di Scheduled Tasks OpenWRT untuk mengelola penggunaan kouta dengan lebih efisien. Ikuti langkah-langkah di artikel ini untuk mengoptimalkan kinerja jaringan Anda.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/mengatur-kouta-interface-di-scheduled-tasks-openwrt.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/mengatur-kouta-interface-di-scheduled-tasks-openwrt.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pencadangan Otomatis: Panduan Langkah demi Langkah untuk Otomatisasi OpenWRT</title><link href="http://localhost:4000/cadangkan-otomatisasi-openwrt/" rel="alternate" type="text/html" title="Pencadangan Otomatis: Panduan Langkah demi Langkah untuk Otomatisasi OpenWRT" /><published>2024-05-19T00:00:00+00:00</published><updated>2024-05-19T00:00:00+00:00</updated><id>http://localhost:4000/cadangkan-otomatisasi-openwrt</id><content type="html" xml:base="http://localhost:4000/cadangkan-otomatisasi-openwrt/"><![CDATA[<p>Di era digital saat ini, data adalah rajanya, dan kehilangan data bisa menjadi bencana besar. Bayangkan menghabiskan waktu berjam-jam untuk menyiapkan router, mengonfigurasi jaringan, dan menyempurnakan pengaturan Anda, hanya untuk menghapus semuanya dalam sekejap. Pemikiran itu saja sudah cukup untuk membuat para penggemar teknologi paling berpengalaman sekalipun merinding. Namun jangan takut, para pembaca yang budiman, karena kami memiliki solusi yang akan memberikan Anda ketenangan pikiran dan memastikan bahwa data berharga Anda aman dari nasib yang tidak dapat diprediksi. Masuk ke otomatisasi OpenWRT, alat canggih yang memungkinkan Anda menjadwalkan pencadangan otomatis konfigurasi router Anda, memastikan bahwa kerja keras Anda tidak pernah hilang. Dalam panduan komprehensif ini, kami akan memandu Anda melalui proses langkah demi langkah dalam menyiapkan otomatisasi OpenWRT, sehingga Anda dapat tenang mengetahui bahwa data Anda aman dan terlindungi.</p>
 
-<p>Pembahasan kali ini kita akan mengatur dan menjalankan <strong>konfigurasi clash</strong> pada <strong>android</strong> dari <strong>konfigurasi simaster</strong>.</p>
+<h2 id="pengenalan-openwrt-dan-pentingnya-backup">Pengenalan OpenWRT dan pentingnya backup</h2>
 
-<p>Mode ini khusus untuk mode <strong>script</strong> dan jika ingin mode <strong>rule</strong> maka anda wajib edit konfigurasi pada bagian <strong>mode</strong> terlebih dahulu.</p>
+<p>Dalam dunia jaringan, ada beberapa hal yang lebih penting daripada dengungan router, yang secara diam-diam menjaga perangkat kita tetap terhubung dan kehidupan online kita berjalan dengan lancar. Namun di balik layar, firmware router bekerja tanpa lelah untuk memastikan data mengalir dengan lancar dan aman. Di sinilah OpenWRT hadir – sebuah alternatif sumber terbuka yang kuat untuk firmware router tradisional. Dengan fleksibilitas dan kemampuan penyesuaiannya, OpenWRT telah menjadi favorit di kalangan penggemar jaringan dan profesional.</p>
 
-<p>File yang perlu anda siapkan sudah kami sediakan. Jadi anda bisa menggunakan nya:</p>
+<p>Namun, dengan kekuatan yang besar, terdapat pula tanggung jawab yang besar pula. Saat kami mengubah dan menyempurnakan router kami untuk mencapai pengaturan yang sempurna, mudah untuk mengabaikan aspek penting dari manajemen router: pencadangan. Satu kesalahan langkah, konfigurasi yang salah, atau pemadaman listrik secara tiba-tiba dapat menghapus semua kerja keras kita, meninggalkan kita dengan router yang sama bergunanya dengan batu bata. Di sinilah pencadangan otomatis berperan – jaring pengaman yang memastikan konfigurasi kami aman dan dapat dengan mudah dipulihkan jika terjadi bencana. Dalam panduan ini, kami akan membawa Anda pada perjalanan langkah demi langkah untuk mengotomatiskan pencadangan pada router OpenWRT Anda, memberi Anda ketenangan pikiran karena mengetahui pengaturan router Anda tersimpan dengan aman, siap untuk dipulihkan kapan saja. melihat.</p>
 
-<ul>
-  <li>File <a href="/apk-cfa">Clash For Android APK</a></li>
-  <li>File <a href="/simaster-android-v1">Konfigurasi Simaster Android V1</a></li>
-</ul>
+<h2 id="menyiapkan-openwrt-di-router-anda">Menyiapkan OpenWRT di router Anda</h2>
 
-<p>Jika sudah memiliki kedua file di atas mari kita lanjutkan tutorial ini.</p>
+<p>Saat Anda memulai perjalanan menuju pencadangan otomatis, langkah penting pertama adalah mengatur OpenWRT di router Anda. Firmware sumber terbuka ini adalah tulang punggung sistem otomasi Anda, dan dengan itu, Anda akan dapat membuka potensi penuh dari router Anda. Bayangkan memiliki perangkat yang kuat, dapat disesuaikan, dan sangat dapat dikonfigurasi yang dapat disesuaikan dengan kebutuhan spesifik Anda.</p>
 
-<ol>
-  <li>Silahkan untuk untuk <strong>ekstrak</strong> kedua file tersebut.</li>
-  <li>Install aplikasi <strong>Clash For Android Premium Universal</strong>.</li>
-  <li>Edit akun kalian terlebih dahulu di folder <strong>Proxy Provider</strong>, Jika belum mengerti bisa anda lihat <a href="https://yusuftutorial.xyz/file/">Disini</a> kemudian simpan.</li>
-  <li>Kemudian masuk ke aplikasi.</li>
-  <li>Buka menu <strong>Profile</strong>.</li>
-  <li>Tekan tanda <strong>+</strong> Lalu pilih <strong>File</strong>.</li>
-  <li>Buat nama sendiri kemudian pilih <strong>Browser File</strong></li>
-  <li>pada <strong>Configuration</strong> klik icon <strong>titik tiga</strong> pada kanan nya lalu pilih <strong>Import</strong>.</li>
-  <li>Pilih folder <strong>configuration</strong> kemudian pilih file <strong>simaster android.yaml</strong></li>
-  <li>Pilih <strong>Provider Files</strong> lalu tekan lagi icon <strong>+</strong> dan masukkan semua file dalam folder <strong>proxy provider</strong> dan folder <strong>rule provider</strong> satu per satu.</li>
-  <li>Jika sudah sudah semua terisi kita langsung tekan tombol kembali 2x kemudian tekan icon <strong>disk</strong> atau tombol save pojok kanan atas untuk simpan settingan.</li>
-  <li>Jika udah beres kita tekan icon di samping nama profile yang udah kita buat lalu kembali.</li>
-  <li>Dan terakhir kita tekan saja langsung ** Tap to start** untuk memulai clash for android.</li>
-</ol>
+<p>Untuk memulai, Anda harus memilih versi OpenWRT yang tepat untuk router Anda. Ini mungkin tampak menakutkan, tapi jangan takut! Situs web OpenWRT menyediakan daftar lengkap perangkat yang didukung, sehingga memudahkan untuk menemukan perangkat yang cocok untuk router Anda. Setelah Anda mengunduh gambar yang benar, Anda perlu mem-flash-nya ke router Anda. Proses ini relatif mudah, tetapi pastikan untuk mengikuti petunjuknya dengan cermat untuk menghindari potensi kesalahan.</p>
 
-<p>Sekarang anda sudah bisa berinternet dari config cfa simaster versi 1.</p>
+<p>Ketika OpenWRT berhasil diinstal, Anda akan disambut oleh antarmuka web yang ramping dan intuitif, yang dikenal sebagai LuCI. Di sinilah keajaiban terjadi, dan Anda akan dapat mengonfigurasi router sesuai keinginan Anda. Dari menyiapkan pengaturan jaringan dasar hingga mengonfigurasi fitur-fitur canggih seperti Quality of Service (QoS) dan VPN, LuCI menyediakan antarmuka ramah pengguna yang memudahkan navigasi dunia OpenWRT.</p>
 
-<p>Untuk versi config magisk, anda bisa melihat <a href="/konfigurasi-clash-magisk-simaster-v1">Disini</a>.</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Metode clash android sangat respondsive dan mudah untuk pengaturan di bandingkan clash versi yang lain nya.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-cfa-simaster-v1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-cfa-simaster-v1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">konfigurasi cfw simaster v1</title><link href="http://localhost:4000/konfigurasi-cfw-simaster-v1/" rel="alternate" type="text/html" title="konfigurasi cfw simaster v1" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-cfw-simaster-v1</id><content type="html" xml:base="http://localhost:4000/konfigurasi-cfw-simaster-v1/"><![CDATA[<p><strong>Untuk install clash windows</strong></p>
+<p>Saat Anda mempelajari lebih dalam dunia OpenWRT, Anda akan menemukan beragam plugin dan paket yang dapat diinstal untuk memperluas fungsionalitas router Anda. Dari alat pemantauan jaringan hingga skrip otomatisasi, kemungkinannya tidak terbatas. Dan dengan komunitas OpenWRT yang terus-menerus mengeluarkan pembaruan dan fitur baru, Anda dapat yakin bahwa router Anda akan tetap mutakhir dan aman.</p>
 
-<p>ada beberapa syarat yang perlu anda ketahui terlebih dahulu:</p>
+<p>Dengan OpenWRT aktif dan berjalan, Anda akan siap untuk mengambil langkah berikutnya dalam perjalanan otomatisasi Anda: mengonfigurasi router Anda untuk mencadangkan file Anda secara otomatis. Namun untuk saat ini, luangkan waktu sejenak untuk menghargai kekuatan dan fleksibilitas yang dihadirkan OpenWRT pada router Anda. Anda selangkah lebih dekat untuk mencapai kemudahan pencadangan otomatis.</p>
 
-<ol>
-  <li>Operasional sistem 32 bit atau 64 bit</li>
-  <li>Bisa menggunakan windows 7, 8, 10</li>
-  <li>Minimal RAM 2Gb untuk menghindari jalanya RAM mencapai penuh</li>
-  <li>Minimal Hard Disk sebesar 320Gb</li>
-  <li>Partisi drive C harus minimal 100Gb dan system 80Gb untuk menhindari CPU naik 100% persen.</li>
-</ol>
+<h2 id="memahami-dasar-dasar-otomatisasi-openwrt">Memahami dasar-dasar otomatisasi OpenWRT</h2>
 
-<h2 id="download-aplikasi-cfw">Download aplikasi CFW</h2>
+<p>Saat Anda memulai perjalanan untuk mengotomatiskan pencadangan Anda dengan OpenWRT, penting untuk memahami konsep dasar yang mendasari firmware router sumber terbuka yang kuat ini. Pada intinya, OpenWRT adalah sistem operasi berbasis Linux yang memungkinkan Anda membuka potensi penuh router Anda, mengubahnya menjadi hub jaringan yang serbaguna dan dapat disesuaikan. Untuk memanfaatkan kekuatan otomatisasi, Anda harus memahami bagaimana OpenWRT berinteraksi dengan perangkat keras router Anda dan cara menavigasi antarmuka berbasis web yang intuitif. Biasakan diri Anda dengan antarmuka web LuCI, yang berfungsi sebagai gerbang utama untuk mengonfigurasi dan menyesuaikan pengaturan OpenWRT Anda. Pelajari cara mengakses dan memodifikasi file sistem, memahami peran paket dan dependensi, serta menemukan berbagai alat dan skrip yang dapat dimanfaatkan untuk mengotomatisasi tugas. Dengan menguasai dasar-dasar ini, Anda akan diperlengkapi dengan baik untuk membuat sistem pencadangan yang lancar dan andal yang memastikan data penting Anda selalu terlindungi.</p>
 
-<p>Jika anda sudah mengetahui persyaratan nya, sekarang anda sudah bisa melewati langkah selanjutnya dengan menekan download <strong>CFW</strong> di bawah ini.</p>
+<h2 id="menginstal-paket-yang-diperlukan-untuk-otomatisasi">Menginstal paket yang diperlukan untuk otomatisasi</h2>
 
-<p><a href="https://www.mediafire.com/file/jr4hxgrxj2v5pne/simastercfw.zip/file">Download Disini</a></p>
+<p>Sekarang OpenWRT sudah aktif dan berjalan di router kita, saatnya menginstal paket yang diperlukan yang memungkinkan kita mengotomatiskan proses pencadangan. Di sinilah keajaiban terjadi, dan router kami berubah menjadi pusat otomatisasi yang kuat.</p>
 
-<h3 id="download-config-cfw">Download config CFW</h3>
+<p>Pada langkah ini, kita akan menginstal beberapa paket penting yang memungkinkan kita menjadwalkan dan menjalankan skrip cadangan. Paket pertama yang perlu kita instal adalah <code class="language-plaintext highlighter-rouge">cron</code>, yang merupakan penjadwal tugas berbasis waktu yang memungkinkan kita menjadwalkan skrip cadangan agar dijalankan pada interval tertentu. Selanjutnya, kita akan menginstal <code class="language-plaintext highlighter-rouge">rsync</code>, alat sinkronisasi file canggih yang akan membantu kita mentransfer file antara router dan perangkat penyimpanan cadangan.</p>
 
-<p>Untuk mendapatkan config dari <strong>Yusuf Tutorial Channel</strong>, anda hanya perlu menekan download di bawah ini.</p>
+<p>Untuk menginstal paket-paket ini, kita perlu mengakses antarmuka baris perintah (CLI) OpenWRT menggunakan alat seperti PuTTY atau emulator terminal bawaan di browser web kita. Setelah kita masuk, kita dapat menggunakan manajer paket <code class="language-plaintext highlighter-rouge">opkg</code> untuk menginstal paket yang diperlukan. Dengan beberapa perintah sederhana, kita akan dapat menginstal <code class="language-plaintext highlighter-rouge">cron</code> dan <code class="language-plaintext highlighter-rouge">rsync</code>, dan router kita akan siap melakukan tugas mengotomatisasi proses pencadangan kita.</p>
 
-<p><a href="https://sfile.mobi/aJZH6yG3oOp">Dowload Disini</a></p>
+<p>Pada akhir langkah ini, kita akan menginstal dan mengkonfigurasi semua paket yang diperlukan, dan kita akan siap untuk melanjutkan ke langkah berikutnya: membuat skrip cadangan.</p>
 
-<p>Jika sudah anda download, silahkan anda untuk melakukan <strong>ekstrak file</strong> formt <strong>zip</strong> ini</p>
+<h2 id="mengonfigurasi-skrip-cadangan">Mengonfigurasi skrip cadangan</h2>
 
-<h3 id="cara-pemasangan-config-di-cfw">Cara pemasangan config di CFW</h3>
+<p>Sekarang kita telah menyiapkan router OpenWRT dan menginstal paket yang diperlukan, sekarang saatnya untuk mengkonfigurasi skrip cadangan yang akan memastikan pengaturan router kita disimpan dengan aman. Di sinilah keajaiban terjadi, dan otomatisasi menjadi pusat perhatian.</p>
 
-<p>Untuk memasang config ini cara nya cukup mudah, anda hanya tinggal ikuti step dari saya:</p>
+<p>Pada langkah penting ini, kita akan membuat skrip yang akan berjalan secara otomatis pada interval yang telah ditentukan, menangkap status konfigurasi router saat ini dan mengirimkannya ke lokasi cadangan yang ditentukan. Artinya, meskipun terjadi bencana, dan pengaturan router kita hilang atau rusak, kita cukup memulihkan dari cadangan dan mengaktifkannya kembali dalam waktu singkat.</p>
 
-<ul>
-  <li>Silahkan anda copy kan semua file ini lalu paste kan ke <strong>C</strong> ke <strong>Users</strong> ke <strong>NAMA PENGGUNA ANDA</strong> ke <strong>.config</strong> ke <strong>clash</strong> ke <strong>profiles</strong>.</li>
-  <li>Setelah selesai anda copy paste, lalu file tadi anda masukkan juga ke <strong>CFW</strong> pada bagian <strong>Profile</strong>.</li>
-  <li>Import <strong>simaster.yaml</strong> ke dalam <strong>profile CFW</strong> nanti tinggal tekan tombol samping nama profil.</li>
-</ul>
+<p>Untuk mengkonfigurasi skrip cadangan, kita perlu mengedit file <code class="language-plaintext highlighter-rouge">/etc/crontabs/root</code>, yang bertanggung jawab untuk menjadwalkan tugas pada router OpenWRT kita. Menggunakan editor teks, seperti nano atau vim, kami akan menambahkan baris baru yang menentukan frekuensi dan perintah untuk skrip cadangan kami.</p>
 
-<h3 id="akun-yang-di-support-cfw">Akun yang di support CFW</h3>
+<p>Misalnya, jika kita ingin skrip kita dijalankan setiap hari pada jam 2 pagi, kita akan menambahkan baris berikut: <code class="language-plaintext highlighter-rouge">0 2 * * * /usr/bin/backup_script.sh</code>. Ini akan memastikan bahwa skrip kami berjalan setiap hari pada jam 2 pagi, menangkap pengaturan konfigurasi terbaru dan mengirimkannya ke lokasi cadangan kami.</p>
 
-<p><strong>Shadowsocks</strong>, <strong>Vmess TCP</strong>, <strong>Vmess WS</strong>, <strong>Socks5</strong>, <strong>Http</strong>, <strong>Trojan</strong>.</p>
+<p>Dengan skrip cadangan kami dikonfigurasi, kami dapat yakin bahwa pengaturan router OpenWRT kami disimpan dengan aman, dan kami dapat fokus pada hal-hal yang lebih mendesak, mengetahui bahwa router kami terlindungi dari kehilangan data.</p>
 
-<h3 id="jalur-outbonds">Jalur outbonds</h3>
+<h2 id="menyiapkan-jadwal-backup">Menyiapkan jadwal backup</h2>
 
-<p>Untuk jalur masuk internet agar <strong>CFW</strong> dapat bekerja bisa melalui <strong>LAN</strong>, <strong>Modem usb</strong>, atau bisa melewati <strong>Wifi pada modem</strong>.</p>
+<p>Sekarang kita telah mengkonfigurasi router OpenWRT untuk terhubung ke server cadangan jarak jauh, sekarang saatnya untuk mengatur jadwal cadangan yang memastikan pengaturan router kita disimpan dengan aman secara berkala. Di sinilah keajaiban otomatisasi menjadi nyata. Bayangkan Anda merasa tenang karena konfigurasi router Anda dicadangkan secara otomatis, tanpa Anda harus melakukan apa pun. Dengan adanya jadwal pencadangan, Anda akan terlindungi dari kegagalan router yang tidak terduga, pembaruan firmware yang salah, atau bahkan kesalahan konfigurasi yang sesekali terjadi.</p>
 
-<h3 id="jalur-inbonds">Jalur Inbonds</h3>
+<p>Untuk mengatur jadwal pencadangan, kita akan menggunakan penjadwal tugas cron bawaan OpenWRT, yang memungkinkan kita menentukan kapan dan seberapa sering kita ingin pencadangan dijalankan. Anggap saja sebagai pengingat router Anda untuk menyimpan kemajuannya pada waktu tertentu setiap hari. Dengan beberapa perintah sederhana, kami akan mengkonfigurasi router kami untuk secara otomatis menjalankan skrip cadangan pada waktu yang kami pilih, memastikan bahwa pengaturan kami disimpan dengan aman di cloud. Di akhir bagian ini, Anda akan memiliki sistem pencadangan otomatis yang memberi Anda kebebasan untuk fokus pada hal-hal yang lebih penting – seperti menikmati rasa keamanan pencadangan yang baru Anda temukan.</p>
 
-<p>Agar internet yang di hasilkan oleh <strong>CFW</strong> bisa di bagikan ke device yang lain.</p>
+<h2 id="mengotomatiskan-penyimpanan-cadangan-ke-cloud">Mengotomatiskan penyimpanan cadangan ke cloud</h2>
 
-<p>Bagi anda pengguna <strong>windows10</strong> khusus nya, anda bisa membagikan nya kembali melalui jalur <strong>hotspot</strong> bawaan dari <strong>windows10</strong>.</p>
+<p>Batas akhir dari pencadangan: mengotomatiskan penyimpanan ke cloud. Di sinilah segalanya bertemu, dan router OpenWRT Anda menjadi pembangkit tenaga listrik yang dapat diatur dan dilupakan. Bayangkan cadangan berharga Anda tersimpan dengan aman di cloud, dapat diakses dari mana saja, dan terlindungi dari kegagalan perangkat keras atau kerusakan fisik. Dengan kemampuan otomatisasi OpenWRT, Anda dapat mewujudkannya.</p>
 
-<p>Kini sekarang anda bisa mengggunakan script <strong>config CFW</strong> dari <strong>Yusuf Tutorial Channel</strong>.</p>
+<p>Pada langkah ini, kita akan menjelajahi proses menghubungkan router OpenWRT Anda ke layanan penyimpanan cloud populer seperti Amazon S3, Google Cloud Storage, atau Microsoft Azure Blob Storage. Ini akan memungkinkan Anda menyimpan cadangan di lingkungan yang aman, berlebihan, dan terukur, sehingga membebaskan Anda dari keterbatasan penyimpanan lokal. Dengan penyimpanan cadangan cloud otomatis, Anda dapat yakin bahwa data Anda terlindungi, dan Anda dapat fokus pada hal-hal yang lebih mendesak – seperti menikmati ketenangan pikiran karena mengetahui data Anda aman.</p>
 
-<p>Jika Tutorial ini bermanfaat, anda bisa share ke sebanyak orang agar bisa bermanfaat sebagai mana mestinya.</p>
+<h2 id="menggunakan-tugas-cron-untuk-mengotomatiskan-pencadangan">Menggunakan tugas cron untuk mengotomatiskan pencadangan</h2>
 
-<p>Dan jangan lupa bagi yang belum subscribe silahkan di subcribe ya channel <strong>Yusuf Tutorial Channel</strong> ex youtube <strong>Master Wifi Network Solution</strong>.</p>
+<p>Dalam dunia otomatisasi, tugas cron adalah pahlawan tanpa tanda jasa yang bekerja tanpa kenal lelah di belakang layar untuk memastikan bahwa tugas Anda dijalankan dengan presisi dan keandalan. Dan dalam hal pencadangan otomatis, tugas cron adalah teman yang tepat untuk Anda. Dengan memanfaatkan kekuatan tugas cron, Anda dapat dengan mudah menjadwalkan pencadangan untuk dijalankan pada interval tertentu, sehingga membebaskan Anda dari tugas sehari-hari manajemen pencadangan manual.</p>
 
-<p>Sampai jumpa di tutorial selanjutnya</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Untuk install clash windows]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-cfw-simaster-v1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-cfw-simaster-v1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">konfigurasi clash magisk simaster v1</title><link href="http://localhost:4000/konfigurasi-clash-magisk-simaster-v1/" rel="alternate" type="text/html" title="konfigurasi clash magisk simaster v1" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-clash-magisk-simaster-v1</id><content type="html" xml:base="http://localhost:4000/konfigurasi-clash-magisk-simaster-v1/"><![CDATA[<blockquote>
+<p>Bayangkan bangun setiap pagi, mengetahui bahwa konfigurasi dan data router Anda telah dicadangkan dengan aman, siap untuk diambil jika terjadi kegagalan atau kecelakaan yang tidak terduga. Dengan tugas cron, Anda dapat mengatur pencadangan agar berjalan harian, mingguan, atau bulanan, bergantung pada kebutuhan dan preferensi spesifik Anda. Ini berarti Anda bisa tenang, mengetahui bahwa data Anda aman dan Anda dapat dengan cepat pulih dari bencana apa pun yang mungkin terjadi.</p>
+
+<p>Di bagian ini, kita akan mempelajari dunia cron jobs dan mengeksplorasi cara memanfaatkan kekuatannya untuk mengotomatiskan pencadangan OpenWRT Anda. Kami akan mengambil pendekatan langkah demi langkah untuk menyiapkan tugas cron, memastikan bahwa sebagian besar pengguna pemula pun dapat mengikutinya dengan mudah. Di akhir bagian ini, Anda akan segera menikmati manfaat pencadangan otomatis, berkat tugas cron.</p>
+
+<h2 id="konfigurasi-notifikasi-cadangan-melalui-email">Konfigurasi notifikasi cadangan melalui email</h2>
+
+<p>Sekarang setelah kami berhasil menyiapkan sistem pencadangan otomatis, penting untuk menerima pemberitahuan ketika proses selesai atau mengalami masalah apa pun. Di sinilah perlunya mengonfigurasi pemberitahuan pencadangan melalui email – sebuah langkah penting untuk memastikan bahwa Anda selalu mendapat informasi tentang status pencadangan Anda. Bayangkan bisa menerima email yang meyakinkan setiap kali pencadangan Anda berhasil diselesaikan, atau segera diberi tahu jika terjadi kegagalan, sehingga Anda dapat mengambil tindakan cepat. Dengan OpenWRT, Anda dapat dengan mudah mengatur notifikasi email agar Anda selalu mendapat informasi terbaru. Di bagian ini, kami akan memandu Anda melalui proses sederhana dalam mengonfigurasi router Anda untuk mengirim pemberitahuan email, memberi Anda tambahan rasa percaya diri dan ketenangan pikiran. Di akhir langkah ini, Anda akan dapat menerima notifikasi yang akan terus memberi Anda informasi tentang kemajuan pencadangan Anda, memastikan bahwa data Anda selalu aman dan terlindungi.</p>
+
+<h2 id="memecahkan-masalah-umum-pencadangan">Memecahkan masalah umum pencadangan</h2>
+
+<p>Rasa manis dari cadangan bisa dengan cepat berubah menjadi asam ketika masalah muncul. Jangan khawatir, kita semua pernah mengalaminya - sistem pencadangan otomatis yang seharusnya memberi Anda ketenangan pikiran kini menyebabkan lebih banyak tekanan dibandingkan sistem tanpa pencadangan sama sekali. Di bagian ini, kami akan membahas beberapa masalah paling umum yang mungkin Anda temui dan memberi Anda alat pemecahan masalah agar sistem cadangan Anda kembali ke jalurnya.</p>
+
+<p>Dari pesan kesalahan samar hingga kerusakan file misterius, kami akan mendalami masalah paling umum yang dapat membuat sistem pencadangan Anda terhenti. Baik itu skrip yang salah dikonfigurasi, perangkat penyimpanan yang rusak, atau bug perangkat lunak, kami akan memandu Anda melalui proses mengidentifikasi dan menyelesaikan masalah tersebut. Dengan teknik pemecahan masalah ini, Anda akan dapat mendiagnosis dan memperbaiki masalah umum, memastikan sistem cadangan Anda tetap andal dan efisien.</p>
+
+<p>Di akhir bagian ini, Anda akan dibekali dengan pengetahuan untuk mengatasi masalah pencadangan yang paling sulit sekalipun, dan sistem otomasi OpenWRT Anda akan berjalan dengan lancar, memberi Anda manfaat pencadangan yang pantas Anda dapatkan.</p>
+
+<h2 id="tip-dan-trik-untuk-menyesuaikan-skrip-cadangan-anda">Tip dan trik untuk menyesuaikan skrip cadangan Anda</h2>
+
+<p>Kini setelah Anda berhasil menyiapkan sistem pencadangan otomatis, sekarang saatnya membawanya ke tingkat berikutnya dengan menyesuaikan skrip pencadangan agar sesuai dengan kebutuhan spesifik Anda. Di sinilah keajaiban terjadi, dan Anda dapat menyesuaikan proses pencadangan untuk memastikan proses tersebut bekerja secara efisien dan efektif untuk pengaturan unik Anda.</p>
+
+<p>Salah satu aspek paling kuat dari OpenWRT adalah kemampuannya untuk disesuaikan hingga tingkat yang terperinci. Dengan mendalami skrip, Anda dapat mengubah frekuensi pencadangan, penyertaan file, dan bahkan menambahkan pemberitahuan khusus untuk memperingatkan Anda tentang masalah apa pun. Misalnya, Anda dapat mengatur skrip Anda untuk hanya mencadangkan direktori atau file tertentu, memastikan bahwa Anda tidak membuang-buang ruang penyimpanan yang berharga untuk data yang tidak diperlukan.</p>
+
+<p>Trik lain yang Anda miliki adalah kemampuan untuk mengintegrasikan skrip cadangan Anda dengan alat dan layanan OpenWRT lainnya. Bayangkan bisa memicu pencadangan setiap kali pembaruan firmware baru diinstal, atau secara otomatis mengunggah cadangan Anda ke layanan penyimpanan cloud seperti Amazon S3 atau Google Drive. Kemungkinannya tidak terbatas, dan dengan sedikit kreativitas, Anda dapat membuat sistem cadangan yang benar-benar disesuaikan dengan kebutuhan Anda.</p>
+
+<p>Di bagian ini, kami akan mendalami beberapa tip dan trik paling berguna untuk menyesuaikan skrip cadangan Anda, mulai dari penyesuaian sederhana hingga modifikasi lebih lanjut. Pada akhir ini, Anda akan siap untuk membuat sistem cadangan yang tidak hanya otomatis tetapi juga sangat disesuaikan dengan kebutuhan spesifik Anda.</p>
+
+<h2 id="mencapai-pencadangan-otomatis-dengan-openwrt">Mencapai pencadangan otomatis dengan OpenWRT</h2>
+
+<p>Kesimpulan: Rasa manis dari pencadangan otomatis! Dengan OpenWRT, Anda akhirnya mencapai ketenangan pikiran, mengetahui bahwa pengaturan dan konfigurasi router Anda yang berharga disimpan dengan aman, terlindungi dari ketidakpastian dunia digital. Tidak ada lagi malam tanpa tidur yang mengkhawatirkan kehilangan data atau waktu berjam-jam yang dihabiskan untuk mengkonfigurasi ulang router Anda dari awal.</p>
+
+<p>Sepanjang panduan ini, Anda telah melakukan perjalanan dari masalah pencadangan manual ke kemudahan pencadangan otomatis. Anda telah menguasai seni mengatur OpenWRT, mengkonfigurasi router Anda, dan menjadwalkan pencadangan otomatis. Pengaturan router Anda sekarang telah dicadangkan dengan aman ke lokasi yang aman, siap untuk dipulihkan kapan saja.</p>
+
+<p>Dengan kebebasan baru ini, Anda dapat fokus pada hal-hal yang lebih mendesak, seperti mengoptimalkan kinerja jaringan Anda atau menjelajahi dunia opsi penyesuaian OpenWRT yang luas. Router Anda, yang dulunya merupakan sumber kekhawatiran, telah menjadi sekutu tepercaya, bekerja di latar belakang, merasa aman karena mengetahui bahwa pengaturannya dicadangkan dengan aman.</p>
+
+<p>Jadi, silakan, tarik napas dalam-dalam, dan nikmati kemuliaan cadangan otomatis. Anda telah mendapatkannya!</p>
+
+<p>Dengan adanya konfigurasi akhir, kini Anda dapat menikmati kehebatan pencadangan otomatis, mengetahui bahwa data berharga Anda diamankan dengan aman dan mudah dipulihkan jika terjadi bencana. Dengan mengikuti panduan langkah demi langkah yang diuraikan dalam posting ini, Anda telah berhasil memanfaatkan kekuatan otomatisasi OpenWRT untuk melindungi jaringan Anda dan membebaskan diri Anda dari tugas pencadangan manual yang membosankan. Saat Anda menikmati ketenangan pikiran yang hadir dengan sistem pencadangan yang sepenuhnya otomatis, ingatlah untuk meluangkan waktu sejenak untuk menghargai keindahan teknologi yang bekerja untuk Anda, bukan sebaliknya.</p>]]></content><author><name>yusuf</name></author><category term="openwrt" /><summary type="html"><![CDATA[Di era digital saat ini, data adalah rajanya, dan kehilangan data bisa menjadi bencana besar. Bayangkan menghabiskan waktu berjam-jam untuk menyiapkan router, mengonfigurasi jaringan, dan menyempurnakan pengaturan Anda, hanya untuk menghapus semuanya dalam sekejap. Pemikiran itu saja sudah cukup untuk membuat para penggemar teknologi paling berpengalaman sekalipun merinding. Namun jangan takut, para pembaca yang budiman, karena kami memiliki solusi yang akan memberikan Anda ketenangan pikiran dan memastikan bahwa data berharga Anda aman dari nasib yang tidak dapat diprediksi. Masuk ke otomatisasi OpenWRT, alat canggih yang memungkinkan Anda menjadwalkan pencadangan otomatis konfigurasi router Anda, memastikan bahwa kerja keras Anda tidak pernah hilang. Dalam panduan komprehensif ini, kami akan memandu Anda melalui proses langkah demi langkah dalam menyiapkan otomatisasi OpenWRT, sehingga Anda dapat tenang mengetahui bahwa data Anda aman dan terlindungi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/cadangkan-otomatisasi-openwrt.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/cadangkan-otomatisasi-openwrt.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">konfigurasi clash magisk simaster v1</title><link href="http://localhost:4000/konfigurasi-clash-magisk-simaster-v1/" rel="alternate" type="text/html" title="konfigurasi clash magisk simaster v1" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-clash-magisk-simaster-v1</id><content type="html" xml:base="http://localhost:4000/konfigurasi-clash-magisk-simaster-v1/"><![CDATA[<blockquote>
   <p>Konfigurasi ini khusus untuk mode script dengan tproxy tanpa mode tun di karenakan tun platform masih hanya untuk arm64 v8.</p>
 </blockquote>
 
@@ -378,7 +385,42 @@
 
 <p>Dan sebagai langkah akhir, mari kita masuk ke aplikasi <code class="language-plaintext highlighter-rouge">Magisk manager</code> lalu tekan tanda ikon melingkar ke kiri kemudian pilih mulai ulang.</p>
 
-<p>Tunggu beberapa saat hp kalian reboot dan kini konfigurasi simaster magisk versi 1 sudah bisa kalian nikmati untuk akses internet.</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Konfigurasi ini khusus untuk mode script dengan tproxy tanpa mode tun di karenakan tun platform masih hanya untuk arm64 v8.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-cfm-simaster-v1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-cfm-simaster-v1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Membuat akun clash</title><link href="http://localhost:4000/membuat-akun-clash/" rel="alternate" type="text/html" title="Membuat akun clash" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/membuat-akun-clash</id><content type="html" xml:base="http://localhost:4000/membuat-akun-clash/"><![CDATA[<blockquote>
+<p>Tunggu beberapa saat hp kalian reboot dan kini konfigurasi simaster magisk versi 1 sudah bisa kalian nikmati untuk akses internet.</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Konfigurasi ini khusus untuk mode script dengan tproxy tanpa mode tun di karenakan tun platform masih hanya untuk arm64 v8.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-cfm-simaster-v1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-cfm-simaster-v1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">konfigurasi clash android simaster v1</title><link href="http://localhost:4000/konfigurasi-clash-android-simaster-v1/" rel="alternate" type="text/html" title="konfigurasi clash android simaster v1" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-clash-android-simaster-v1</id><content type="html" xml:base="http://localhost:4000/konfigurasi-clash-android-simaster-v1/"><![CDATA[<blockquote>
+  <p>Metode clash android sangat respondsive dan mudah untuk pengaturan di bandingkan clash versi yang lain nya.</p>
+</blockquote>
+
+<p>Pembahasan kali ini kita akan mengatur dan menjalankan <strong>konfigurasi clash</strong> pada <strong>android</strong> dari <strong>konfigurasi simaster</strong>.</p>
+
+<p>Mode ini khusus untuk mode <strong>script</strong> dan jika ingin mode <strong>rule</strong> maka anda wajib edit konfigurasi pada bagian <strong>mode</strong> terlebih dahulu.</p>
+
+<p>File yang perlu anda siapkan sudah kami sediakan. Jadi anda bisa menggunakan nya:</p>
+
+<ul>
+  <li>File <a href="/apk-cfa">Clash For Android APK</a></li>
+  <li>File <a href="/simaster-android-v1">Konfigurasi Simaster Android V1</a></li>
+</ul>
+
+<p>Jika sudah memiliki kedua file di atas mari kita lanjutkan tutorial ini.</p>
+
+<ol>
+  <li>Silahkan untuk untuk <strong>ekstrak</strong> kedua file tersebut.</li>
+  <li>Install aplikasi <strong>Clash For Android Premium Universal</strong>.</li>
+  <li>Edit akun kalian terlebih dahulu di folder <strong>Proxy Provider</strong>, Jika belum mengerti bisa anda lihat <a href="https://yusuftutorial.xyz/file/">Disini</a> kemudian simpan.</li>
+  <li>Kemudian masuk ke aplikasi.</li>
+  <li>Buka menu <strong>Profile</strong>.</li>
+  <li>Tekan tanda <strong>+</strong> Lalu pilih <strong>File</strong>.</li>
+  <li>Buat nama sendiri kemudian pilih <strong>Browser File</strong></li>
+  <li>pada <strong>Configuration</strong> klik icon <strong>titik tiga</strong> pada kanan nya lalu pilih <strong>Import</strong>.</li>
+  <li>Pilih folder <strong>configuration</strong> kemudian pilih file <strong>simaster android.yaml</strong></li>
+  <li>Pilih <strong>Provider Files</strong> lalu tekan lagi icon <strong>+</strong> dan masukkan semua file dalam folder <strong>proxy provider</strong> dan folder <strong>rule provider</strong> satu per satu.</li>
+  <li>Jika sudah sudah semua terisi kita langsung tekan tombol kembali 2x kemudian tekan icon <strong>disk</strong> atau tombol save pojok kanan atas untuk simpan settingan.</li>
+  <li>Jika udah beres kita tekan icon di samping nama profile yang udah kita buat lalu kembali.</li>
+  <li>Dan terakhir kita tekan saja langsung ** Tap to start** untuk memulai clash for android.</li>
+</ol>
+
+<p>Sekarang anda sudah bisa berinternet dari config cfa simaster versi 1.</p>
+
+<p>Untuk versi config magisk, anda bisa melihat <a href="/konfigurasi-clash-magisk-simaster-v1">Disini</a>.</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Metode clash android sangat respondsive dan mudah untuk pengaturan di bandingkan clash versi yang lain nya.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-cfa-simaster-v1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-cfa-simaster-v1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Membuat akun clash</title><link href="http://localhost:4000/membuat-akun-clash/" rel="alternate" type="text/html" title="Membuat akun clash" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/membuat-akun-clash</id><content type="html" xml:base="http://localhost:4000/membuat-akun-clash/"><![CDATA[<blockquote>
   <p>Cara agar koneksi anda bisa berjalan dengan normal, maka diperlukan sebuah akun untuk memproses semua kinerja pada proxy provider hingga ke ruleset Antara Proxy Group dan Rule atau Script.</p>
 </blockquote>
 
@@ -704,7 +746,63 @@
   <li><a href="/windows">Clash For Windows</a></li>
 </ul>
 
-<p>Dan masih banyak yang lain nya untuk type Clash.</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Cara agar koneksi anda bisa berjalan dengan normal, maka diperlukan sebuah akun untuk memproses semua kinerja pada proxy provider hingga ke ruleset Antara Proxy Group dan Rule atau Script.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/membuat-akun-clash.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/membuat-akun-clash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Huawei manager versi 9 indonesia</title><link href="http://localhost:4000/huawei-manager-v9-indonesia/" rel="alternate" type="text/html" title="Huawei manager versi 9 indonesia" /><published>2024-01-30T00:00:00+00:00</published><updated>2024-01-30T00:00:00+00:00</updated><id>http://localhost:4000/huawei-manager-v9-indonesia</id><content type="html" xml:base="http://localhost:4000/huawei-manager-v9-indonesia/"><![CDATA[<h2 id="pengenalan-aplikasi">Pengenalan aplikasi</h2>
+<p>Dan masih banyak yang lain nya untuk type Clash.</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Cara agar koneksi anda bisa berjalan dengan normal, maka diperlukan sebuah akun untuk memproses semua kinerja pada proxy provider hingga ke ruleset Antara Proxy Group dan Rule atau Script.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/membuat-akun-clash.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/membuat-akun-clash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">konfigurasi cfw simaster v1</title><link href="http://localhost:4000/konfigurasi-cfw-simaster-v1/" rel="alternate" type="text/html" title="konfigurasi cfw simaster v1" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-cfw-simaster-v1</id><content type="html" xml:base="http://localhost:4000/konfigurasi-cfw-simaster-v1/"><![CDATA[<p><strong>Untuk install clash windows</strong></p>
+
+<p>ada beberapa syarat yang perlu anda ketahui terlebih dahulu:</p>
+
+<ol>
+  <li>Operasional sistem 32 bit atau 64 bit</li>
+  <li>Bisa menggunakan windows 7, 8, 10</li>
+  <li>Minimal RAM 2Gb untuk menghindari jalanya RAM mencapai penuh</li>
+  <li>Minimal Hard Disk sebesar 320Gb</li>
+  <li>Partisi drive C harus minimal 100Gb dan system 80Gb untuk menhindari CPU naik 100% persen.</li>
+</ol>
+
+<h2 id="download-aplikasi-cfw">Download aplikasi CFW</h2>
+
+<p>Jika anda sudah mengetahui persyaratan nya, sekarang anda sudah bisa melewati langkah selanjutnya dengan menekan download <strong>CFW</strong> di bawah ini.</p>
+
+<p><a href="https://www.mediafire.com/file/jr4hxgrxj2v5pne/simastercfw.zip/file">Download Disini</a></p>
+
+<h3 id="download-config-cfw">Download config CFW</h3>
+
+<p>Untuk mendapatkan config dari <strong>Yusuf Tutorial Channel</strong>, anda hanya perlu menekan download di bawah ini.</p>
+
+<p><a href="https://sfile.mobi/aJZH6yG3oOp">Dowload Disini</a></p>
+
+<p>Jika sudah anda download, silahkan anda untuk melakukan <strong>ekstrak file</strong> formt <strong>zip</strong> ini</p>
+
+<h3 id="cara-pemasangan-config-di-cfw">Cara pemasangan config di CFW</h3>
+
+<p>Untuk memasang config ini cara nya cukup mudah, anda hanya tinggal ikuti step dari saya:</p>
+
+<ul>
+  <li>Silahkan anda copy kan semua file ini lalu paste kan ke <strong>C</strong> ke <strong>Users</strong> ke <strong>NAMA PENGGUNA ANDA</strong> ke <strong>.config</strong> ke <strong>clash</strong> ke <strong>profiles</strong>.</li>
+  <li>Setelah selesai anda copy paste, lalu file tadi anda masukkan juga ke <strong>CFW</strong> pada bagian <strong>Profile</strong>.</li>
+  <li>Import <strong>simaster.yaml</strong> ke dalam <strong>profile CFW</strong> nanti tinggal tekan tombol samping nama profil.</li>
+</ul>
+
+<h3 id="akun-yang-di-support-cfw">Akun yang di support CFW</h3>
+
+<p><strong>Shadowsocks</strong>, <strong>Vmess TCP</strong>, <strong>Vmess WS</strong>, <strong>Socks5</strong>, <strong>Http</strong>, <strong>Trojan</strong>.</p>
+
+<h3 id="jalur-outbonds">Jalur outbonds</h3>
+
+<p>Untuk jalur masuk internet agar <strong>CFW</strong> dapat bekerja bisa melalui <strong>LAN</strong>, <strong>Modem usb</strong>, atau bisa melewati <strong>Wifi pada modem</strong>.</p>
+
+<h3 id="jalur-inbonds">Jalur Inbonds</h3>
+
+<p>Agar internet yang di hasilkan oleh <strong>CFW</strong> bisa di bagikan ke device yang lain.</p>
+
+<p>Bagi anda pengguna <strong>windows10</strong> khusus nya, anda bisa membagikan nya kembali melalui jalur <strong>hotspot</strong> bawaan dari <strong>windows10</strong>.</p>
+
+<p>Kini sekarang anda bisa mengggunakan script <strong>config CFW</strong> dari <strong>Yusuf Tutorial Channel</strong>.</p>
+
+<p>Jika Tutorial ini bermanfaat, anda bisa share ke sebanyak orang agar bisa bermanfaat sebagai mana mestinya.</p>
+
+<p>Dan jangan lupa bagi yang belum subscribe silahkan di subcribe ya channel <strong>Yusuf Tutorial Channel</strong> ex youtube <strong>Master Wifi Network Solution</strong>.</p>
+
+<p>Sampai jumpa di tutorial selanjutnya</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Untuk install clash windows]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-cfw-simaster-v1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-cfw-simaster-v1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Huawei manager versi 9 indonesia</title><link href="http://localhost:4000/huawei-manager-v9-indonesia/" rel="alternate" type="text/html" title="Huawei manager versi 9 indonesia" /><published>2024-01-30T00:00:00+00:00</published><updated>2024-01-30T00:00:00+00:00</updated><id>http://localhost:4000/huawei-manager-v9-indonesia</id><content type="html" xml:base="http://localhost:4000/huawei-manager-v9-indonesia/"><![CDATA[<h2 id="pengenalan-aplikasi">Pengenalan aplikasi</h2>
 
 <p>Sebelum anda menggunakan aplikasi yang saya buat khusus untuk modem huawei. Sebaiknya anda terlebih dahulu mengetahui kelebihan dan kekurangan pada aplikasi ini.</p>
 
@@ -735,32 +833,4 @@
   <p>Jadi anda sangat bergantung pada type perangkat android kalian karena disaat ini bagi pengguna android 14 masih belum bisa menggunakan nya karena kan anda kejanggalan pada sistem OS tersebut. Sehingga aplikasi ini tidak bisa untuk anda pasangkan.</p>
 </blockquote>
 
-<p>Sekian dulu dari saya, semoga bermanfaat bagi anda semua. dan jangan lupa untuk selalu mengikuti blog dan channel youtube saya agar anda tidak ketinggalan informasi update dari saya.</p>]]></content><author><name>yusuf</name></author><category term="aplikasi" /><summary type="html"><![CDATA[Pengenalan aplikasi]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/huawei-manager-v9.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/huawei-manager-v9.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Huawei Manager V8 Indonesia</title><link href="http://localhost:4000/huawei-manager-v8/" rel="alternate" type="text/html" title="Huawei Manager V8 Indonesia" /><published>2023-08-19T00:00:00+00:00</published><updated>2023-08-19T00:00:00+00:00</updated><id>http://localhost:4000/huawei-manager-v8</id><content type="html" xml:base="http://localhost:4000/huawei-manager-v8/"><![CDATA[<p>Aplikasi ini saya khususkan untuk modem gsm bukan untuk modem router untuk versi <code class="language-plaintext highlighter-rouge">hg8245h</code> atau sejenisnya.</p>
-
-<p>Akan tetapi untuk modem:</p>
-
-<ul>
-  <li>Hilink</li>
-  <li>Huawei Lte</li>
-  <li>Orbit</li>
-</ul>
-
-<h2 id="pemasangan">Pemasangan</h2>
-
-<p>Untuk mendapatkan aplikasi ini, anda wajib memenuhi syarat terlebih dahulu.</p>
-
-<p>Yaitu mengumpulkan semua kata yang ada dalam video di channel youtube saya di bawah ini.</p>
-
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/R80Ce6dBurg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe></p>
-
-<p>Atau langsung ke video channel youtube saya <a href="https://www.youtube.com/R80Ce6dBurg">Disini</a>.</p>
-
-<p>Lalu download file <a href="https://sfile.mobi/2SnbRsdPZmg">Disini</a>.</p>
-
-<h2 id="penggunaan">Penggunaan</h2>
-
-<p>Pastikan anda berada dalam jaringan wifi modem <code class="language-plaintext highlighter-rouge">huawei</code> atau modem <code class="language-plaintext highlighter-rouge">hilink</code> atau modem <code class="language-plaintext highlighter-rouge">orbit</code>.</p>
-
-<p>Kemudian anda masuk ke aplikasi dan lakukan pencocokan alamt <code class="language-plaintext highlighter-rouge">IP</code> dan juga <code class="language-plaintext highlighter-rouge">user</code> sama <code class="language-plaintext highlighter-rouge">password</code> di modem kalian di huawei manager.</p>
-
-<p>Untuk user <code class="language-plaintext highlighter-rouge">orbit</code> yaitu <code class="language-plaintext highlighter-rouge">Admin</code> dan password harus isikan dengan <code class="language-plaintext highlighter-rouge">password</code> yang modem kalian miliki.</p>]]></content><author><name>yusuf</name></author><category term="aplikasi" /><summary type="html"><![CDATA[Aplikasi ini saya khususkan untuk modem gsm bukan untuk modem router untuk versi hg8245h atau sejenisnya.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/huawei-manager-v8.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/huawei-manager-v8.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Sekian dulu dari saya, semoga bermanfaat bagi anda semua. dan jangan lupa untuk selalu mengikuti blog dan channel youtube saya agar anda tidak ketinggalan informasi update dari saya.</p>]]></content><author><name>yusuf</name></author><category term="aplikasi" /><summary type="html"><![CDATA[Pengenalan aplikasi]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/huawei-manager-v9.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/huawei-manager-v9.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
