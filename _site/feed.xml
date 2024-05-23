@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2024-05-23T06:57:31+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">YTC</title><author><name>yusuf</name></author><entry><title type="html">Panduan Lengkap Membuat Firmware OpenWRT untuk ARM64 V8</title><link href="http://localhost:4000/membuat-firmware-openwrt-arm64-v8/" rel="alternate" type="text/html" title="Panduan Lengkap Membuat Firmware OpenWRT untuk ARM64 V8" /><published>2024-05-22T00:00:00+00:00</published><updated>2024-05-22T00:00:00+00:00</updated><id>http://localhost:4000/membuat-firmware-openwrt-arm64-v8</id><content type="html" xml:base="http://localhost:4000/membuat-firmware-openwrt-arm64-v8/"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_us"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en_us" /><updated>2024-05-23T07:33:49+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">YTC</title><author><name>yusuf</name></author><entry><title type="html">Panduan Lengkap Membuat Firmware OpenWRT untuk ARM64 V8</title><link href="http://localhost:4000/membuat-firmware-openwrt-arm64-v8/" rel="alternate" type="text/html" title="Panduan Lengkap Membuat Firmware OpenWRT untuk ARM64 V8" /><published>2024-05-22T00:00:00+00:00</published><updated>2024-05-22T00:00:00+00:00</updated><id>http://localhost:4000/membuat-firmware-openwrt-arm64-v8</id><content type="html" xml:base="http://localhost:4000/membuat-firmware-openwrt-arm64-v8/"><![CDATA[<blockquote>
   <p>Pelajari langkah-langkah lengkap untuk membuat firmware OpenWRT kustom untuk perangkat ARM64 V8 Anda. Mulai dari konfigurasi awal hingga pemeliharaan dan pembaruan, panduan ini akan membantu Anda mengoptimalkan perangkat jaringan Anda dengan firmware yang disesuaikan.</p>
 </blockquote>
 
@@ -341,7 +341,116 @@
 
 <p>Jadi, silakan, tarik napas dalam-dalam, dan nikmati kemuliaan cadangan otomatis. Anda telah mendapatkannya!</p>
 
-<p>Dengan adanya konfigurasi akhir, kini Anda dapat menikmati kehebatan pencadangan otomatis, mengetahui bahwa data berharga Anda diamankan dengan aman dan mudah dipulihkan jika terjadi bencana. Dengan mengikuti panduan langkah demi langkah yang diuraikan dalam posting ini, Anda telah berhasil memanfaatkan kekuatan otomatisasi OpenWRT untuk melindungi jaringan Anda dan membebaskan diri Anda dari tugas pencadangan manual yang membosankan. Saat Anda menikmati ketenangan pikiran yang hadir dengan sistem pencadangan yang sepenuhnya otomatis, ingatlah untuk meluangkan waktu sejenak untuk menghargai keindahan teknologi yang bekerja untuk Anda, bukan sebaliknya.</p>]]></content><author><name>yusuf</name></author><category term="openwrt" /><summary type="html"><![CDATA[Di era digital saat ini, data adalah rajanya, dan kehilangan data bisa menjadi bencana besar. Bayangkan menghabiskan waktu berjam-jam untuk menyiapkan router, mengonfigurasi jaringan, dan menyempurnakan pengaturan Anda, hanya untuk menghapus semuanya dalam sekejap. Pemikiran itu saja sudah cukup untuk membuat para penggemar teknologi paling berpengalaman sekalipun merinding. Namun jangan takut, para pembaca yang budiman, karena kami memiliki solusi yang akan memberikan Anda ketenangan pikiran dan memastikan bahwa data berharga Anda aman dari nasib yang tidak dapat diprediksi. Masuk ke otomatisasi OpenWRT, alat canggih yang memungkinkan Anda menjadwalkan pencadangan otomatis konfigurasi router Anda, memastikan bahwa kerja keras Anda tidak pernah hilang. Dalam panduan komprehensif ini, kami akan memandu Anda melalui proses langkah demi langkah dalam menyiapkan otomatisasi OpenWRT, sehingga Anda dapat tenang mengetahui bahwa data Anda aman dan terlindungi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/cadangkan-otomatisasi-openwrt.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/cadangkan-otomatisasi-openwrt.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">konfigurasi clash magisk simaster v1</title><link href="http://localhost:4000/konfigurasi-clash-magisk-simaster-v1/" rel="alternate" type="text/html" title="konfigurasi clash magisk simaster v1" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-clash-magisk-simaster-v1</id><content type="html" xml:base="http://localhost:4000/konfigurasi-clash-magisk-simaster-v1/"><![CDATA[<blockquote>
+<p>Dengan adanya konfigurasi akhir, kini Anda dapat menikmati kehebatan pencadangan otomatis, mengetahui bahwa data berharga Anda diamankan dengan aman dan mudah dipulihkan jika terjadi bencana. Dengan mengikuti panduan langkah demi langkah yang diuraikan dalam posting ini, Anda telah berhasil memanfaatkan kekuatan otomatisasi OpenWRT untuk melindungi jaringan Anda dan membebaskan diri Anda dari tugas pencadangan manual yang membosankan. Saat Anda menikmati ketenangan pikiran yang hadir dengan sistem pencadangan yang sepenuhnya otomatis, ingatlah untuk meluangkan waktu sejenak untuk menghargai keindahan teknologi yang bekerja untuk Anda, bukan sebaliknya.</p>]]></content><author><name>yusuf</name></author><category term="openwrt" /><summary type="html"><![CDATA[Di era digital saat ini, data adalah rajanya, dan kehilangan data bisa menjadi bencana besar. Bayangkan menghabiskan waktu berjam-jam untuk menyiapkan router, mengonfigurasi jaringan, dan menyempurnakan pengaturan Anda, hanya untuk menghapus semuanya dalam sekejap. Pemikiran itu saja sudah cukup untuk membuat para penggemar teknologi paling berpengalaman sekalipun merinding. Namun jangan takut, para pembaca yang budiman, karena kami memiliki solusi yang akan memberikan Anda ketenangan pikiran dan memastikan bahwa data berharga Anda aman dari nasib yang tidak dapat diprediksi. Masuk ke otomatisasi OpenWRT, alat canggih yang memungkinkan Anda menjadwalkan pencadangan otomatis konfigurasi router Anda, memastikan bahwa kerja keras Anda tidak pernah hilang. Dalam panduan komprehensif ini, kami akan memandu Anda melalui proses langkah demi langkah dalam menyiapkan otomatisasi OpenWRT, sehingga Anda dapat tenang mengetahui bahwa data Anda aman dan terlindungi.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/cadangkan-otomatisasi-openwrt.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/cadangkan-otomatisasi-openwrt.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Membuka Kunci ZeroTier di OpenWRT: Panduan Langkah demi Langkah untuk Penerusan Port</title><link href="http://localhost:4000/langkah-untuk-penerusan-port/" rel="alternate" type="text/html" title="Membuka Kunci ZeroTier di OpenWRT: Panduan Langkah demi Langkah untuk Penerusan Port" /><published>2024-05-18T00:00:00+00:00</published><updated>2024-05-18T00:00:00+00:00</updated><id>http://localhost:4000/langkah-untuk-penerusan-port</id><content type="html" xml:base="http://localhost:4000/langkah-untuk-penerusan-port/"><![CDATA[<blockquote>
+  <p>Dalam dunia jaringan, fleksibilitas dan keamanan adalah yang terpenting. Bagi mereka yang telah memasuki dunia OpenWRT, firmware router sumber terbuka yang kuat, Anda mungkin tidak asing dengan kemungkinan tak terbatas yang ditawarkannya. Namun, saat mengonfigurasi ZeroTier, platform jaringan virtual revolusioner, prosesnya bisa menjadi sangat melelahkan. Penerusan port, sebuah aspek penting dari ZeroTier, memungkinkan komunikasi yang lancar antar perangkat, namun menyiapkannya bisa menjadi tugas yang menakutkan, terutama bagi mereka yang tidak memiliki keahlian jaringan yang luas. Jangan takut, pembaca yang budiman, karena panduan komprehensif ini hadir untuk mengungkap proses membuka kunci ZeroTier di OpenWRT. Dengan setiap langkah yang diuraikan dengan cermat, Anda akan dapat dengan mudah mengonfigurasi penerusan port, mengeluarkan potensi penuh dari jaringan virtual Anda, dan meningkatkan keamanan online Anda ke tingkat berikutnya.</p>
+</blockquote>
+
+<h3 id="pengenalan-zerotier-dan-openwrt">Pengenalan ZeroTier dan OpenWRT</h3>
+
+<p>Dalam dunia jaringan, hanya sedikit solusi yang menawarkan fleksibilitas dan keamanan yang disediakan oleh ZeroTier dan OpenWRT. ZeroTier, platform jaringan virtual revolusioner, memungkinkan pengguna membuat jaringan yang aman, terdesentralisasi, dan sangat dapat disesuaikan yang dapat menjangkau seluruh dunia. Di sisi lain, OpenWRT, firmware router sumber terbuka yang populer, memberdayakan pengguna untuk membuka potensi penuh dari router mereka, memberikan opsi kontrol dan penyesuaian yang tak tertandingi.</p>
+
+<p>Jika digabungkan, ZeroTier dan OpenWRT membentuk duo kuat yang dapat mengubah cara Anda mengelola dan mengamankan infrastruktur jaringan Anda. Dengan mengintegrasikan ZeroTier pada OpenWRT, Anda dapat menciptakan jaringan yang kuat, terukur, dan sangat aman yang memenuhi tuntutan jaringan modern. Namun, untuk membuka potensi penuh dari integrasi ini, Anda perlu mengonfigurasi penerusan port dengan benar – sebuah langkah penting yang dapat menjadi hal yang menakutkan bagi banyak pengguna.</p>
+
+<p>Dalam panduan komprehensif ini, kami akan memandu Anda dan memandu Anda melalui proses pengaturan ZeroTier di OpenWRT, dengan fokus khusus pada penerusan port. Baik Anda seorang administrator jaringan berpengalaman atau penggemar yang penasaran, panduan langkah demi langkah ini akan memberi Anda pengetahuan dan keahlian yang dibutuhkan untuk membuka potensi penuh ZeroTier di OpenWRT.</p>
+
+<h3 id="mengapa-menggunakan-zerotier-dengan-openwrt">Mengapa menggunakan ZeroTier dengan OpenWRT?</h3>
+
+<p>Di dunia yang saling terhubung saat ini, pentingnya konektivitas jaringan yang aman dan andal tidak dapat dipungkiri. Seiring dengan berkembangnya Internet of Things (IoT), kebutuhan akan solusi manajemen jaringan yang efisien dan fleksibel menjadi semakin mendesak. Di sinilah ZeroTier, platform jaringan virtual revolusioner, berperan. Dengan menggabungkan ZeroTier dengan OpenWRT, firmware router sumber terbuka yang populer, Anda dapat membuka solusi jaringan yang kuat dan sangat dapat disesuaikan.</p>
+
+<p>Manfaat menggunakan ZeroTier dengan OpenWRT sangat banyak. Dengan ZeroTier, Anda dapat membuat jaringan virtual yang tersebar di beberapa lokasi fisik, memungkinkan komunikasi dan pertukaran data antar perangkat menjadi lancar. Hal ini sangat berguna bagi pekerja jarak jauh, perangkat IoT, dan tim terdistribusi yang memerlukan akses yang aman dan andal ke sumber daya dan layanan. Selain itu, arsitektur terdesentralisasi ZeroTier dan enkripsi ujung ke ujung memastikan data Anda tetap aman dan pribadi, bahkan dalam menghadapi ancaman dunia maya yang semakin canggih.</p>
+
+<p>Dengan mengintegrasikan ZeroTier dengan OpenWRT, Anda dapat memanfaatkan kekuatan kedua platform untuk menciptakan solusi jaringan yang sangat kuat dan fleksibel. Pilihan penyesuaian OpenWRT yang luas dan repositori paket dan plugin berbasis komunitas yang luas memberikan landasan yang kuat untuk kemampuan jaringan virtual ZeroTier. Hasilnya adalah solusi jaringan yang kuat dan mudah beradaptasi yang dapat disesuaikan untuk memenuhi kebutuhan unik organisasi atau proyek pribadi Anda.</p>
+
+<h3 id="prasyarat-apa-yang-anda-perlukan-untuk-memulai">Prasyarat: Apa yang Anda perlukan untuk memulai</h3>
+
+<p>Sebelum terjun ke dunia ZeroTier dan OpenWRT, penting untuk memastikan Anda memiliki alat dan konfigurasi yang diperlukan. Agar berhasil membuka kekuatan ZeroTier pada router OpenWRT Anda, Anda harus memenuhi prasyarat berikut.</p>
+
+<p>Pertama dan terpenting, Anda memerlukan router yang kompatibel dengan OpenWRT. Ini mungkin tampak jelas, namun penting untuk memverifikasi bahwa router Anda didukung oleh firmware OpenWRT. Anda dapat memeriksa situs web resmi OpenWRT untuk daftar perangkat yang kompatibel.</p>
+
+<p>Selanjutnya, Anda harus memiliki pemahaman dasar tentang Linux dan antarmuka baris perintah. Meskipun panduan ini akan memandu Anda melalui setiap langkah, mengenal Linux akan membuat prosesnya lebih lancar.</p>
+
+<p>Selain itu, Anda harus memiliki akun ZeroTier dan jaringan yang dibuat. Jika Anda baru mengenal ZeroTier, luangkan waktu untuk menjelajahi situs web mereka dan membuat jaringan baru. Ini akan memberi Anda kredensial yang diperlukan untuk terhubung ke ZeroTier dari router OpenWRT Anda.</p>
+
+<p>Terakhir, pastikan Anda memiliki koneksi internet yang stabil dan komputer dengan browser web untuk mengakses halaman konfigurasi router Anda. Dengan prasyarat ini, Anda akan siap untuk mulai mengonfigurasi ZeroTier di router OpenWRT Anda dan membuka manfaat penerusan port.</p>
+
+<h3 id="menginstal-zerotier-di-openwrt">Menginstal ZeroTier di OpenWRT</h3>
+
+<p>Setelah dasar-dasarnya diletakkan, sekarang saatnya untuk menghadirkan ZeroTier ke dalamnya. Menginstal ZeroTier di OpenWRT adalah proses yang relatif mudah, namun memerlukan perhatian terhadap detail. Mulailah dengan mengakses antarmuka baris perintah (CLI) router OpenWRT Anda menggunakan alat seperti PuTTY atau klien SSH bawaan di terminal Anda. Setelah login, perbarui daftar paket dengan menjalankan perintah <code class="language-plaintext highlighter-rouge">opkg update</code>. Ini memastikan Anda memiliki akses ke repositori paket terbaru.</p>
+
+<p>Selanjutnya install ZeroTier dengan menjalankan perintah <code class="language-plaintext highlighter-rouge">opkg install zerotier</code>. Ini mungkin memakan waktu beberapa saat, tergantung pada koneksi internet Anda dan kecepatan router Anda. Saat paket diinstal, Anda akan melihat serangkaian perintah dan pembaruan status bergulir di terminal Anda. Bersabarlah dan biarkan prosesnya selesai.</p>
+
+<p>Setelah instalasi selesai, Anda harus memulai layanan ZeroTier dengan menjalankan perintah <code class="language-plaintext highlighter-rouge">/etc/init.d/zerotier start</code>. Ini akan menginisialisasi daemon ZeroTier, sehingga Anda dapat mengonfigurasi dan mengelola jaringan ZeroTier Anda. Untuk memastikan layanan dimulai secara otomatis saat boot, jalankan perintah <code class="language-plaintext highlighter-rouge">/etc/init.d/zerotier aktifkan</code>. Dengan ZeroTier yang sekarang terinstal dan berjalan di router OpenWRT Anda, Anda siap untuk melanjutkan ke langkah berikutnya: mengkonfigurasi jaringan Anda.</p>
+
+<h3 id="konfigurasi-zerotier-pada-openwrt">Konfigurasi ZeroTier pada OpenWRT</h3>
+
+<p>Sekarang kita telah berhasil menginstal ZeroTier pada perangkat OpenWRT kita, sekarang saatnya mengkonfigurasinya untuk memenuhi kebutuhan spesifik kita. Di sinilah keajaiban terjadi, dan kami akhirnya dapat mengakses perangkat jarak jauh seolah-olah perangkat tersebut berada di jaringan lokal yang sama. Untuk melakukan ini, kita perlu menavigasi ke antarmuka web ZeroTier, yang dapat diakses dengan mengunjungi <code class="language-plaintext highlighter-rouge">http://:9993</code> di browser web Anda. Ganti `` dengan alamat IP router OpenWRT Anda.</p>
+
+<p>Setelah Anda masuk, Anda akan disajikan dasbor yang menampilkan gambaran umum jaringan ZeroTier Anda. Klik pada tab “Jaringan”, lalu pilih jaringan yang Anda buat sebelumnya. Ini akan membawa Anda ke halaman pengaturan jaringan, di mana Anda perlu mengkonfigurasi pengaturan jaringan Anda, seperti mengatur nama jaringan, deskripsi, dan mengkonfigurasi jenis jaringan.</p>
+
+<p>Salah satu pengaturan terpenting untuk dikonfigurasi adalah pengaturan “Rute”, yang menentukan bagaimana lalu lintas dirutekan antara jaringan ZeroTier Anda dan internet. Untuk tujuan kami, kami ingin memilih “Routed” sebagai jenis jaringan, yang memungkinkan kami mengakses perangkat jarak jauh seolah-olah perangkat tersebut berada di jaringan lokal yang sama.</p>
+
+<p>Dengan pengaturan ini, kami sekarang siap untuk melanjutkan ke langkah terakhir: mengonfigurasi penerusan port untuk memungkinkan lalu lintas masuk menjangkau perangkat jarak jauh kami.</p>
+
+<h3 id="memahami-arsitektur-jaringan-zerotier">Memahami arsitektur jaringan ZeroTier</h3>
+
+<p>Sebelum kita menyelami seluk beluk penerusan port pada OpenWRT, penting untuk memahami arsitektur yang mendasari jaringan ZeroTier. ZeroTier adalah VPN terdesentralisasi dan peer-to-peer yang memungkinkan komunikasi aman dan latensi rendah antar perangkat. Pada intinya, ZeroTier beroperasi pada infrastruktur jaringan virtual, yang dibagi menjadi tiga lapisan berbeda: jaringan fisik, jaringan virtual, dan jaringan layanan.</p>
+
+<p>Jaringan fisik mengacu pada infrastruktur yang mendasarinya, yang terdiri dari router, switch, dan perangkat lain yang memfasilitasi komunikasi antar node. Jaringan virtual, di sisi lain, adalah hamparan logis yang ada di atas jaringan fisik, memungkinkan perangkat untuk berkomunikasi satu sama lain seolah-olah mereka terhubung langsung. Di sinilah keajaiban ZeroTier terjadi, karena memungkinkan perangkat untuk bergabung dan berpartisipasi dalam jaringan virtual, terlepas dari lokasi fisiknya.</p>
+
+<p>Jaringan layanan merupakan lapisan tertinggi yang bertanggung jawab menyediakan layanan jaringan dan mengatur arus lalu lintas antar perangkat. Di sinilah pengontrol jaringan ZeroTier berperan, bertindak sebagai otak operasi dan mengatur seluruh jaringan. Dengan memahami bagaimana lapisan-lapisan ini berinteraksi dan berpotongan, Anda akan lebih siap untuk mengonfigurasi dan mengoptimalkan pengaturan ZeroTier Anda di OpenWRT, memastikan penerusan port yang lancar dan infrastruktur jaringan yang kuat dan aman.</p>
+
+<h3 id="menyiapkan-port-forwarding-pada-openwrt">Menyiapkan Port Forwarding pada OpenWRT</h3>
+
+<p>Sekarang kita telah berhasil membangun jaringan ZeroTier di router OpenWRT kita, sekarang saatnya untuk mengambil langkah penting berikutnya: menyiapkan penerusan port. Di sinilah keajaiban terjadi, memungkinkan kami mengakses perangkat dan layanan kami dari jarak jauh melalui jaringan ZeroTier. Di bagian ini, kami akan mempelajari secara spesifik konfigurasi penerusan port pada OpenWRT, memastikan bahwa lalu lintas masuk diarahkan ke perangkat atau layanan yang benar di jaringan kami.</p>
+
+<p>Bayangkan bisa mengakses kamera keamanan, server file, atau bahkan sistem otomasi rumah Anda dari mana saja di dunia, dengan aman dan andal. Itulah yang akan kami capai. Dengan menyiapkan penerusan port, kami akan dapat mengekspos port tertentu di jaringan ZeroTier kami, sehingga memungkinkan akses resmi ke perangkat dan layanan kami. Hal ini sangat berguna ketika Anda perlu mengakses layanan yang biasanya tidak dapat diakses dari dunia luar, seperti webcam atau drive NAS.</p>
+
+<p>Pada langkah-langkah berikut, kami akan memandu proses pengaturan penerusan port di OpenWRT, memastikan bahwa jaringan ZeroTier kami berfungsi penuh dan dapat diakses dari mana saja. Jadi, mari kita mulai dan buka potensi penuh ZeroTier di OpenWRT!</p>
+
+<h3 id="mengonfigurasi-port-forwarding-dengan-zerotier">Mengonfigurasi Port Forwarding dengan ZeroTier</h3>
+
+<p>Sekarang kita telah berhasil mengatur ZeroTier pada router OpenWRT kita, sekarang saatnya untuk mengeluarkan potensi penuhnya dengan mengkonfigurasi penerusan port. Langkah penting ini memungkinkan lalu lintas masuk menjangkau perangkat di jaringan lokal Anda, sehingga memungkinkan untuk mengakses layanan seperti SSH, HTTP, atau FTP dari jarak jauh. Di bagian ini, kami akan mempelajari detail konfigurasi penerusan port dengan ZeroTier, memastikan bahwa perangkat Anda dapat diakses dengan aman dan terjamin dari mana saja di dunia.</p>
+
+<p>Dengan arsitektur jaringan terdesentralisasi ZeroTier, metode penerusan port tradisional tidak akan berhasil. Sebaliknya, kami akan memanfaatkan kemampuan penerusan port bawaan ZeroTier, yang memberikan solusi yang lebih elegan dan aman. Dengan mengikuti langkah-langkah yang diuraikan di bawah ini, Anda akan dapat meneruskan lalu lintas dari jaringan ZeroTier ke perangkat lokal Anda, sehingga memberi Anda kebebasan untuk mengakses dan mengelola perangkat Anda dari jarak jauh, tanpa mengorbankan keamanan.</p>
+
+<h3 id="mengatasi-masalah-umum">Mengatasi masalah umum</h3>
+
+<p>Saat Anda menavigasi dunia ZeroTier dan OpenWRT yang kompleks, tidak dapat dihindari bahwa Anda akan menemui beberapa kendala di sepanjang jalan. Jangan khawatir, kami siap membantu Anda! Di bagian ini, kami akan memandu Anda melalui beberapa masalah paling umum yang mungkin Anda hadapi saat mengatur penerusan port pada router OpenWRT Anda dengan ZeroTier.</p>
+
+<p>Dari masalah konektivitas hingga teka-teki konfigurasi, kami akan memberi Anda tips dan trik pemecahan masalah untuk membantu Anda mengidentifikasi dan menyelesaikan masalah tersebut. Baik itu jaringan ZeroTier yang salah dikonfigurasi, instalasi OpenWRT yang salah, atau kesalahan ketik sederhana pada aturan penerusan port Anda, kami akan memandu Anda melalui proses mengidentifikasi akar penyebab masalah dan menyiapkan serta menjalankan pengaturan Anda dengan lancar.</p>
+
+<p>Beberapa masalah umum yang akan kami bahas meliputi:</p>
+
+<ul>
+  <li>Masalah konektivitas jaringan ZeroTier: Apa yang harus dilakukan ketika perangkat Anda tidak dapat terhubung ke jaringan ZeroTier</li>
+  <li>Kesalahan konfigurasi penerusan port: Cara memecahkan masalah dan memperbaiki kesalahan umum dalam aturan penerusan port Anda</li>
+  <li>Masalah instalasi OpenWRT: Apa yang harus dilakukan ketika instalasi OpenWRT Anda tidak berjalan sesuai rencana</li>
+  <li>Masalah resolusi DNS: Cara mengatasi masalah DNS yang mungkin menghalangi pengaturan penerusan port Anda berfungsi dengan benar</li>
+</ul>
+
+<p>Di akhir bagian ini, Anda akan dibekali dengan pengetahuan dan keterampilan untuk memecahkan masalah dan menyelesaikan masalah yang paling sulit sekalipun, memastikan bahwa pengaturan ZeroTier dan OpenWRT Anda berjalan lancar dan efisien.</p>
+
+<h3 id="konfigurasi-lanjutan-menggunakan-zerotier-dengan-banyak-jaringan">Konfigurasi lanjutan: Menggunakan ZeroTier dengan banyak jaringan</h3>
+
+<p>Saat Anda mempelajari lebih dalam dunia ZeroTier di OpenWRT, Anda mungkin akan menghadapi skenario di mana Anda perlu mengelola beberapa jaringan, masing-masing dengan serangkaian persyaratan uniknya sendiri. Di sinilah segalanya menjadi sangat menarik – dan berpotensi rumit. Dalam konfigurasi lanjutan ini, kita akan mempelajari cara menggunakan ZeroTier dengan beberapa jaringan, memungkinkan Anda memanfaatkan potensi penuh dari alat jaringan canggih ini.</p>
+
+<p>Bayangkan sebuah pengaturan di mana Anda memiliki beberapa subnet, masing-masing melayani tujuan tertentu, seperti jaringan terpisah untuk perangkat IoT, satu lagi untuk Wi-Fi tamu, dan satu lagi untuk infrastruktur penting Anda. Dengan ZeroTier, Anda dapat membuat struktur jaringan terpadu yang mencakup seluruh jaringan yang berbeda ini, memungkinkan komunikasi dan pertukaran data yang lancar di antara jaringan tersebut.</p>
+
+<p>Namun, seperti yang Anda duga, tingkat kecanggihan ini memerlukan pemahaman yang lebih mendalam tentang opsi konfigurasi ZeroTier dan nuansa kemampuan perutean OpenWRT. Jangan takut, pembaca yang budiman, karena kami akan memandu Anda melalui proses menyiapkan beberapa jaringan dengan ZeroTier, termasuk cara mengonfigurasi rute, mengelola antarmuka jaringan, dan memecahkan masalah umum yang mungkin timbul. Pada akhir bagian ini, Anda akan diperlengkapi dengan baik untuk menangani skenario jaringan yang paling rumit sekalipun dengan percaya diri.</p>
+
+<h3 id="mengamankan-pengaturan-zerotier-anda-dengan-openwrt">Mengamankan pengaturan ZeroTier Anda dengan OpenWRT</h3>
+
+<p>Karena Anda telah berhasil mengonfigurasi ZeroTier pada router OpenWRT Anda, penting untuk memastikan keamanan pengaturan Anda untuk mencegah akses tidak sah dan potensi ancaman. Mengamankan penyiapan ZeroTier Anda adalah langkah penting dalam melindungi jaringan dan perangkat Anda dari aktivitas jahat. Secara default, ZeroTier mengizinkan koneksi masuk dari mana saja, yang dapat menjadi risiko keamanan jika tidak dikonfigurasi dengan benar.</p>
+
+<p>Untuk memitigasi risiko ini, Anda harus membatasi koneksi masuk hanya pada koneksi yang diperlukan untuk kasus penggunaan Anda. Ini melibatkan konfigurasi aturan firewall pada router OpenWRT Anda untuk hanya mengizinkan lalu lintas masuk dari sumber tepercaya. Selain itu, Anda juga harus mempertimbangkan penerapan mekanisme enkripsi dan autentikasi untuk lebih mengamankan pengaturan ZeroTier Anda.</p>
+
+<p>Dengan mengikuti langkah-langkah yang diuraikan di bagian ini, Anda akan dapat mengunci penyiapan ZeroTier dan memastikan bahwa hanya perangkat dan pengguna resmi yang dapat mengakses jaringan Anda. Ini akan memberi Anda ketenangan pikiran, mengetahui bahwa jaringan dan perangkat Anda terlindungi dari potensi ancaman keamanan.</p>
+
+<h3 id="membuka-kekuatan-zerotier-di-openwrt">Membuka kekuatan ZeroTier di OpenWRT</h3>
+
+<p>Kesimpulan: Dengan selesainya langkah terakhir perjalanan kita, kini kita dapat menikmati kemenangan karena berhasil membuka kekuatan ZeroTier di OpenWRT. Tugas penerusan port yang tadinya berat kini hanya menjadi renungan, karena router kita terus berdengung, dengan mudah mengarahkan lalu lintas sesuai keinginan kita. Manfaat dari pengaturan ini ada dua: kita tidak hanya mendapatkan manfaat dari infrastruktur jaringan yang lebih aman dan fleksibel, namun kita juga mendapatkan kebebasan untuk mengakses perangkat kita dari jarak jauh, tanpa memerlukan VPN yang rumit dan membatasi. Saat kami menikmati kehebatan jaringan baru kami, kami bertanya-tanya kemungkinan apa lagi yang tersembunyi, menunggu untuk dibuka oleh gabungan kekuatan ZeroTier dan OpenWRT. Dengan panduan langkah demi langkah ini, pintu menuju dunia dengan kemungkinan jaringan tak terbatas telah terbuka lebar, dan masa depan akses jarak jauh dan manajemen jaringan kini semakin cerah.</p>
+
+<p>Dengan seluk-beluk ZeroTier dan OpenWRT yang kini terungkap, Anda siap untuk membuka potensi penuh penerusan port dan membawa jaringan Anda ke tingkat berikutnya. Dengan mengikuti panduan langkah demi langkah yang diuraikan dalam postingan ini, Anda telah berhasil menjembatani kesenjangan antara kedua teknologi canggih ini, memberikan Anda kendali dan fleksibilitas yang tak tertandingi atas infrastruktur jaringan Anda. Saat Anda memperoleh manfaat dari kombinasi yang kuat ini, ingatlah bahwa dunia jaringan terus berkembang, dan untuk tetap menjadi yang terdepan memerlukan kemauan untuk belajar dan beradaptasi. Teruslah mendorong batasan dari apa yang mungkin, dan selamat berjejaring!</p>]]></content><author><name>yusuf</name></author><category term="openwrt" /><summary type="html"><![CDATA[Dalam dunia jaringan, fleksibilitas dan keamanan adalah yang terpenting. Bagi mereka yang telah memasuki dunia OpenWRT, firmware router sumber terbuka yang kuat, Anda mungkin tidak asing dengan kemungkinan tak terbatas yang ditawarkannya. Namun, saat mengonfigurasi ZeroTier, platform jaringan virtual revolusioner, prosesnya bisa menjadi sangat melelahkan. Penerusan port, sebuah aspek penting dari ZeroTier, memungkinkan komunikasi yang lancar antar perangkat, namun menyiapkannya bisa menjadi tugas yang menakutkan, terutama bagi mereka yang tidak memiliki keahlian jaringan yang luas. Jangan takut, pembaca yang budiman, karena panduan komprehensif ini hadir untuk mengungkap proses membuka kunci ZeroTier di OpenWRT. Dengan setiap langkah yang diuraikan dengan cermat, Anda akan dapat dengan mudah mengonfigurasi penerusan port, mengeluarkan potensi penuh dari jaringan virtual Anda, dan meningkatkan keamanan online Anda ke tingkat berikutnya.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/langkah-untuk-penerusan-port.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/langkah-untuk-penerusan-port.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">konfigurasi clash magisk simaster v1</title><link href="http://localhost:4000/konfigurasi-clash-magisk-simaster-v1/" rel="alternate" type="text/html" title="konfigurasi clash magisk simaster v1" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-clash-magisk-simaster-v1</id><content type="html" xml:base="http://localhost:4000/konfigurasi-clash-magisk-simaster-v1/"><![CDATA[<blockquote>
   <p>Konfigurasi ini khusus untuk mode script dengan tproxy tanpa mode tun di karenakan tun platform masih hanya untuk arm64 v8.</p>
 </blockquote>
 
@@ -385,42 +494,7 @@
 
 <p>Dan sebagai langkah akhir, mari kita masuk ke aplikasi <code class="language-plaintext highlighter-rouge">Magisk manager</code> lalu tekan tanda ikon melingkar ke kiri kemudian pilih mulai ulang.</p>
 
-<p>Tunggu beberapa saat hp kalian reboot dan kini konfigurasi simaster magisk versi 1 sudah bisa kalian nikmati untuk akses internet.</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Konfigurasi ini khusus untuk mode script dengan tproxy tanpa mode tun di karenakan tun platform masih hanya untuk arm64 v8.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-cfm-simaster-v1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-cfm-simaster-v1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">konfigurasi clash android simaster v1</title><link href="http://localhost:4000/konfigurasi-clash-android-simaster-v1/" rel="alternate" type="text/html" title="konfigurasi clash android simaster v1" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-clash-android-simaster-v1</id><content type="html" xml:base="http://localhost:4000/konfigurasi-clash-android-simaster-v1/"><![CDATA[<blockquote>
-  <p>Metode clash android sangat respondsive dan mudah untuk pengaturan di bandingkan clash versi yang lain nya.</p>
-</blockquote>
-
-<p>Pembahasan kali ini kita akan mengatur dan menjalankan <strong>konfigurasi clash</strong> pada <strong>android</strong> dari <strong>konfigurasi simaster</strong>.</p>
-
-<p>Mode ini khusus untuk mode <strong>script</strong> dan jika ingin mode <strong>rule</strong> maka anda wajib edit konfigurasi pada bagian <strong>mode</strong> terlebih dahulu.</p>
-
-<p>File yang perlu anda siapkan sudah kami sediakan. Jadi anda bisa menggunakan nya:</p>
-
-<ul>
-  <li>File <a href="/apk-cfa">Clash For Android APK</a></li>
-  <li>File <a href="/simaster-android-v1">Konfigurasi Simaster Android V1</a></li>
-</ul>
-
-<p>Jika sudah memiliki kedua file di atas mari kita lanjutkan tutorial ini.</p>
-
-<ol>
-  <li>Silahkan untuk untuk <strong>ekstrak</strong> kedua file tersebut.</li>
-  <li>Install aplikasi <strong>Clash For Android Premium Universal</strong>.</li>
-  <li>Edit akun kalian terlebih dahulu di folder <strong>Proxy Provider</strong>, Jika belum mengerti bisa anda lihat <a href="https://yusuftutorial.xyz/file/">Disini</a> kemudian simpan.</li>
-  <li>Kemudian masuk ke aplikasi.</li>
-  <li>Buka menu <strong>Profile</strong>.</li>
-  <li>Tekan tanda <strong>+</strong> Lalu pilih <strong>File</strong>.</li>
-  <li>Buat nama sendiri kemudian pilih <strong>Browser File</strong></li>
-  <li>pada <strong>Configuration</strong> klik icon <strong>titik tiga</strong> pada kanan nya lalu pilih <strong>Import</strong>.</li>
-  <li>Pilih folder <strong>configuration</strong> kemudian pilih file <strong>simaster android.yaml</strong></li>
-  <li>Pilih <strong>Provider Files</strong> lalu tekan lagi icon <strong>+</strong> dan masukkan semua file dalam folder <strong>proxy provider</strong> dan folder <strong>rule provider</strong> satu per satu.</li>
-  <li>Jika sudah sudah semua terisi kita langsung tekan tombol kembali 2x kemudian tekan icon <strong>disk</strong> atau tombol save pojok kanan atas untuk simpan settingan.</li>
-  <li>Jika udah beres kita tekan icon di samping nama profile yang udah kita buat lalu kembali.</li>
-  <li>Dan terakhir kita tekan saja langsung ** Tap to start** untuk memulai clash for android.</li>
-</ol>
-
-<p>Sekarang anda sudah bisa berinternet dari config cfa simaster versi 1.</p>
-
-<p>Untuk versi config magisk, anda bisa melihat <a href="/konfigurasi-clash-magisk-simaster-v1">Disini</a>.</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Metode clash android sangat respondsive dan mudah untuk pengaturan di bandingkan clash versi yang lain nya.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-cfa-simaster-v1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-cfa-simaster-v1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Membuat akun clash</title><link href="http://localhost:4000/membuat-akun-clash/" rel="alternate" type="text/html" title="Membuat akun clash" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/membuat-akun-clash</id><content type="html" xml:base="http://localhost:4000/membuat-akun-clash/"><![CDATA[<blockquote>
+<p>Tunggu beberapa saat hp kalian reboot dan kini konfigurasi simaster magisk versi 1 sudah bisa kalian nikmati untuk akses internet.</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Konfigurasi ini khusus untuk mode script dengan tproxy tanpa mode tun di karenakan tun platform masih hanya untuk arm64 v8.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-cfm-simaster-v1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-cfm-simaster-v1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Membuat akun clash</title><link href="http://localhost:4000/membuat-akun-clash/" rel="alternate" type="text/html" title="Membuat akun clash" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/membuat-akun-clash</id><content type="html" xml:base="http://localhost:4000/membuat-akun-clash/"><![CDATA[<blockquote>
   <p>Cara agar koneksi anda bisa berjalan dengan normal, maka diperlukan sebuah akun untuk memproses semua kinerja pada proxy provider hingga ke ruleset Antara Proxy Group dan Rule atau Script.</p>
 </blockquote>
 
@@ -746,7 +820,42 @@
   <li><a href="/windows">Clash For Windows</a></li>
 </ul>
 
-<p>Dan masih banyak yang lain nya untuk type Clash.</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Cara agar koneksi anda bisa berjalan dengan normal, maka diperlukan sebuah akun untuk memproses semua kinerja pada proxy provider hingga ke ruleset Antara Proxy Group dan Rule atau Script.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/membuat-akun-clash.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/membuat-akun-clash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">konfigurasi cfw simaster v1</title><link href="http://localhost:4000/konfigurasi-cfw-simaster-v1/" rel="alternate" type="text/html" title="konfigurasi cfw simaster v1" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-cfw-simaster-v1</id><content type="html" xml:base="http://localhost:4000/konfigurasi-cfw-simaster-v1/"><![CDATA[<p><strong>Untuk install clash windows</strong></p>
+<p>Dan masih banyak yang lain nya untuk type Clash.</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Cara agar koneksi anda bisa berjalan dengan normal, maka diperlukan sebuah akun untuk memproses semua kinerja pada proxy provider hingga ke ruleset Antara Proxy Group dan Rule atau Script.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/membuat-akun-clash.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/membuat-akun-clash.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">konfigurasi clash android simaster v1</title><link href="http://localhost:4000/konfigurasi-clash-android-simaster-v1/" rel="alternate" type="text/html" title="konfigurasi clash android simaster v1" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-clash-android-simaster-v1</id><content type="html" xml:base="http://localhost:4000/konfigurasi-clash-android-simaster-v1/"><![CDATA[<blockquote>
+  <p>Metode clash android sangat respondsive dan mudah untuk pengaturan di bandingkan clash versi yang lain nya.</p>
+</blockquote>
+
+<p>Pembahasan kali ini kita akan mengatur dan menjalankan <strong>konfigurasi clash</strong> pada <strong>android</strong> dari <strong>konfigurasi simaster</strong>.</p>
+
+<p>Mode ini khusus untuk mode <strong>script</strong> dan jika ingin mode <strong>rule</strong> maka anda wajib edit konfigurasi pada bagian <strong>mode</strong> terlebih dahulu.</p>
+
+<p>File yang perlu anda siapkan sudah kami sediakan. Jadi anda bisa menggunakan nya:</p>
+
+<ul>
+  <li>File <a href="/apk-cfa">Clash For Android APK</a></li>
+  <li>File <a href="/simaster-android-v1">Konfigurasi Simaster Android V1</a></li>
+</ul>
+
+<p>Jika sudah memiliki kedua file di atas mari kita lanjutkan tutorial ini.</p>
+
+<ol>
+  <li>Silahkan untuk untuk <strong>ekstrak</strong> kedua file tersebut.</li>
+  <li>Install aplikasi <strong>Clash For Android Premium Universal</strong>.</li>
+  <li>Edit akun kalian terlebih dahulu di folder <strong>Proxy Provider</strong>, Jika belum mengerti bisa anda lihat <a href="https://yusuftutorial.xyz/file/">Disini</a> kemudian simpan.</li>
+  <li>Kemudian masuk ke aplikasi.</li>
+  <li>Buka menu <strong>Profile</strong>.</li>
+  <li>Tekan tanda <strong>+</strong> Lalu pilih <strong>File</strong>.</li>
+  <li>Buat nama sendiri kemudian pilih <strong>Browser File</strong></li>
+  <li>pada <strong>Configuration</strong> klik icon <strong>titik tiga</strong> pada kanan nya lalu pilih <strong>Import</strong>.</li>
+  <li>Pilih folder <strong>configuration</strong> kemudian pilih file <strong>simaster android.yaml</strong></li>
+  <li>Pilih <strong>Provider Files</strong> lalu tekan lagi icon <strong>+</strong> dan masukkan semua file dalam folder <strong>proxy provider</strong> dan folder <strong>rule provider</strong> satu per satu.</li>
+  <li>Jika sudah sudah semua terisi kita langsung tekan tombol kembali 2x kemudian tekan icon <strong>disk</strong> atau tombol save pojok kanan atas untuk simpan settingan.</li>
+  <li>Jika udah beres kita tekan icon di samping nama profile yang udah kita buat lalu kembali.</li>
+  <li>Dan terakhir kita tekan saja langsung ** Tap to start** untuk memulai clash for android.</li>
+</ol>
+
+<p>Sekarang anda sudah bisa berinternet dari config cfa simaster versi 1.</p>
+
+<p>Untuk versi config magisk, anda bisa melihat <a href="/konfigurasi-clash-magisk-simaster-v1">Disini</a>.</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Metode clash android sangat respondsive dan mudah untuk pengaturan di bandingkan clash versi yang lain nya.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-cfa-simaster-v1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-cfa-simaster-v1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">konfigurasi cfw simaster v1</title><link href="http://localhost:4000/konfigurasi-cfw-simaster-v1/" rel="alternate" type="text/html" title="konfigurasi cfw simaster v1" /><published>2024-05-16T00:00:00+00:00</published><updated>2024-05-16T00:00:00+00:00</updated><id>http://localhost:4000/konfigurasi-cfw-simaster-v1</id><content type="html" xml:base="http://localhost:4000/konfigurasi-cfw-simaster-v1/"><![CDATA[<p><strong>Untuk install clash windows</strong></p>
 
 <p>ada beberapa syarat yang perlu anda ketahui terlebih dahulu:</p>
 
@@ -802,35 +911,4 @@
 
 <p>Dan jangan lupa bagi yang belum subscribe silahkan di subcribe ya channel <strong>Yusuf Tutorial Channel</strong> ex youtube <strong>Master Wifi Network Solution</strong>.</p>
 
-<p>Sampai jumpa di tutorial selanjutnya</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Untuk install clash windows]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-cfw-simaster-v1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-cfw-simaster-v1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Huawei manager versi 9 indonesia</title><link href="http://localhost:4000/huawei-manager-v9-indonesia/" rel="alternate" type="text/html" title="Huawei manager versi 9 indonesia" /><published>2024-01-30T00:00:00+00:00</published><updated>2024-01-30T00:00:00+00:00</updated><id>http://localhost:4000/huawei-manager-v9-indonesia</id><content type="html" xml:base="http://localhost:4000/huawei-manager-v9-indonesia/"><![CDATA[<h2 id="pengenalan-aplikasi">Pengenalan aplikasi</h2>
-
-<p>Sebelum anda menggunakan aplikasi yang saya buat khusus untuk modem huawei. Sebaiknya anda terlebih dahulu mengetahui kelebihan dan kekurangan pada aplikasi ini.</p>
-
-<p>Pada video di bawah pastinya anda sudah melihatnya bukan ?</p>
-
-<iframe width="100%" height="280" src="https://www.youtube.com/embed/g47CzhqcZoM?controls=0"></iframe>
-
-<p>Ya seperti itulah bentuk rupa dari aplikasi yang saya buatkan untuk anda. Namun ya seperti anda tau, untuk mendapatkan aplikasi ini. Anda harus menyimak video dalam channel youtube saya terlebih dahulu agar dapat menngetahui password dari aplikasi tersebut dan semua gabung jadi tanpa menggunakan spasi.</p>
-
-<h2 id="fitur">Fitur</h2>
-
-<p>Fitur yang bisa anda dapatkan dalam aplikasi ini:</p>
-
-<ol>
-  <li>Mode SMS</li>
-  <li>Mode dial</li>
-  <li>Mode lock Cell ID (Tergantung type modem)</li>
-  <li>Mode Lock Band (agar mengunci frekuensi pada modem)</li>
-  <li>Tampilan Respondsive</li>
-  <li>Bisa buat modem Hilink dan Orbit (huawei)</li>
-</ol>
-
-<h2 id="pemasangan-aplikasi">Pemasangan aplikasi</h2>
-
-<p>Untuk bisa mendapatkan aplikasi ini, anda hanya bisa melalui <a href="https://github.com/yusuftutorial/file/raw/main/HM-V9-Id.zip"><button class="btn btn-success">DISINI</button></a></p>
-
-<blockquote>
-  <p>Jadi anda sangat bergantung pada type perangkat android kalian karena disaat ini bagi pengguna android 14 masih belum bisa menggunakan nya karena kan anda kejanggalan pada sistem OS tersebut. Sehingga aplikasi ini tidak bisa untuk anda pasangkan.</p>
-</blockquote>
-
-<p>Sekian dulu dari saya, semoga bermanfaat bagi anda semua. dan jangan lupa untuk selalu mengikuti blog dan channel youtube saya agar anda tidak ketinggalan informasi update dari saya.</p>]]></content><author><name>yusuf</name></author><category term="aplikasi" /><summary type="html"><![CDATA[Pengenalan aplikasi]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/huawei-manager-v9.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/huawei-manager-v9.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Sampai jumpa di tutorial selanjutnya</p>]]></content><author><name>yusuf</name></author><category term="clash" /><summary type="html"><![CDATA[Untuk install clash windows]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/post/konfigurasi-cfw-simaster-v1.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/post/konfigurasi-cfw-simaster-v1.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
