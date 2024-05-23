@@ -1,5 +1,5 @@
 # Affiliates - Free Jekyll Theme
 
-[Live Demo](https://wowthemesnet.github.io/affiliates-jekyll-theme/) | [Docs & Download](https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/) |  [Buy me a coffee](https://www.wowthemes.net/donate/)
+[Live Demo](https://yusuftutorial.xyz) | [Docs & Download](https://yusuftutorial.xyz/file/) |  [Buy me a coffee](https://www.wowthemes.net/donate/)
 
-![jekyll-affiliates-theme](https://bootstrapstarter.com/assets/img/themes/affiliates-jekyll.jpg)
+![Yusuf Tutorial Channel](https://github.com/yusuftutorial/documentation/assets/images/post/wellcome-to-my-blog.jpg)
